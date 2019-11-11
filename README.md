@@ -1,5 +1,5 @@
 # go-awesome
-> 嗯~世界上第二好的语言，这里有你想要的💊
+> 嗯~世界上第二好的语言，这里有你可能想要的💊
 > 
 > 在 [GitHub](https://github.com/shockerli/go-awesome) 上稳定更新，觉得不错请点个 Star ❤️
 > 
@@ -22,12 +22,15 @@
 
 ## 指导原则
 - 简单性
+    
     > 复杂性把可读的程序变得不可读，复杂性终结了很多软件项目。
 
 - 可读性
+    
     > 代码是给人看的，代码阅读时长远超编写。程序必须可维护，那可读是第一步。
 
 - 生产率
+    
     > 拥有众多的工具集和基础库，可以很简单方便的完成绝大多数工作。
     > 编译速度足够快，拥有动态语言的高效，但却不会面临动态语言不可靠的问题。
     > 自带编程规范，使得团队代码一致，也帮助开发者发现和避免潜在的错误。
@@ -168,7 +171,7 @@
 
 ### 命令行
 - [urfave/cli](https://github.com/urfave/cli) - 命令行程序构建工具
-- [Cobra](https://github.com/spf13/cobra) - 命令行构建包
+- [**Cobra**](https://github.com/spf13/cobra) - 命令行构建包
 - [GoTTY](https://github.com/yudai/gotty) - 基于Web的命令行实时共享
 - [progressbar](https://github.com/schollz/progressbar) - 在终端上输出进度条
 - [Color](https://github.com/fatih/color) - 命令行文字颜色
@@ -269,6 +272,7 @@
 - [Afero](https://github.com/spf13/afero) - 文件操作包
 - [fsync](https://github.com/spf13/fsync) - 文件/目录同步
 - [filebrowser](https://github.com/filebrowser/filebrowser) - Web File Browser
+- [Bigfile](https://github.com/bigfile/bigfile) - 文件传输管理系统
 
 
 ### 模板引擎
@@ -297,6 +301,7 @@
 - [minify](https://github.com/tdewolff/minify) - Web 静态资源压缩(HTML/JS/CSS/JSON)
 - [Lute](https://github.com/b3log/lute) - 结构化的 Markdown 引擎
 - [docx2md](https://github.com/mattn/docx2md) 转换 Word 为 Markdown
+- [Inflection](github.com/jinzhu/inflection) - Pluralizes and singularizes English nouns
 
 
 ### 文档
@@ -325,6 +330,8 @@
 - [configor](https://github.com/jinzhu/configor)
 - [envconfig](https://github.com/kelseyhightower/envconfig)
 - [confd](https://github.com/kelseyhightower/confd) - 配置管理工具
+- [HCL](https://github.com/hashicorp/hcl) - configuration language
+- [env](https://github.com/caarlos0/env) - 解析 ENV 环境变量到结构体中
 
 
 ### 爬虫
@@ -405,6 +412,7 @@
 ### 缓存
 - [GCache](https://github.com/bluele/gcache)
 - [bbolt](https://github.com/etcd-io/bbolt) - key/value store
+- [BigCache](https://github.com/allegro/bigcache)
 - [go-cache](https://github.com/patrickmn/go-cache) - KV 内存缓存
 - [gomemcache](https://github.com/bradfitz/gomemcache) - Memcache 客户端
 - [cache2go](https://github.com/muesli/cache2go)
@@ -430,9 +438,14 @@
 - [**Mage**](https://github.com/magefile/mage) - a Make/rake-like build tool using Go
 - [**GoReleaser**](https://github.com/goreleaser/goreleaser) - Go 多平台二进制文件打包、并支持发布到 Homebrew 的工具
 - [goxc](https://github.com/laher/goxc)
-- [gometalinter](https://github.com/alecthomas/gometalinter) - 代码质量检查分析工具
+- [revive](https://github.com/mgechev/revive) - 代码检查分析
+- [GolangCI-Lint](https://github.com/golangci/golangci-lint) - 代码质量检查分析工具
 - [Task](https://github.com/go-task/task) - 类似于 `Make` 的构建工具
-- [gin](https://github.com/codegangsta/gin) - 热编译工具，自动监测文件变化而重新编译并重启，方便开发调试 Web 应用
+- [codegangsta/gin](https://github.com/codegangsta/gin) - 热编译工具，自动监测文件变化而重新编译并重启，方便开发调试 Web 应用
+
+
+### 优雅升级
+- [tableflip](https://github.com/cloudflare/tableflip)
 
 
 ### 调试
@@ -609,6 +622,7 @@
 - [wagon](https://github.com/go-interpreter/wagon) - WebAssembly 解释器
 - [GopherJS](https://github.com/gopherjs/gopherjs) - 把 Go 代码编译成 JavaScript 代码
 - [Yaegi](https://github.com/containous/yaegi) - Go 语言解释器
+- [properties](https://github.com/magiconair/properties) - Java properties scanner for Go
 
 #### 自定义解释器
 - [Math-Engine](https://github.com/dengsgo/math-engine) - 使用 Go 实现的数学表达式解析计算引擎库，学习语法解析很适用
@@ -681,7 +695,6 @@
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout) - Go 项目目录结构示例
 - [CRDT](https://github.com/neurodrone/crdt) - CRDT(Convergent and Commutative Replicated Data Types)最终一致性算法的实现
 - [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
-- [revive](https://github.com/mgechev/revive) - 代码检查分析
 
 
 ## 工具
