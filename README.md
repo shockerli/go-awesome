@@ -1,5 +1,5 @@
 # go-awesome
-> 嗯~世界上第二好的语言，这里有你可能想要的💊
+> Go 语言优秀资源整理，为项目落地加速🏃
 > 
 > 在 [GitHub](https://github.com/shockerli/go-awesome) 上稳定更新，觉得不错请点个 Star ❤️
 > 
@@ -16,6 +16,8 @@
 > 国内官网镜像(访问快~): https://golang.google.cn
 > 
 > GitHub: https://github.com/golang/go
+> 
+> 开发者平台: https://go.dev
 > 
 > Wiki: https://github.com/golang/go/wiki
 
@@ -92,6 +94,7 @@
 - [Go Web Examples](https://github.com/gowebexamples/gowebexamples) - Go Web 开发示例
 - [Go Assembly](https://colobu.com/goasm/) - 通过示例介绍 Go 汇编功能
 - [Ultimate Go](https://github.com/hoanhan101/ultimate-go) - 终极 Go 学习指南，包含大量文档化的代码和程序分析
+- [Go 教程](https://cloud.tencent.com/developer/doc/1101) - 腾讯云开发者手册
 
 
 ## 指南
@@ -99,6 +102,7 @@
 - [Go 编程语言规范](http://docscn.studygolang.com/ref/spec.old)
 - [实效 Go 编程](http://docscn.studygolang.com/doc/effective_go.html)
 - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+- [Go Code Convention](https://github.com/unknwon/go-code-convention)
 
 
 ## 文章
@@ -187,6 +191,7 @@
 - [pflag](https://github.com/spf13/pflag) - 命令行参数处理
 - [PIXterm](https://github.com/eliukblau/pixterm) - 在命令行终端中绘图
 - [WTF](https://github.com/wtfutil/wtf) - 一个命令行的信息仪表盘，可以定制显示内容
+- [go-prompt](https://github.com/c-bata/go-prompt) - 命令行交互式输入
 
 
 ### 路由
@@ -273,6 +278,7 @@
 - [fsync](https://github.com/spf13/fsync) - 文件/目录同步
 - [filebrowser](https://github.com/filebrowser/filebrowser) - Web File Browser
 - [Bigfile](https://github.com/bigfile/bigfile) - 文件传输管理系统
+- [statik](https://github.com/rakyll/statik) - 静态文件服务
 
 
 ### 模板引擎
@@ -437,15 +443,25 @@
 ### 构建编译
 - [**Mage**](https://github.com/magefile/mage) - a Make/rake-like build tool using Go
 - [**GoReleaser**](https://github.com/goreleaser/goreleaser) - Go 多平台二进制文件打包、并支持发布到 Homebrew 的工具
-- [goxc](https://github.com/laher/goxc)
-- [revive](https://github.com/mgechev/revive) - 代码检查分析
-- [GolangCI-Lint](https://github.com/golangci/golangci-lint) - 代码质量检查分析工具
+- [goxc](https://github.com/laher/goxc) - 跨平台编译工具（因 1.5 版本开始已自带交叉编译，故已不再维护）
 - [Task](https://github.com/go-task/task) - 类似于 `Make` 的构建工具
 - [codegangsta/gin](https://github.com/codegangsta/gin) - 热编译工具，自动监测文件变化而重新编译并重启，方便开发调试 Web 应用
 
 
 ### 优雅升级
 - [tableflip](https://github.com/cloudflare/tableflip)
+
+
+### 代码分析
+- [reviewdog](https://github.com/reviewdog/reviewdog) - Code Review 机器人
+- [revive](https://github.com/mgechev/revive) - 代码检查分析
+- [**GolangCI-Lint**](https://github.com/golangci/golangci-lint) - 代码质量检查分析工具
+- [errcheck](https://github.com/kisielk/errcheck) - 检测未处理的错误(errors)
+- [Staticcheck](https://github.com/dominikh/go-tools) - 一系列的 Go 代码静态分析工具
+- [Golint](https://github.com/golang/lint) - Google 官方出品的代码质量检测工具
+- [GoReporter](https://github.com/360EntSecGroup-Skylar/goreporter)
+- [go-critic](https://github.com/go-critic/go-critic)
+- [gocloc](https://github.com/hhatto/gocloc) - 分语言代码行数统计
 
 
 ### 调试
@@ -458,8 +474,6 @@
 - [go-callvis](github.com/TrueFurby/go-callvis) - 可视化Go程序的调用图
 - [q](https://github.com/y0ssar1an/q) - 自动打印变量类型并且格式化输出
 - [Litter](https://github.com/sanity-io/litter)
-- [errcheck](https://github.com/kisielk/errcheck) - 检测未处理的错误(errors)
-- [Staticcheck](https://github.com/dominikh/go-tools) - 一系列的 Go 代码静态分析工具
 
 
 ### 测试
@@ -474,7 +488,7 @@
 - [gotests](https://github.com/cweill/gotests) - Generate Go tests from your source code
 - [TestSQL](https://github.com/zhulongcheng/testsql) - 根据 SQL 创建语句生成测试数据
 - [httpmock](https://github.com/jarcoal/httpmock) - HTTP Mock
-- [Goblin](https://github.com/franela/goblin) BDD 测试框架
+- [Goblin](https://github.com/franela/goblin) - BDD 测试框架
 - [Faker](https://github.com/bxcodec/faker) - Struct Data Fake Generator
 - [go-tprof](https://github.com/gokultp/go-tprof) - 包测试报告生成工具
 
@@ -488,10 +502,14 @@
 - [Kunpeng](https://github.com/opensec-cn/kunpeng) - 开源POC检测框架
 
 
+### 硬件
+- [go-hardware](https://github.com/rakyll/go-hardware) - 收集了一堆关于硬件信息的包
+- [cpuid](https://github.com/klauspost/cpuid) - CPU 信息
+
+
 ### UUID
 - [go.uuid](https://github.com/satori/go.uuid) - UUID 库
 - [SEQSVR](https://github.com/qichengzx/seqsvr) - Go + MySQL 实现的分布式 ID 生成服务
-- [cpuid](https://github.com/klauspost/cpuid) - CPU feature identification for Go
 - [google/uuid](https://github.com/google/uuid) - Google 开源的 uuid 包
 - [gofrs/uuid](https://github.com/gofrs/uuid)
 - [snowflake](https://github.com/bwmarrin/snowflake) - Twitter snowflake IDs
@@ -546,6 +564,8 @@
 - [Play-with-Data-Structures](https://github.com/Donng/Play-with-Data-Structures) - 「玩转数据结构」课程的 Go 语言实现版本
 - [HashMap](https://github.com/cornelk/hashmap)
 - [SipHash](https://github.com/dchest/siphash) - SipHash-2-4
+- [Bigslice](https://github.com/grailbio/bigslice)
+- [golang-set](https://github.com/deckarep/golang-set) - The missing set collection
 
 
 ### 依赖注入
@@ -607,6 +627,7 @@
 - [RateLimit](https://github.com/bsm/ratelimit)
 - [go-rate](https://github.com/beefsack/go-rate)
 - [Circuit](https://github.com/cep21/circuit) - 熔断器
+- [uber-go/ratelimit](https://github.com/uber-go/ratelimit)
 
 
 ### 解释器
@@ -623,6 +644,7 @@
 - [GopherJS](https://github.com/gopherjs/gopherjs) - 把 Go 代码编译成 JavaScript 代码
 - [Yaegi](https://github.com/containous/yaegi) - Go 语言解释器
 - [properties](https://github.com/magiconair/properties) - Java properties scanner for Go
+- [gobasic](https://github.com/skx/gobasic) - A BASIC interpreter written in golang
 
 #### 自定义解释器
 - [Math-Engine](https://github.com/dengsgo/math-engine) - 使用 Go 实现的数学表达式解析计算引擎库，学习语法解析很适用
@@ -637,6 +659,7 @@
 - [Tengo](https://github.com/d5/tengo) - 用 Go 编写的脚本语言
 - [V](https://github.com/vlang/v) - Go 编写的语言
 - [kumarUjjawal/bison](https://github.com/kumarUjjawal/bison)
+- [Monkey](https://github.com/skx/monkey)
 
 
 ### 查询语言
@@ -695,6 +718,7 @@
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout) - Go 项目目录结构示例
 - [CRDT](https://github.com/neurodrone/crdt) - CRDT(Convergent and Commutative Replicated Data Types)最终一致性算法的实现
 - [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
+- [sysadmin-utils](https://github.com/skx/sysadmin-util)
 
 
 ## 工具
@@ -705,4 +729,7 @@
 
 ## 资源站点
 - [Go 语言中文网](http://studygolang.com)
-- [GoCN](https://gocn.io)
+- [Golang 中国](https://www.golangtc.com)
+- [go-zh](https://go-zh.org)
+- [Golang sizeof tips](http://golang-sizeof.tips) - 输入结构体定义，会显示内存布局
+
