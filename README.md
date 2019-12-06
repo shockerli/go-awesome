@@ -65,9 +65,11 @@
 - [Gorilla web toolkit](https://github.com/gorilla)
 - [Stretchr](https://github.com/stretchr) - Tame your unstructured data
 - [Containous](https://github.com/containous)
+- [lestrrat-go](https://github.com/lestrrat-go)
 
 
 ## 文档
+- [**Go 101**](https://github.com/go101/go101) [（中文版）](https://github.com/golang101/golang101)
 - [Go 官方入门指南](http://tour.studygolang.com)
 - [Go 语言高级编程](https://github.com/chai2010/advanced-go-programming-book)
 - [Go 专家编程](https://github.com/RainbowMango/GoExpertProgramming)
@@ -95,14 +97,20 @@
 - [Go Assembly](https://colobu.com/goasm/) - 通过示例介绍 Go 汇编功能
 - [Ultimate Go](https://github.com/hoanhan101/ultimate-go) - 终极 Go 学习指南，包含大量文档化的代码和程序分析
 - [Go 教程](https://cloud.tencent.com/developer/doc/1101) - 腾讯云开发者手册
+- [Golang 开发笔记](https://github.com/guyan0319/golang_development_notes/blob/master/zh/preface.md)
+- [浅谈 Go 语言实现原理](https://draveness.me/golang/)
 
 
 ## 指南
 - [Uber Go Style Guide](https://github.com/uber-go/guide)
-- [Go 编程语言规范](http://docscn.studygolang.com/ref/spec.old)
+- [The Go Programming Language Specification](https://golang.org/ref/spec) [（中文老版）](http://docscn.studygolang.com/ref/spec.old)
 - [实效 Go 编程](http://docscn.studygolang.com/doc/effective_go.html)
 - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
 - [Go Code Convention](https://github.com/unknwon/go-code-convention)
+- [Go FAQ 101](https://go101.org/article/unofficial-faq.html)
+- [Go Details 101](https://go101.org/article/details.html)
+- [Go Tips 101](https://go101.org/article/tips.html)
+- [Go Quizzes 101](https://go101.org/article/quizzes.html)
 
 
 ## 文章
@@ -131,6 +139,7 @@
 - [**NYADB2**](https://github.com/qw4990/NYADB2) - Go 实现的关系型数据库, 值得用于学习
 - [EiBlog](https://github.com/eiblog/eiblog) - `国产` 博客
 - [pan-light](https://github.com/peterq/pan-light) - 不限速的百度网盘客户端, 基于 Go + Qt5 开发
+- [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go) - 百度网盘客户端
 
 
 ## 学习项目
@@ -192,6 +201,7 @@
 - [PIXterm](https://github.com/eliukblau/pixterm) - 在命令行终端中绘图
 - [WTF](https://github.com/wtfutil/wtf) - 一个命令行的信息仪表盘，可以定制显示内容
 - [go-prompt](https://github.com/c-bata/go-prompt) - 命令行交互式输入
+- [peco](https://github.com/peco/peco) - 交互式过滤工具
 
 
 ### 路由
@@ -217,12 +227,16 @@
 - [Proxy](https://github.com/snail007/goproxy) - golang 实现的高性能代理服务器
 - [ProxyPool](https://github.com/henson/ProxyPool) - 采集免费的代理资源为爬虫提供有效的IP代理
 - [frp](https://github.com/fatedier/frp) - 可用于内网穿透的高性能的反向代理应用
+- [nps](https://github.com/cnlh/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器
 - [torrent](https://github.com/anacrolix/torrent) - BitTorrent 相关工具库
 - [httpteleport](https://github.com/valyala/httpteleport) - Teleports 10Gbps http traffic over 1Gbps networks
 - [FIND3](https://github.com/schollz/find3) - WiFi 设备发现
 - [SubFinder](https://github.com/subfinder/subfinder) - 子域名发现工具
 - [ggz](https://github.com/go-ggz/ggz) - 短网址服务
 - [httpstat](https://github.com/davecheney/httpstat)
+- [grab](https://github.com/cavaliercoder/grab) - 文件下载
+- [go-netty](https://github.com/go-netty/go-netty) - 网络框架
+- [httplab](https://github.com/gchaincl/httplab) - The interactive web server
 
 
 ### WebSocket
@@ -293,6 +307,9 @@
 
 ### 文本
 - [Blackfriday](https://github.com/russross/blackfriday) - Markdown 解析器
+- [Lute](https://github.com/b3log/lute) - 结构化的 Markdown 引擎
+- [goldmark](https://github.com/yuin/goldmark) - Markdown 解析器
+- [docx2md](https://github.com/mattn/docx2md) - 转换 Word 为 Markdown
 - [gpy](https://github.com/go-ego/gpy) - Go 语言汉字转拼音工具
 - [html2text](https://github.com/jaytaylor/html2text) - HTML 转 text
 - [go-hashids](https://github.com/speps/go-hashids) - hashids 的 Go 版本
@@ -305,9 +322,8 @@
 - [Emoji](https://github.com/kyokomi/emoji)
 - [prose](https://github.com/jdkato/prose) - natural language processing library
 - [minify](https://github.com/tdewolff/minify) - Web 静态资源压缩(HTML/JS/CSS/JSON)
-- [Lute](https://github.com/b3log/lute) - 结构化的 Markdown 引擎
-- [docx2md](https://github.com/mattn/docx2md) 转换 Word 为 Markdown
 - [Inflection](github.com/jinzhu/inflection) - Pluralizes and singularizes English nouns
+- [autocorrect](https://github.com/studygolang/autocorrect) - 自动给中英文之间加入合理的空格并纠正专用名词大小写
 
 
 ### 文档
@@ -445,7 +461,8 @@
 - [**GoReleaser**](https://github.com/goreleaser/goreleaser) - Go 多平台二进制文件打包、并支持发布到 Homebrew 的工具
 - [goxc](https://github.com/laher/goxc) - 跨平台编译工具（因 1.5 版本开始已自带交叉编译，故已不再维护）
 - [Task](https://github.com/go-task/task) - 类似于 `Make` 的构建工具
-- [codegangsta/gin](https://github.com/codegangsta/gin) - 热编译工具，自动监测文件变化而重新编译并重启，方便开发调试 Web 应用
+- [codegangsta/gin](https://github.com/codegangsta/gin) - 热编译工具
+- [Air](https://github.com/cosmtrek/air) - 热编译工具
 
 
 ### 优雅升级
@@ -462,6 +479,8 @@
 - [GoReporter](https://github.com/360EntSecGroup-Skylar/goreporter)
 - [go-critic](https://github.com/go-critic/go-critic)
 - [gocloc](https://github.com/hhatto/gocloc) - 分语言代码行数统计
+- [**Go Report Card**](https://github.com/gojp/goreportcard) - Go 项目质量分析报告工具
+- [ddsv-go](https://github.com/y-taka-23/ddsv-go) - 死锁检测工具
 
 
 ### 调试
@@ -485,17 +504,20 @@
 - [fperf](https://github.com/shafreeck/fperf) - 压测工具
 - [gocheck](https://github.com/go-check/check)
 - [Testify](https://github.com/stretchr/testify)
-- [gotests](https://github.com/cweill/gotests) - Generate Go tests from your source code
+- [gotests](https://github.com/cweill/gotests) - 根据源码自动生成测试文件
 - [TestSQL](https://github.com/zhulongcheng/testsql) - 根据 SQL 创建语句生成测试数据
 - [httpmock](https://github.com/jarcoal/httpmock) - HTTP Mock
 - [Goblin](https://github.com/franela/goblin) - BDD 测试框架
 - [Faker](https://github.com/bxcodec/faker) - Struct Data Fake Generator
+- [gofakeit](https://github.com/brianvoe/gofakeit) - Random data generator written in go
 - [go-tprof](https://github.com/gokultp/go-tprof) - 包测试报告生成工具
 
 
 ### 错误处理
 - [errors](https://github.com/pkg/errors)
 - [errorx](https://github.com/joomcode/errorx)
+- [errwrap](https://github.com/fatih/errwrap) - Go tool to wrap and fix errors with the new `%w` verb directive
+- [erris](https://github.com/romanyx/erris) - Linter for errors.Is and errors.As
 
 
 ### 安全
@@ -531,6 +553,8 @@
 - [Grafana](https://github.com/grafana/grafana) - 分析监视平台, 支持 Graphite, Elasticsearch, OpenTSDB, Prometheus, InfluxDB 等数据源
 - [TeaWeb](https://github.com/TeaWeb/build) - 一款集静态资源、缓存、代理、统计、监控于一体的可视化智能WebServer
 - [Jaeger](https://github.com/jaegertracing/jaeger) - 分布式追踪系统
+- [go-osstat](https://github.com/mackerelio/go-osstat) - 系统指标统计
+- [grafterm](https://github.com/slok/grafterm) - Metrics dashboards on terminal
 
 
 ### 统计分析
@@ -557,6 +581,7 @@
 - [GoDS](https://github.com/emirpasic/gods)
 - [Dragonboat](https://github.com/lni/dragonboat) - 多组 Raft 共识算法库
 - [golang-lru](https://github.com/hashicorp/golang-lru) - LRU 算法实现
+- [finn](https://github.com/tidwall/finn) - Fast **Raft** framework using the Redis protocol for Go
 
 
 ### 数据结构
@@ -566,6 +591,7 @@
 - [SipHash](https://github.com/dchest/siphash) - SipHash-2-4
 - [Bigslice](https://github.com/grailbio/bigslice)
 - [golang-set](https://github.com/deckarep/golang-set) - The missing set collection
+- [rbang](https://github.com/tidwall/rbang) - The R!tree implementation for Go
 
 
 ### 依赖注入
@@ -635,6 +661,7 @@
 - [GopherLua](https://github.com/yuin/gopher-lua) - VM and compiler for Lua in Go
 - [go-lua](https://github.com/Shopify/go-lua) - A Lua VM in pure Go
 - [php-parser](https://github.com/z7zmey/php-parser) - PHP AST 语法解析
+- [deuill/go-php](https://github.com/deuill/go-php) - PHP bindings for Go
 - [otto](https://github.com/robertkrimen/otto) - JavaScript 解释器
 - [goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation in Go
 - [gpython](https://github.com/go-python/gpython) - Python Interpreter on Go
@@ -685,6 +712,10 @@
 - [therecipe/qt](https://github.com/therecipe/qt) - 基于 Qt 的跨全平台 UI 包
 
 
+### 移动端
+- [golang/mobile](https://github.com/golang/mobile) - Go support for Mobile devices
+
+
 ### 任务/定时器
 - [Grift](https://github.com/markbates/grift) - Go based task runner
 
@@ -693,22 +724,26 @@
 - [weapp](https://github.com/medivhzhan/weapp) - 微信小程序 SDK
 
 
+### 开发辅助包
+- [copier](https://github.com/jinzhu/copier) - struct 之间拷贝值
+- [Cast](https://github.com/spf13/cast) - 数据类型转换
+- [go-extend](https://github.com/thinkeridea/go-extend)
+- [com](https://github.com/Unknwon/com) - 工具包
+- [php2go](https://github.com/syyongx/php2go) - Go 实现的 140+ 个 PHP 函数功能包
+- [gommon](https://github.com/labstack/gommon) - Common packages for Go
+- [reflect2](https://github.com/modern-go/reflect2) - reflect api without runtime reflect.Value cost
+- [mapstructure](https://github.com/mitchellh/mapstructure) - Go library for decoding generic map values into native Go structures
+- [naza](https://github.com/q191201771/naza) - Go语言基础库
+
+
 ### 未归类
 - [Robotgo](https://github.com/go-vgo/robotgo) - Golang 跨平台自动化系统，控制键盘鼠标位图和读取屏幕，窗口句柄以及全局事件监听
 - [cron](https://github.com/robfig/cron) - a cron library for go
 - [goCron](https://github.com/jasonlvhit/gocron) - A Golang Job Scheduling Package
-- [com](https://github.com/Unknwon/com) - 工具包
-- [php2go](https://github.com/syyongx/php2go) - Go 实现的 140+ 个 PHP 函数功能包
-- [gommon](https://github.com/labstack/gommon) - Common packages for Go
-- [**Go Report Card**](https://github.com/gojp/goreportcard) - Go 项目质量分析报告工具
 - [i18n](https://github.com/Unknwon/i18n) - `i18n` 多语言工具包
 - [Paginater](https://github.com/Unknwon/paginater) - 分页工具
 - [gls](https://github.com/jtolds/gls) - Goroutine local storage
 - [go-version](https://github.com/mcuadros/go-version) - 版本号比较
-- [reflect2](https://github.com/modern-go/reflect2) - reflect api without runtime reflect.Value cost
-- [mapstructure](https://github.com/mitchellh/mapstructure) - Go library for decoding generic map values into native Go structures
-- [copier](https://github.com/jinzhu/copier) - struct 之间拷贝值
-- [Cast](https://github.com/spf13/cast) - 数据类型转换
 - [Metabolize](https://github.com/keighl/metabolize) - Decodes HTML meta tags into a Golang struct
 - [otp](https://github.com/pquerna/otp) - 一次性密码工具包(One Time Password utilities)
 - [feeds](https://github.com/gorilla/feeds) - RSS 内容生成
@@ -722,12 +757,14 @@
 
 
 ## 工具
-- [goenv](https://github.com/syndbg/goenv) - Go 版本管理
+- [syndbg/goenv](https://github.com/syndbg/goenv) - Go 版本管理
+- [wfarr/goenv](https://github.com/wfarr/goenv) - Go 版本管理
 - [GoLand](https://www.jetbrains.com/go/) - IDE 软件
-- [~~IntelliJ系列软件Go语言插件~~](https://github.com/go-lang-plugin-org/go-lang-idea-plugin)
+- [Visual Studio Code](https://github.com/microsoft/vscode)
 
 
 ## 资源站点
+- [Go 101](https://go101.org)
 - [Go 语言中文网](http://studygolang.com)
 - [Golang 中国](https://www.golangtc.com)
 - [go-zh](https://go-zh.org)
