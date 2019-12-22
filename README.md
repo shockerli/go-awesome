@@ -99,6 +99,7 @@
 - [Go 教程](https://cloud.tencent.com/developer/doc/1101) - 腾讯云开发者手册
 - [Golang 开发笔记](https://github.com/guyan0319/golang_development_notes/blob/master/zh/preface.md)
 - [浅谈 Go 语言实现原理](https://draveness.me/golang/)
+- [golang-notes](https://github.com/cch123/golang-notes)
 
 
 ## 指南
@@ -111,6 +112,7 @@
 - [Go Details 101](https://go101.org/article/details.html)
 - [Go Tips 101](https://go101.org/article/tips.html)
 - [Go Quizzes 101](https://go101.org/article/quizzes.html)
+- [go-advices](https://github.com/cristaloleg/go-advices)
 
 
 ## 文章
@@ -140,6 +142,8 @@
 - [EiBlog](https://github.com/eiblog/eiblog) - `国产` 博客
 - [pan-light](https://github.com/peterq/pan-light) - 不限速的百度网盘客户端, 基于 Go + Qt5 开发
 - [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go) - 百度网盘客户端
+- [daily-warm](https://github.com/BarryYan/daily-warm) - 每天定时发邮件给你关心的人
+- [pipe](https://github.com/88250/pipe) - 博客平台
 
 
 ## 学习项目
@@ -149,7 +153,7 @@
 
 ## 开源类库
 
-### 框架
+### Web 框架
 - [Macaron](https://github.com/go-macaron/macaron) - 一款具有高生产力和模块化设计的 Go Web 框架 `国产`
 - [Beego](https://github.com/astaxie/beego) - 一个使用 Go 的思维来帮助您构建并开发 Go 应用程序的开源框架 `国产`
 - [Gin](https://github.com/gin-gonic/gin) - 轻量 Web 框架
@@ -168,6 +172,10 @@
 - [Ponzu](https://github.com/ponzu-cms/ponzu)
 - [utron](https://github.com/gernest/utron)
 - [muxie](https://github.com/kataras/muxie)
+- [Buffalo](https://github.com/gobuffalo/buffalo) - 快速生成 Web 项目的开发工具
+
+
+### 业务框架
 - [go-admin](https://github.com/chenhg5/go-admin) - 与 [laravel-admin](https://github.com/z-song/laravel-admin) 类似的后台管理快速开发框架
 
 
@@ -237,6 +245,7 @@
 - [grab](https://github.com/cavaliercoder/grab) - 文件下载
 - [go-netty](https://github.com/go-netty/go-netty) - 网络框架
 - [httplab](https://github.com/gchaincl/httplab) - The interactive web server
+- [yamux](https://github.com/hashicorp/yamux) - Multiplexer
 
 
 ### WebSocket
@@ -250,11 +259,12 @@
 - [GoKu API Gateway CE](https://github.com/eolinker/GoKu-API-Gateway) - eoLinker 开源的 API 网关
 
 
-### 序列化
+### 序列化/解压缩
 - [vmihailenco/msgpack](https://github.com/vmihailenco/msgpack) - 支持 msgpack
 - [go/codec](https://github.com/ugorji/go) - 支持 msgpack/binc/cbor/json
 - [protobuf](https://github.com/golang/protobuf) - Go 版本的 Protocol Buffers
 - [Objx](https://github.com/stretchr/objx) - 操作 map, slice, JSON 等数据的包
+- [snappy](https://github.com/golang/snappy) - Go 语言版本的 Snappy
 
 
 ### RPC
@@ -264,6 +274,7 @@
 - [Lile](https://github.com/lileio/lile) - gRPC 服务构建包
 - [rpcx](https://github.com/smallnest/rpcx)
 - [Twirp](https://github.com/twitchtv/twirp)
+- [lile](https://github.com/lileio/lile) - gRPC 服务生成工具
 
 
 ### 邮件
@@ -324,6 +335,7 @@
 - [minify](https://github.com/tdewolff/minify) - Web 静态资源压缩(HTML/JS/CSS/JSON)
 - [Inflection](github.com/jinzhu/inflection) - Pluralizes and singularizes English nouns
 - [autocorrect](https://github.com/studygolang/autocorrect) - 自动给中英文之间加入合理的空格并纠正专用名词大小写
+- [bleve](https://github.com/blevesearch/bleve) - modern text indexing
 
 
 ### 文档
@@ -344,7 +356,8 @@
 
 ### 配置
 - [GoDotEnv](https://github.com/joho/godotenv) - `.env` 配置文件解析
-- [yaml](https://github.com/go-yaml/yaml)
+- [go-yaml/yaml](https://github.com/go-yaml/yaml)
+- [ghodss/yaml](https://github.com/ghodss/yaml)
 - [toml](https://github.com/BurntSushi/toml) - `TOML` 解析&编码包
 - [INI](https://github.com/go-ini/ini) - `INI` 配置文件解析
 - [Viper](https://github.com/spf13/viper) - 支持 `JSON`, `TOML`, `YAML`, `HCL`, `Java` 等配置文件
@@ -354,6 +367,7 @@
 - [confd](https://github.com/kelseyhightower/confd) - 配置管理工具
 - [HCL](https://github.com/hashicorp/hcl) - configuration language
 - [env](https://github.com/caarlos0/env) - 解析 ENV 环境变量到结构体中
+- [configor](https://github.com/jinzhu/configor)
 
 
 ### 爬虫
@@ -373,6 +387,7 @@
 - [GoRose](https://github.com/gohouse/gorose)
 - [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql)
 - [sqlx](https://github.com/jmoiron/sqlx) - `database/sql` 扩展包
+- [dbq](https://github.com/rocketlaunchr/dbq) - 数据库操作
 - [qb](https://github.com/aacanakin/qb) - the database toolkit for go
 - [Redigo](https://github.com/gomodule/redigo) - Redis 客户端
 - [go-redis](https://github.com/go-redis/redis)
@@ -393,6 +408,8 @@
 - [OctoSQL](https://github.com/cube2222/octosql) - 支持多数据库的 SQL 查询工具
 - [goose](https://github.com/pressly/goose) - 数据库迁移工具
 - [**ent**](https://github.com/facebookincubator/ent) - An Entity Framework For Go
+- [sqlc](https://github.com/kyleconroy/sqlc) - 根据 SQL 语句生成 Go 代码
+- [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
 
 
 ### 数据库引擎
@@ -404,6 +421,8 @@
 - [AresDB](https://github.com/uber/aresdb) - Uber 开源的 GPU 驱动的实时分析存储&查询引擎
 - [leveldb](https://github.com/syndtr/goleveldb) - LevelDB 的 Go 实现
 - [Dgraph](https://github.com/dgraph-io/dgraph) - 分布式图数据库
+- [rqlite](https://github.com/rqlite/rqlite) - 基于 SQLite 的轻量级分布式关系数据库
+- [gaeadb](https://github.com/infinivision/gaeadb)
 
 
 ### 搜索
@@ -560,6 +579,7 @@
 ### 统计分析
 - [Fathom](https://github.com/usefathom/fathom) - Web 站点统计
 - [Signal](https://github.com/bloom42/signal) - Web 站点统计
+- [Veneur](https://github.com/stripe/veneur) - 分布式实时数据处理管道
 
 
 ### 容器技术
@@ -592,6 +612,7 @@
 - [Bigslice](https://github.com/grailbio/bigslice)
 - [golang-set](https://github.com/deckarep/golang-set) - The missing set collection
 - [rbang](https://github.com/tidwall/rbang) - The R!tree implementation for Go
+- [dataframe-go](https://github.com/rocketlaunchr/dataframe-go) - 用于数据统计和操作的包
 
 
 ### 依赖注入
@@ -624,9 +645,10 @@
 - [Go kit](https://github.com/go-kit/kit) - Go 微服务工具集
 - [GoKit CLI](https://github.com/kujtimiihoxha/kit) - Go kit 脚手架
 - [gogo](https://github.com/dolab/gogo)
-- [Go-Chassis](https://github.com/go-chassis/go-chassis)
+- [go-chassis](https://github.com/go-chassis/go-chassis)
 - [Go Micro](https://github.com/micro/go-micro) - 微服务框架
 - [Kite](https://github.com/koding/kite)
+- [Kratos](https://github.com/bilibili/kratos) - B站开源的微服务框架
 
 
 ### 持续集成/部署
@@ -660,8 +682,6 @@
 - [**participle**](https://github.com/alecthomas/participle) - 通用的自定义语法解析包
 - [GopherLua](https://github.com/yuin/gopher-lua) - VM and compiler for Lua in Go
 - [go-lua](https://github.com/Shopify/go-lua) - A Lua VM in pure Go
-- [php-parser](https://github.com/z7zmey/php-parser) - PHP AST 语法解析
-- [deuill/go-php](https://github.com/deuill/go-php) - PHP bindings for Go
 - [otto](https://github.com/robertkrimen/otto) - JavaScript 解释器
 - [goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation in Go
 - [gpython](https://github.com/go-python/gpython) - Python Interpreter on Go
@@ -672,6 +692,14 @@
 - [Yaegi](https://github.com/containous/yaegi) - Go 语言解释器
 - [properties](https://github.com/magiconair/properties) - Java properties scanner for Go
 - [gobasic](https://github.com/skx/gobasic) - A BASIC interpreter written in golang
+
+
+#### PHP
+- [php-parser](https://github.com/z7zmey/php-parser) - PHP AST 语法解析
+- [deuill/go-php](https://github.com/deuill/go-php) - PHP bindings for Go
+- [goridge](https://github.com/spiral/goridge) - High-performance PHP-to-Golang IPC bridge
+- [RoadRunner](https://github.com/spiral/roadrunner) - 高性能PHP应用服务器，支持负载均衡及进程管理
+
 
 #### 自定义解释器
 - [Math-Engine](https://github.com/dengsgo/math-engine) - 使用 Go 实现的数学表达式解析计算引擎库，学习语法解析很适用
@@ -699,6 +727,7 @@
 - [Nano](https://github.com/lonng/nano) - 游戏开发框架
 - [Leaf](https://github.com/name5566/leaf)
 - [einx](https://github.com/Cyinx/einx)
+- [CloudRetro](https://github.com/giongto35/cloud-game) - 游戏云服务框架
 
 
 ### 桌面开发
@@ -710,6 +739,7 @@
 - [fyne](https://github.com/fyne-io/fyne) - Cross platform GUI in Go based on Material Design
 - [go-gl](https://github.com/go-gl/gl) - Go bindings for OpenGL (generated via glow)
 - [therecipe/qt](https://github.com/therecipe/qt) - 基于 Qt 的跨全平台 UI 包
+- [Fyne](https://github.com/fyne-io/fyne) - Material Design 风格的 GUI 包
 
 
 ### 移动端
@@ -738,6 +768,7 @@
 
 ### 未归类
 - [Robotgo](https://github.com/go-vgo/robotgo) - Golang 跨平台自动化系统，控制键盘鼠标位图和读取屏幕，窗口句柄以及全局事件监听
+- [go-homedir](https://github.com/mitchellh/go-homedir)
 - [cron](https://github.com/robfig/cron) - a cron library for go
 - [goCron](https://github.com/jasonlvhit/gocron) - A Golang Job Scheduling Package
 - [i18n](https://github.com/Unknwon/i18n) - `i18n` 多语言工具包
