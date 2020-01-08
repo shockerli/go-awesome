@@ -66,6 +66,7 @@
 - [Stretchr](https://github.com/stretchr) - Tame your unstructured data
 - [Containous](https://github.com/containous)
 - [lestrrat-go](https://github.com/lestrrat-go)
+- [HashiCorp](https://github.com/hashicorp)
 
 
 ## 文档
@@ -113,6 +114,7 @@
 - [Go Tips 101](https://go101.org/article/tips.html)
 - [Go Quizzes 101](https://go101.org/article/quizzes.html)
 - [go-advices](https://github.com/cristaloleg/go-advices)
+- [go-perfbook](https://github.com/dgryski/go-perfbook) - 编写和优化Go代码
 
 
 ## 文章
@@ -144,6 +146,7 @@
 - [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go) - 百度网盘客户端
 - [daily-warm](https://github.com/BarryYan/daily-warm) - 每天定时发邮件给你关心的人
 - [pipe](https://github.com/88250/pipe) - 博客平台
+- [mdr](https://github.com/MichaelMure/mdr) - 命令行下的 Markdown 阅读工具
 
 
 ## 学习项目
@@ -216,6 +219,7 @@
 - [HttpRouter](https://github.com/julienschmidt/httprouter)
 - [mux](https://github.com/gorilla/mux) - URL 路由和调度器
 - [gocraft/web](https://github.com/gocraft/web)
+- [go-querystring](https://github.com/google/go-querystring) - 转换结构体为URL请求参数
 
 
 ### 网络
@@ -314,6 +318,7 @@
 - [quicktemplate](https://github.com/valyala/quicktemplate)
 - [mustache](https://github.com/hoisie/mustache)
 - [Ace](https://github.com/yosssi/ace)
+- [Sprig](https://github.com/Masterminds/sprig)
 
 
 ### 文本
@@ -336,6 +341,7 @@
 - [Inflection](github.com/jinzhu/inflection) - Pluralizes and singularizes English nouns
 - [autocorrect](https://github.com/studygolang/autocorrect) - 自动给中英文之间加入合理的空格并纠正专用名词大小写
 - [bleve](https://github.com/blevesearch/bleve) - modern text indexing
+- [go-md2man](https://github.com/cpuguy83/go-md2man) - 转换 Markdown 为 man 手册内容
 
 
 ### 文档
@@ -368,6 +374,7 @@
 - [HCL](https://github.com/hashicorp/hcl) - configuration language
 - [env](https://github.com/caarlos0/env) - 解析 ENV 环境变量到结构体中
 - [configor](https://github.com/jinzhu/configor)
+- [koanf](https://github.com/knadh/koanf)
 
 
 ### 爬虫
@@ -498,8 +505,10 @@
 - [GoReporter](https://github.com/360EntSecGroup-Skylar/goreporter)
 - [go-critic](https://github.com/go-critic/go-critic)
 - [gocloc](https://github.com/hhatto/gocloc) - 分语言代码行数统计
+- [coca](https://github.com/phodal/coca) - 代码统计分析
 - [**Go Report Card**](https://github.com/gojp/goreportcard) - Go 项目质量分析报告工具
 - [ddsv-go](https://github.com/y-taka-23/ddsv-go) - 死锁检测工具
+- [golang/perf](https://github.com/golang/perf) - 官方性能量化分析工具
 
 
 ### 调试
@@ -530,6 +539,7 @@
 - [Faker](https://github.com/bxcodec/faker) - Struct Data Fake Generator
 - [gofakeit](https://github.com/brianvoe/gofakeit) - Random data generator written in go
 - [go-tprof](https://github.com/gokultp/go-tprof) - 包测试报告生成工具
+- [go-fuzz](https://github.com/dvyukov/go-fuzz) - randomized testing for Go
 
 
 ### 错误处理
@@ -580,12 +590,17 @@
 - [Fathom](https://github.com/usefathom/fathom) - Web 站点统计
 - [Signal](https://github.com/bloom42/signal) - Web 站点统计
 - [Veneur](https://github.com/stripe/veneur) - 分布式实时数据处理管道
+- [gonum](https://github.com/gonum/gonum) - 科学计算相关
 
 
 ### 容器技术
 - [Rancher](https://github.com/rancher/rancher) - 全栈化企业级容器管理平台
 - [Gorsair](https://github.com/Ullaakut/Gorsair)
 - [docui](https://github.com/skanehira/docui) - TUI Client for Docker
+
+
+### 集群管理
+- [Nomad](https://github.com/hashicorp/nomad) - 集群管理器和调度器
 
 
 ### 机器学习
@@ -602,6 +617,7 @@
 - [Dragonboat](https://github.com/lni/dragonboat) - 多组 Raft 共识算法库
 - [golang-lru](https://github.com/hashicorp/golang-lru) - LRU 算法实现
 - [finn](https://github.com/tidwall/finn) - Fast **Raft** framework using the Redis protocol for Go
+- [xorfilter](https://github.com/FastFilter/xorfilter)
 
 
 ### 数据结构
@@ -649,6 +665,7 @@
 - [Go Micro](https://github.com/micro/go-micro) - 微服务框架
 - [Kite](https://github.com/koding/kite)
 - [Kratos](https://github.com/bilibili/kratos) - B站开源的微服务框架
+- [OpenFaaS](https://github.com/openfaas/faas) - Serverless Functions Made Simple(功能服务化的FAAS框架)
 
 
 ### 持续集成/部署
