@@ -137,6 +137,7 @@
 ## 成品项目
 - [studygolang](https://github.com/studygolang/studygolang) - Go 语言中文网
 - [Hugo](https://github.com/gohugoio/hugo) - 静态网站生成器
+- [jrnl](https://github.com/andrewpillar/jrnl) - 静态网站生成器
 - [喧喧](https://github.com/easysoft/xuanxuan) - 由`然之协同`提供的面向企业即时通信解决方案
 - [mkcert](https://github.com/FiloSottile/mkcert) - 生成本地 HTTPS 加密证书的工具
 - [Rainbond](https://github.com/goodrain/rainbond) - 基于Docker、Kubernetes等容器技术的开源PaaS
@@ -147,6 +148,7 @@
 - [daily-warm](https://github.com/BarryYan/daily-warm) - 每天定时发邮件给你关心的人
 - [pipe](https://github.com/88250/pipe) - 博客平台
 - [mdr](https://github.com/MichaelMure/mdr) - 命令行下的 Markdown 阅读工具
+- [链滴笔记](https://github.com/88250/liandi) - 桌面端笔记应用
 
 
 ## 学习项目
@@ -225,6 +227,7 @@
 ### 网络
 - [**fasthttp**](https://github.com/valyala/fasthttp) - 比 `net/http` 快 10 倍的 HTTP 工具包
 - [Resty](https://github.com/go-resty/resty) - HTTP & REST 客户端包
+- [gout](https://github.com/guonaihong/gout) - HTTP 客户端
 - [DNS](https://github.com/miekg/dns) - DNS 库
 - [CoreDNS](https://github.com/coredns/coredns) - DNS 服务器
 - [**Caddy**](https://github.com/mholt/caddy) - Web 服务器
@@ -250,6 +253,8 @@
 - [go-netty](https://github.com/go-netty/go-netty) - 网络框架
 - [httplab](https://github.com/gchaincl/httplab) - The interactive web server
 - [yamux](https://github.com/hashicorp/yamux) - Multiplexer
+- [sftp](https://github.com/pkg/sftp) - SFTP support for the go.crypto/ssh package
+- [evio](https://github.com/tidwall/evio) - 事件驱动网络框架
 
 
 ### WebSocket
@@ -321,11 +326,16 @@
 - [Sprig](https://github.com/Masterminds/sprig)
 
 
+### 代码生成
+- [esc](https://github.com/mjibson/esc)
+
+
 ### 文本
 - [Blackfriday](https://github.com/russross/blackfriday) - Markdown 解析器
 - [Lute](https://github.com/b3log/lute) - 结构化的 Markdown 引擎
 - [goldmark](https://github.com/yuin/goldmark) - Markdown 解析器
 - [docx2md](https://github.com/mattn/docx2md) - 转换 Word 为 Markdown
+- [glamour](https://github.com/charmbracelet/glamour) - 命令行下渲染 Markdown
 - [gpy](https://github.com/go-ego/gpy) - Go 语言汉字转拼音工具
 - [html2text](https://github.com/jaytaylor/html2text) - HTML 转 text
 - [go-hashids](https://github.com/speps/go-hashids) - hashids 的 Go 版本
@@ -342,6 +352,8 @@
 - [autocorrect](https://github.com/studygolang/autocorrect) - 自动给中英文之间加入合理的空格并纠正专用名词大小写
 - [bleve](https://github.com/blevesearch/bleve) - modern text indexing
 - [go-md2man](https://github.com/cpuguy83/go-md2man) - 转换 Markdown 为 man 手册内容
+- [etree](https://github.com/beevik/etree) - XML 解析&生成
+- [gogrep](https://github.com/mvdan/gogrep) - 通过语法树搜索 Go 源码
 
 
 ### 文档
@@ -416,6 +428,7 @@
 - [goose](https://github.com/pressly/goose) - 数据库迁移工具
 - [**ent**](https://github.com/facebookincubator/ent) - An Entity Framework For Go
 - [sqlc](https://github.com/kyleconroy/sqlc) - 根据 SQL 语句生成 Go 代码
+- [xsqlparser](https://github.com/akito0107/xsqlparser) - SQL 解析
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
 
 
@@ -540,6 +553,9 @@
 - [gofakeit](https://github.com/brianvoe/gofakeit) - Random data generator written in go
 - [go-tprof](https://github.com/gokultp/go-tprof) - 包测试报告生成工具
 - [go-fuzz](https://github.com/dvyukov/go-fuzz) - randomized testing for Go
+- [gofight](https://github.com/appleboy/gofight) - Testing API Handler
+- [sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Sql driver mock for Golang
+- [silk](https://github.com/matryer/silk) - 基于 Markdown 的接口测试
 
 
 ### 错误处理
@@ -627,8 +643,9 @@
 - [SipHash](https://github.com/dchest/siphash) - SipHash-2-4
 - [Bigslice](https://github.com/grailbio/bigslice)
 - [golang-set](https://github.com/deckarep/golang-set) - The missing set collection
-- [rbang](https://github.com/tidwall/rbang) - The R!tree implementation for Go
+- [rbang](https://github.com/tidwall/rbang) - R!tree 实现
 - [dataframe-go](https://github.com/rocketlaunchr/dataframe-go) - 用于数据统计和操作的包
+- [go-set](https://github.com/scylladb/go-set) - 集合工具包
 
 
 ### 依赖注入
@@ -644,6 +661,7 @@
 - [jsonparser](https://github.com/buger/jsonparser)
 - [ffjson](https://github.com/pquerna/ffjson)
 - [json-iterator](https://github.com/json-iterator/go) - 滴滴开源的 JSON 解析器
+- [gojsonq](https://github.com/thedevsaddam/gojsonq) - JSON/YAML/XML/CSV 等数据查询
 
 
 ### 依赖管理
@@ -665,7 +683,11 @@
 - [Go Micro](https://github.com/micro/go-micro) - 微服务框架
 - [Kite](https://github.com/koding/kite)
 - [Kratos](https://github.com/bilibili/kratos) - B站开源的微服务框架
+
+
+### FaaS
 - [OpenFaaS](https://github.com/openfaas/faas) - Serverless Functions Made Simple(功能服务化的FAAS框架)
+- [fn](https://github.com/fnproject/fn)
 
 
 ### 持续集成/部署
@@ -781,6 +803,7 @@
 - [reflect2](https://github.com/modern-go/reflect2) - reflect api without runtime reflect.Value cost
 - [mapstructure](https://github.com/mitchellh/mapstructure) - Go library for decoding generic map values into native Go structures
 - [naza](https://github.com/q191201771/naza) - Go语言基础库
+- [automaxprocs](https://github.com/uber-go/automaxprocs) - 自动设置 `GOMAXPROCS`
 
 
 ### 未归类
@@ -802,6 +825,10 @@
 - [CRDT](https://github.com/neurodrone/crdt) - CRDT(Convergent and Commutative Replicated Data Types)最终一致性算法的实现
 - [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
 - [sysadmin-utils](https://github.com/skx/sysadmin-util)
+
+
+## logo
+- [Gophers....](https://github.com/egonelbre/gophers)
 
 
 ## 工具
