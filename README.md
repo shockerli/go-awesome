@@ -74,6 +74,8 @@
 
 
 ## 文档
+- [**Go 语言设计与实现**](https://draveness.me/golang/)
+- [**Go 语言原本**](https://github.com/changkun/go-under-the-hood)
 - [**Go 101**](https://github.com/go101/go101) [（中文版）](https://github.com/golang101/golang101)
 - [Go 官方入门指南](http://tour.studygolang.com)
 - [Go 语言高级编程](https://github.com/chai2010/advanced-go-programming-book)
@@ -102,9 +104,7 @@
 - [Ultimate Go](https://github.com/hoanhan101/ultimate-go) - 终极 Go 学习指南，包含大量文档化的代码和程序分析
 - [Go 教程](https://cloud.tencent.com/developer/doc/1101) - 腾讯云开发者手册
 - [Golang 开发笔记](https://github.com/guyan0319/golang_development_notes/blob/master/zh/preface.md)
-- [浅谈 Go 语言实现原理](https://draveness.me/golang/)
 - [golang-notes](https://github.com/cch123/golang-notes)
-- [Go 语言原本](https://github.com/changkun/go-under-the-hood)
 - [The Little Go Book](https://github.com/karlseguin/the-little-go-book) [（中文版）](https://github.com/songleo/the-little-go-book_ZH_CN)
 - [Learning Go — from zero to hero](https://www.freecodecamp.org/news/learning-go-from-zero-to-hero-d2a3223b3d86/)
 - [go-internals](https://github.com/teh-cmc/go-internals) - 深入理解 Go
@@ -132,7 +132,7 @@
 
 ## 文章
 - [**Go语言爱好者周刊**](https://github.com/polaris1119/golangweekly)
-- [Go 夜读](https://github.com/developer-learning/night-reading-go) - Go 标准包、开源项目源代码阅读讲解
+- [**Go 夜读**](https://github.com/developer-learning/night-reading-go) - Go 标准包、开源项目源代码阅读讲解
 - [Go-Questions](https://github.com/qcrao/Go-Questions) - Go 语言学习入门和进阶知识
 - [Go的50度灰：Golang新开发者要注意的陷阱和常见错误](https://colobu.com/2015/09/07/gotchas-and-common-mistakes-in-go-golang/)
 - [Go 程序的性能优化及 pprof 的使用](http://www.cnblogs.com/snowInPluto/p/7403097.html)
@@ -197,7 +197,8 @@
 
 
 ### 业务框架
-- [go-admin](https://github.com/chenhg5/go-admin) - 与 [laravel-admin](https://github.com/z-song/laravel-admin) 类似的后台管理快速开发框架
+- [GoAdminGroup/go-admin](https://github.com/GoAdminGroup/go-admin) - 后台管理快速开发框架
+- [wenjianzhang/go-admin](https://github.com/wenjianzhang/go-admin) - 另一个后台管理开发框架
 - [goxygen](https://github.com/Shpota/goxygen) - 基于 Go, React, MongoDB 技术实现的全栈应用生成器
 
 
@@ -235,6 +236,8 @@
 - [termenv](https://github.com/muesli/termenv) - 终端应用程序的高级 ANSI 样式和颜色支持
 - [asciigraph](https://github.com/guptarohit/asciigraph) - 在终端中绘制 ASCII 字符的图表
 - [spinner](https://github.com/briandowns/spinner) - 涵盖70多种符号或进度条的控制器
+- [tablewriter](https://github.com/olekukonko/tablewriter) - 终端中输出表格内容
+- [clop](https://github.com/guonaihong/clop) - 命令行解析包
 
 
 ### 路由
@@ -283,6 +286,8 @@
 - [gout](https://github.com/guonaihong/gout) - HTTP 客户端
 - [gentleman](https://github.com/h2non/gentleman) - HTTP 客户端
 - [goz](https://github.com/idoubi/goz)
+- [UserAgent](https://github.com/mssola/user_agent) - 解析 HTTP User Agent
+- [purell](https://github.com/PuerkitoBio/purell) - URL 规范工具包
 
 
 ### WebSocket
@@ -297,6 +302,7 @@
 ### IM/实时通信
 - [Centrifugo](https://github.com/centrifugal/centrifugo) - 实时消息服务器，可以与任何语言编写的应用程序后端结合使用
 - [goim](https://github.com/Terry-Mao/goim) - 支持集群的 im 及实时推送服务
+- [Tinode](https://github.com/tinode/chat) - 即时消息服务器，通过 websocket/JSON 或 gRPC/TCP 等协议传输
 
 
 ### 网关
@@ -328,8 +334,8 @@
 
 
 ### 消息
-- [Tinode](https://github.com/tinode/chat) - 即时消息服务器，通过 websocket/JSON 或 gRPC/TCP 等协议传输
-- [NSQ](https://github.com/nsqio/nsq) - 分布式消息平台
+- [NSQ](https://github.com/nsqio/nsq) - 实时分布式消息平台
+- [NATS](https://github.com/nats-io/nats-server) - 云原生消息中间件
 
 
 ### 文件
@@ -340,6 +346,7 @@
 - [XLSX](https://github.com/tealeg/xlsx) - Excel 读写包
 - [Excelize](https://github.com/360EntSecGroup-Skylar/excelize) - 360 开源的 Excel 工具包
 - [gopdf](https://github.com/signintech/gopdf) - PDF 生成
+- [rsc/pdf](https://github.com/rsc/pdf) - PDF reader
 - [SeaweedFS](https://github.com/chrislusf/seaweedfs) - 分布式文件系统
 - [go-fastdfs](https://github.com/sjqzhang/go-fastdfs) - 分布式文件存储服务
 - [Dragonfly](https://github.com/dragonflyoss/Dragonfly) - 基于 P2P 的分布式文件系统
@@ -390,7 +397,9 @@
 - [goorgeous](https://github.com/chaseadamsio/goorgeous) - A Go ORG syntax parser to HTML
 - [go-diff](https://github.com/sergi/go-diff) - Go 版本的 diff 工具包
 - [Chroma](https://github.com/alecthomas/chroma) - 代码语法高亮
-- [Emoji](https://github.com/kyokomi/emoji)
+- [kyokomi/emoji](https://github.com/kyokomi/emoji)
+- [enescakir/emoji](https://github.com/enescakir/emoji)
+- [golang/freetype](https://github.com/golang/freetype) - Freetype font rasterizer
 - [prose](https://github.com/jdkato/prose) - natural language processing library
 - [minify](https://github.com/tdewolff/minify) - Web 静态资源压缩(HTML/JS/CSS/JSON)
 - [Inflection](github.com/jinzhu/inflection) - Pluralizes and singularizes English nouns
@@ -403,6 +412,7 @@
 - [PipeIt](https://github.com/AllenDang/PipeIt) - 文本转换，清理和提取工具
 - [regexp2](https://github.com/dlclark/regexp2) - 全功能正则表达式引擎。如果标准库的 regexp 满足不了你，可以尝试使用 regexp2
 - [html2article](https://github.com/sundy-li/html2article) - 基于文本密度的 html2article 实现
+- [hostctl](https://github.com/guumaster/hostctl) - `hosts` 命令行管理工具
 
 
 ### 文档
@@ -509,6 +519,7 @@
 - [LBADD](https://github.com/tomarrell/lbadd) - 用 Go 实现的分布式 SQL 数据库
 - [go-memdb](https://github.com/hashicorp/go-memdb) - 建立在不可变 Radix 树上的内存数据库
 - [VectorSQL](https://github.com/vectorengine/vectorsql) - 应用于 IoT 和大数据的 DBMS 数据库，类似于 ClickHouse
+- [BuntDB](https://github.com/tidwall/buntdb) - 基于内存的KV数据库，支持磁盘持久化、ACID事务
 
 
 ### 搜索
@@ -555,15 +566,17 @@
 - [gocaptcha](https://github.com/lifei6671/gocaptcha) - 验证码生成
 - [go-is-svg](https://github.com/h2non/go-is-svg) - 校验是否为 SVG 图片
 - [identicon](https://github.com/issue9/identicon) - 根据用户的 IP 、邮箱名等任意数据为用户产生漂亮的随机头像
-- [ink](https://github.com/buchanae/ink) - Go 中的 2D 图形框架
-- [go-plantuml](https://github.com/bykof/go-plantuml) - 基于 Go 源码生成 plantuml 图
 - [prominentcolor](https://github.com/EdlinOrg/prominentcolor) - 识别图片的主要颜色
-- [pinhole](https://github.com/tidwall/pinhole) - 3D 线框图绘制
-- [globe](https://github.com/mmcloughlin/globe) - 地球线框图绘制
+- [dchest/captcha](https://github.com/dchest/captcha) - 生成和验证图片或音频验证码
 
 
 ### 图表
 - [go-echarts](https://github.com/chenjiandongx/go-echarts) - Echarts 图表库
+- [gonum/plot](https://github.com/gonum/plot) - 图形绘制
+- [pinhole](https://github.com/tidwall/pinhole) - 3D 线框图绘制
+- [globe](https://github.com/mmcloughlin/globe) - 地球线框图绘制
+- [ink](https://github.com/buchanae/ink) - Go 中的 2D 图形框架
+- [go-plantuml](https://github.com/bykof/go-plantuml) - 基于 Go 源码生成 plantuml 图
 
 
 ### 构建编译
@@ -575,6 +588,7 @@
 - [Air](https://github.com/cosmtrek/air) - 热编译工具
 - [TinyGo](https://github.com/tinygo-org/tinygo) - 一个适用于微控制器、WebAssembly 和命令行工具的 Go 编译器
 - [dh-make-golang](https://github.com/Debian/dh-make-golang) - 自动构建 Debian 包
+- [pkger](https://github.com/markbates/pkger) - 将静态文件打包成 Go 二进制文件
 
 
 ### 优雅升级
@@ -600,6 +614,7 @@
 ### 调试
 - [**go-spew**](https://github.com/davecgh/go-spew) - 变量打印工具
 - [**Delve**](https://github.com/go-delve/delve) - Debug 工具
+- [gdlv](https://github.com/aarzilli/gdlv) - Delve 界面版本
 - [repr](https://github.com/alecthomas/repr) - 变量打印工具
 - [pp](https://github.com/k0kubun/pp) - 彩色变量打印工具
 - [gops](https://github.com/google/gops) - 谷歌官方出品的 Go 程序监控调试工具
@@ -608,6 +623,9 @@
 - [q](https://github.com/y0ssar1an/q) - 自动打印变量类型并且格式化输出
 - [Litter](https://github.com/sanity-io/litter)
 - [RDebug](https://github.com/didi/rdebug) - 滴滴开源的一款用于 RD 研发、自测、调试的实用工具
+- [debugcharts](https://github.com/mkevac/debugcharts) - Go 内存占用可视化调试工具
+- [gcvis](https://github.com/davecheney/gcvis) - 实时可视化 gctrace
+- [pkg/profile](https://github.com/pkg/profile)
 
 
 ### 测试
@@ -623,8 +641,9 @@
 - [TestSQL](https://github.com/zhulongcheng/testsql) - 根据 SQL 创建语句生成测试数据
 - [httpmock](https://github.com/jarcoal/httpmock) - HTTP Mock
 - [Goblin](https://github.com/franela/goblin) - BDD 测试框架
-- [Faker](https://github.com/bxcodec/faker) - Struct Data Fake Generator
+- [bxcodec/faker](https://github.com/bxcodec/faker) - Struct Data Fake Generator
 - [gofakeit](https://github.com/brianvoe/gofakeit) - 随机数据生成器
+- [dmgk/faker](https://github.com/dmgk/faker)
 - [go-tprof](https://github.com/gokultp/go-tprof) - 包测试报告生成工具
 - [go-fuzz](https://github.com/dvyukov/go-fuzz) - randomized testing for Go
 - [gofight](https://github.com/appleboy/gofight) - Testing API Handler
@@ -634,6 +653,9 @@
 - [godog](https://github.com/cucumber/godog) - BDD 测试框架 Cucumber 的 Go 版本
 - [endly](https://github.com/viant/endly) - E2E（端到端）测试
 - [is](https://github.com/matryer/is) - 迷你测试框架
+- [Terratest](https://github.com/gruntwork-io/terratest) - 基础设施测试，比如 Docker
+- [agouti](https://github.com/sclevine/agouti) - Web 驱动的验收测试框架
+- [httpexpect](https://github.com/gavv/httpexpect) - 端到端 HTTP & REST 测试框架
 
 
 ### 错误处理
@@ -708,7 +730,8 @@
 
 ### 集群管理
 - [Nomad](https://github.com/hashicorp/nomad) - 集群管理器和调度器
-- [kubernetes](https://github.com/kubernetes/kubernetes)
+- [kubernetes](https://github.com/kubernetes/kubernetes) - 容器调度管理平台
+- [OpenShift Origin](https://github.com/openshift/origin) - Red Hat 开发的容器化软件解决方案
 
 
 ### 机器学习
@@ -787,9 +810,18 @@
 - [Kratos](https://github.com/bilibili/kratos) - B站开源的微服务框架
 
 
-### FaaS
-- [OpenFaaS](https://github.com/openfaas/faas) - Serverless Functions Made Simple(功能服务化的FAAS框架)
-- [fn](https://github.com/fnproject/fn)
+### Serverless
+- [OpenFaaS](https://github.com/openfaas/faas) - Serverless Functions Made Simple(功能服务化的 FaaS 框架)
+- [fn](https://github.com/fnproject/fn) - 事件驱动的 FaaS
+- [riff](https://github.com/projectriff/riff) - 基于 Kubernetes 的 FaaS
+- [Nuclio](https://github.com/nuclio/nuclio) - 实时事件与数据的 Serverless 框架
+- [Flogo](https://github.com/tibcosoftware/flogo) - 事件驱动的 Serverless 框架
+- [Dapr](https://github.com/dapr/dapr)
+- [kubeless](https://github.com/kubeless/kubeless)
+- [Fission](https://github.com/fission/fission) - 基于 Kubernetes 的 Serverless
+- [pulumi](https://github.com/pulumi/pulumi)
+- [Knative](https://github.com/knative/serving)
+- [fx](https://github.com/metrue/fx)
 
 
 ### 持续集成/部署
@@ -805,10 +837,11 @@
 ### Git
 - [gogs](https://github.com/gogs/gogs) - 类似于 GitLab 的 Git 服务器
 - [Gitea](https://github.com/go-gitea/gitea) - 由 gogs 分叉出的 Git 服务器
-- [go-git](https://github.com/src-d/go-git) - Go 实现的 Git 操作
+- [go-git](https://github.com/go-git/go-git) - Go 实现的 Git 操作
 - [gitin](https://github.com/isacikgoz/gitin) - commit/branch/status explorer for git
 - [hub](https://github.com/github/hub) - GitHub 命令行工具
 - [git-o-matic](https://github.com/muesli/gitomatic) - 一个监控 Git 仓库变化和自动 pull/push 的工具
+- [gitbase](https://github.com/src-d/gitbase) - SQL 的方式查询 Git 日志
 
 
 ### 限流器
@@ -858,6 +891,7 @@
 - [V](https://github.com/vlang/v) - Go 编写的语言
 - [kumarUjjawal/bison](https://github.com/kumarUjjawal/bison)
 - [Monkey](https://github.com/skx/monkey)
+- [govaluate](https://github.com/Knetic/govaluate)
 
 
 ### 运行器
@@ -887,15 +921,17 @@
 - [webview](https://github.com/zserge/webview) - 用 Go 构建跨平台的桌面软件
 - [walk](https://github.com/lxn/walk) - Windows GUI toolkit
 - [go-gtk](https://github.com/mattn/go-gtk) - Go bindings for GTK
-- [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go
-- [fyne](https://github.com/fyne-io/fyne) - 基于 Material Design 的 Go 跨平台 GUI
+- [andlabs/ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go
+- [fyne](https://github.com/fyne-io/fyne) - Material Design 风格的 GUI
 - [go-gl](https://github.com/go-gl/gl) - Go bindings for OpenGL (generated via glow)
 - [therecipe/qt](https://github.com/therecipe/qt) - 基于 Qt 的跨全平台 UI 包
-- [Fyne](https://github.com/fyne-io/fyne) - Material Design 风格的 GUI 包
 - [giu](https://github.com/AllenDang/giu) - 基于 [Dear ImGui](https://github.com/ocornut/imgui) 的跨平台 GUI 框架
-- [app](https://github.com/maxence-charriere/app) - 一个 WebAssembly 框架，用于使用 Go，HTML 和 CSS 构建 GUI 应用
+- [go-app](https://github.com/maxence-charriere/go-app) - 一个 WebAssembly 框架，用于使用 Go，HTML 和 CSS 构建 GUI 应用
 - [wails](https://github.com/wailsapp/wails) - 使用 Go 和 Web 技术创建桌面应用程序
 - [chromedp](https://github.com/chromedp/chromedp) - 纯 Go 语言实现的驱动浏览器的 Chrome DevTools Protocol，可用于爬虫、反爬虫、测试等场景
+- [go-astilectron](https://github.com/asticode/go-astilectron) - 基于 Electron 的跨平台开发
+- [Gio](https://gioui.org) - 跨平台 UI 框架，支持移动应用
+- [nucular](https://github.com/aarzilli/nucular) - 基于 Gio 的实现
 
 
 ### 移动端
@@ -920,14 +956,18 @@
 - [go-ethereum](https://github.com/ethereum/go-ethereum) - 以太坊协议的官方 Go 语言实现
 
 
+### 协程池
+- [tunny](https://github.com/Jeffail/tunny)
+
+
 ### 开发辅助包
-- [copier](https://github.com/jinzhu/copier) - struct 之间拷贝值
-- [cast](https://github.com/spf13/cast) - 数据类型转换
+- [**copier**](https://github.com/jinzhu/copier) - struct 之间拷贝值
+- [**cast**](https://github.com/spf13/cast) - 数据类型转换
 - [go-extend](https://github.com/thinkeridea/go-extend)
 - [com](https://github.com/Unknwon/com) - 工具包
 - [php2go](https://github.com/syyongx/php2go) - Go 实现的 140+ 个 PHP 函数功能包
 - [gommon](https://github.com/labstack/gommon) - Common packages for Go
-- [reflect2](https://github.com/modern-go/reflect2) - reflect api without runtime reflect.Value cost
+- [**reflect2**](https://github.com/modern-go/reflect2) - reflect api without runtime reflect.Value cost
 - [mapstructure](https://github.com/mitchellh/mapstructure) - Go library for decoding generic map values into native Go structures
 - [naza](https://github.com/q191201771/naza) - Go语言基础库
 - [automaxprocs](https://github.com/uber-go/automaxprocs) - 自动设置 `GOMAXPROCS`
