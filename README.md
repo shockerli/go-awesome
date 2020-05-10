@@ -200,10 +200,17 @@
 
 
 ### 业务框架
-- [GoAdminGroup/go-admin](https://github.com/GoAdminGroup/go-admin) - 后台管理快速开发框架
-- [wenjianzhang/go-admin](https://github.com/wenjianzhang/go-admin) - 另一个后台管理开发框架
+- [GoAdminGroup/go-admin](https://github.com/GoAdminGroup/go-admin) - 后台管理快速开发框架，与 laravel-admin 类似
+- [wenjianzhang/go-admin](https://github.com/wenjianzhang/go-admin) - 基于 Gin + Vue 实现的后台框架
+- [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) - 基于 Gin + Vue 实现的后台框架
 - [goxygen](https://github.com/Shpota/goxygen) - 基于 Go, React, MongoDB 技术实现的全栈应用生成器
 - [nging](https://github.com/admpub/nging) - Go语言通用后台管理框架
+- [snake](https://github.com/1024casts/snake) - 业务API框架
+
+### 项目骨架
+- [Standard Go Project Layout](https://github.com/golang-standards/project-layout) - Go 项目目录结构示例
+- [go-starter](https://github.com/adobe/go-starter) - Adobe 的 Go 工程模板
+- [go-clean-arch](https://github.com/bxcodec/go-clean-arch)
 
 
 ### TCP 框架
@@ -465,6 +472,7 @@
 - [env](https://github.com/caarlos0/env) - 解析 ENV 环境变量到结构体中
 - [configor](https://github.com/jinzhu/configor)
 - [koanf](https://github.com/knadh/koanf)
+- [butler](https://github.com/adobe/butler) - Adobe 开源的配置管理系统
 
 
 ### 爬虫
@@ -506,6 +514,7 @@
 - [**ent**](https://github.com/facebookincubator/ent) - An Entity Framework For Go
 - [xsqlparser](https://github.com/akito0107/xsqlparser) - SQL 解析
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
+- [go-nulltype](https://github.com/mattn/go-nulltype)
 
 
 #### 数据库驱动
@@ -523,6 +532,7 @@
 - [CockroachDB](https://github.com/cockroachdb/cockroach) - SQL database
 - [Cayley](https://github.com/cayleygraph/cayley) - 图数据库
 - [RadonDB](https://github.com/radondb/radon) - 基于 MySQL 研发的新一代分布式关系型数据库
+- [TiDB](https://github.com/pingcap/tidb) - 分布式关系型数据库，兼容 MySQL 协议
 - [AresDB](https://github.com/uber/aresdb) - Uber 开源的 GPU 驱动的实时分析存储&查询引擎
 - [leveldb](https://github.com/syndtr/goleveldb) - LevelDB 的 Go 实现
 - [Dgraph](https://github.com/dgraph-io/dgraph) - 分布式图数据库
@@ -561,6 +571,7 @@
 - [sessions](https://github.com/gorilla/sessions) - 后端 SESSION 服务
 - [securecookie](https://github.com/gorilla/securecookie) - cookie 加密/解密
 - [Goth](https://github.com/markbates/goth) - Multi-Provider Authentication for Go
+- [branca](https://github.com/hako/branca) - 号称比 JWT 更安全的 token 解决方案
 
 
 ### 缓存
@@ -613,7 +624,7 @@
 - [TinyGo](https://github.com/tinygo-org/tinygo) - 一个适用于微控制器、WebAssembly 和命令行工具的 Go 编译器
 - [dh-make-golang](https://github.com/Debian/dh-make-golang) - 自动构建 Debian 包
 - [pkger](https://github.com/markbates/pkger) - 将静态文件打包成 Go 二进制文件
-- [mewn](https://github.com/leaanthony/mewn)
+- [mewn](https://github.com/leaanthony/mewn) - 静态文件嵌入打包到二进制文件
 - [gobinaries](https://github.com/tj/gobinaries) - 不用安装Go就能编译安装Go编写的程序
 
 
@@ -736,6 +747,7 @@
 - [Jaeger](https://github.com/jaegertracing/jaeger) - 分布式追踪系统
 - [go-osstat](https://github.com/mackerelio/go-osstat) - 系统指标统计
 - [grafterm](https://github.com/slok/grafterm) - Metrics dashboards on terminal
+- [mymon](https://github.com/open-falcon/mymon) - MySQL 运行监控
 
 
 ### 统计分析
@@ -818,6 +830,7 @@
 - [easyjson](https://github.com/mailru/easyjson)
 - [go-jsonc](https://github.com/akshaybharambe14/go-jsonc) - 将带注释的 JSON 转为无注释的
 - [jin](https://github.com/ecoshub/jin) - JSON 操作工具包，同时具有标准库和类似 `tidwall/gjson` 和 `tidwall/sjson` 的功能
+- [hujson](https://github.com/tailscale/hujson) - 支持注释的 JSON 解码
 
 
 ### 依赖管理
@@ -927,6 +940,7 @@
 - [kumarUjjawal/bison](https://github.com/kumarUjjawal/bison)
 - [Monkey](https://github.com/skx/monkey)
 - [govaluate](https://github.com/Knetic/govaluate)
+- [Compiler](https://github.com/MauriceGit/compiler) - 将自定义语法代码编译成 X86-64 Assembly
 
 
 ### 编辑器
@@ -1040,8 +1054,6 @@
 - [otp](https://github.com/pquerna/otp) - 一次性密码工具包(One Time Password utilities)
 - [wechat-go](https://github.com/songtianyi/wechat-go) - 微信 Web 版 API 的 Go 实现
 - [misspell](https://github.com/client9/misspell) - 常拼写错误的英语单词
-- [Standard Go Project Layout](https://github.com/golang-standards/project-layout) - Go 项目目录结构示例
-- [go-starter](https://github.com/adobe/go-starter) - adobe 的 Go 工程模板
 - [CRDT](https://github.com/neurodrone/crdt) - CRDT(Convergent and Commutative Replicated Data Types)最终一致性算法的实现
 - [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
 - [sysadmin-utils](https://github.com/skx/sysadmin-util)
