@@ -116,6 +116,7 @@
 - [algo](https://github.com/hoanhan101/algo) - 107+ 编码面试问题，包括详细的解决方案，测试用例和程序分析
 - [over-golang](https://github.com/overnote/over-golang) - Go 学习笔记
 - [over-algorithm](https://github.com/overnote/over-algorithm) - Go 算法笔记
+- [learngo](https://github.com/inancgumus/learngo) - 1000+ Go 示例、练习和测试
 
 
 ## 指南
@@ -255,6 +256,7 @@
 - [tablewriter](https://github.com/olekukonko/tablewriter) - 终端中输出表格内容
 - [clop](https://github.com/guonaihong/clop) - 命令行解析包
 - [go-flags](https://github.com/jessevdk/go-flags) - 命令行参数解析
+- [termdash](https://github.com/mum4k/termdash) - 基于 Go Terminal 的仪表板系统
 
 
 ### 路由
@@ -272,6 +274,7 @@
 - [RoadRunner](https://github.com/spiral/roadrunner) - PHP 应用服务器、进程管理器、负载均衡，用于替代 `Nginx + FPM`
 - [Traefik](https://github.com/containous/traefik) - 反向代理&负载均衡
 - [GoReplay](https://github.com/buger/goreplay) - 流量收集&回放
+- [Sharingan](https://github.com/didi/sharingan) - 滴滴开源的流量录制回放工具
 - [p2pspider](https://github.com/fanpei91/p2pspider) - 种子嗅探器
 - [Proxy](https://github.com/snail007/goproxy) - golang 实现的高性能代理服务器
 - [ProxyPool](https://github.com/henson/proxypool) - 采集免费的代理资源为爬虫提供有效的IP代理
@@ -472,6 +475,7 @@
 - [env](https://github.com/caarlos0/env) - 解析 ENV 环境变量到结构体中
 - [configor](https://github.com/jinzhu/configor)
 - [koanf](https://github.com/knadh/koanf)
+- [go-toml](https://github.com/pelletier/go-toml) - TOML
 - [butler](https://github.com/adobe/butler) - Adobe 开源的配置管理系统
 
 
@@ -496,6 +500,7 @@
 - [sqlx](https://github.com/jmoiron/sqlx) - `database/sql` 扩展包
 - [dbq](https://github.com/rocketlaunchr/dbq) - 数据库操作
 - [gendry](https://github.com/didi/gendry) - 滴滴开源的SQL Builder
+- [Squirrel](https://github.com/Masterminds/squirrel) - SQL Builder
 - [qb](https://github.com/aacanakin/qb) - the database toolkit for go
 - [redigo](https://github.com/gomodule/redigo) - Redis 客户端
 - [go-redis](https://github.com/go-redis/redis)
@@ -511,10 +516,12 @@
 - [Gaea](https://github.com/XiaoMi/Gaea) - 小米开源的基于 MySQL 协议的数据库中间件
 - [OctoSQL](https://github.com/cube2222/octosql) - 支持多数据库的 SQL 查询工具
 - [goose](https://github.com/pressly/goose) - 数据库迁移工具
+- [migrate](https://github.com/golang-migrate/migrate) - 数据库迁移工具
 - [**ent**](https://github.com/facebookincubator/ent) - An Entity Framework For Go
 - [xsqlparser](https://github.com/akito0107/xsqlparser) - SQL 解析
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
 - [go-nulltype](https://github.com/mattn/go-nulltype)
+- [go-mysql](https://github.com/siddontang/go-mysql) - MySQL 工具集
 
 
 #### 数据库驱动
@@ -543,6 +550,7 @@
 - [go-memdb](https://github.com/hashicorp/go-memdb) - 建立在不可变 Radix 树上的内存数据库
 - [VectorSQL](https://github.com/vectorengine/vectorsql) - 应用于 IoT 和大数据的 DBMS 数据库，类似于 ClickHouse
 - [BuntDB](https://github.com/tidwall/buntdb) - 基于内存的KV数据库，支持磁盘持久化、ACID事务
+- [**TinySQL**](https://github.com/pingcap-incubator/tinysql) - 迷你分布式关系型数据库
 - [groupcache](https://github.com/golang/groupcache) - 分布式缓存
 - [Tile38](https://github.com/tidwall/tile38) - GEO 数据库
 - [Redcon](https://github.com/tidwall/redcon) - 兼容 Redis 协议的自定义 Redis 服务，采用 BuntDB 和 Tile38 实现存储
@@ -585,6 +593,7 @@
 
 ### 视频
 - [goav](https://github.com/giorgisio/goav) - FFmpeg 视频处理
+- [lal](https://github.com/q191201771/lal) - 直播流媒体网络传输服务器
 - [bililive-go](https://github.com/hr3lxphr6j/bililive-go) - 直播录制工具
 
 
@@ -621,7 +630,6 @@
 - [Task](https://github.com/go-task/task) - 类似于 `Make` 的构建工具
 - [codegangsta/gin](https://github.com/codegangsta/gin) - 热编译工具
 - [Air](https://github.com/cosmtrek/air) - 热编译工具
-- [TinyGo](https://github.com/tinygo-org/tinygo) - 一个适用于微控制器、WebAssembly 和命令行工具的 Go 编译器
 - [dh-make-golang](https://github.com/Debian/dh-make-golang) - 自动构建 Debian 包
 - [pkger](https://github.com/markbates/pkger) - 将静态文件打包成 Go 二进制文件
 - [mewn](https://github.com/leaanthony/mewn) - 静态文件嵌入打包到二进制文件
@@ -648,6 +656,7 @@
 - [golang/perf](https://github.com/golang/perf) - 官方性能量化分析工具
 - [GoPlantUML](https://github.com/jfeliu007/goplantuml) - 为 Go 项目生成 PlantUML 类图
 - [gosize](https://github.com/bradfitz/gosize) - 分析Go二进制文件大小
+- [shotizam](https://github.com/bradfitz/shotizam) - 分析 Go 二进制文件的大小并输出到 SQLite3
 
 
 ### 调试
@@ -706,6 +715,7 @@
 - [eris](https://github.com/rotisserie/eris) - 旨在通过错误包装，堆栈跟踪和输出格式为你提供对错误处理的更多控制
 - [errlog](https://github.com/snwfdhmp/errlog) - 使用静态和堆栈跟踪分析来快速确定哪个函数调用导致的错误
 - [juju/errors](https://github.com/juju/errors)
+- [go-fault](https://github.com/github/go-fault) - GitHub 官方出品，基于标准库 http 中间件的故障注入库
 
 
 ### 安全
@@ -888,6 +898,8 @@
 - [git-o-matic](https://github.com/muesli/gitomatic) - 一个监控 Git 仓库变化和自动 pull/push 的工具
 - [gitbase](https://github.com/src-d/gitbase) - SQL 的方式查询 Git 日志
 - [git-chglog](https://github.com/git-chglog/git-chglog) - `CHANGELOG` 命令行工具
+- [lazyhub](https://github.com/ryo-ma/lazyhub) - GitHub 的终端 UI 客户端
+- [goaction](https://github.com/posener/goaction) - 在 Go 中编写 GitHub Action
 
 
 ### 限流器
@@ -898,6 +910,11 @@
 - [Circuit](https://github.com/cep21/circuit) - 熔断器
 - [uber-go/ratelimit](https://github.com/uber-go/ratelimit)
 - [Sentinel](https://github.com/sentinel-group/sentinel-golang) - 阿里巴巴开源的面向分布式服务架构的流量控制组件 Go 语言版本
+
+
+### 编译器
+- [TinyGo](https://github.com/tinygo-org/tinygo) - 一个适用于微控制器、WebAssembly 和命令行工具的 Go 编译器
+- [llir/llvm](https://github.com/llir/llvm) - LLVM 编译器
 
 
 ### 解释器
@@ -985,6 +1002,7 @@
 - [go-astilectron](https://github.com/asticode/go-astilectron) - 基于 Electron 的跨平台开发
 - [Gio](https://gioui.org) - 跨平台 UI 框架，支持移动应用
 - [nucular](https://github.com/aarzilli/nucular) - 基于 Gio 的实现
+- [GoVCL](https://github.com/ying32/govcl) - 跨平台的 GUI 包
 
 
 ### 移动端
@@ -998,6 +1016,7 @@
 - [jobrunner](https://github.com/bamzi/jobrunner)
 - [CurlyQ](https://github.com/mcmathja/curlyq) - 后台任务处理库
 - [overtalk/task](https://github.com/overtalk/task) - 任务的管理&执行，支持自定义次数的重发
+- [PPGo_Job](https://github.com/george518/PPGo_Job) - 定时任务管理系统
 
 
 ### 微信
@@ -1061,6 +1080,7 @@
 - [licenseclassifier](https://github.com/google/licenseclassifier) - 识别文件中的 license 类型
 - [rose](https://gitlab.com/DevelopmentDuck/rose) - 在 HTML 中嵌入和运行 Go 代码
 - [esbuild](https://github.com/evanw/esbuild) - JavaScript 构建打包工具
+- [clipboard](https://github.com/d-tsuji/clipboard) - 跨平台的粘贴板实现
 
 
 ## logo
