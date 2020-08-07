@@ -117,6 +117,7 @@
 - [over-golang](https://github.com/overnote/over-golang) - Go 学习笔记
 - [over-algorithm](https://github.com/overnote/over-algorithm) - Go 算法笔记
 - [learngo](https://github.com/inancgumus/learngo) - 1000+ Go 示例、练习和测试
+- [go-leetcode](https://github.com/austingebauer/go-leetcode) - LeetCode 实现
 
 
 ## 指南
@@ -208,10 +209,12 @@
 - [nging](https://github.com/admpub/nging) - Go语言通用后台管理框架
 - [snake](https://github.com/1024casts/snake) - 业务API框架
 
+
 ### 项目骨架
 - [Standard Go Project Layout](https://github.com/golang-standards/project-layout) - Go 项目目录结构示例
 - [go-starter](https://github.com/adobe/go-starter) - Adobe 的 Go 工程模板
 - [go-clean-arch](https://github.com/bxcodec/go-clean-arch)
+- [go-rest-api](https://github.com/qiangxue/go-rest-api) - Go RESTful API Starter Kit
 
 
 ### TCP 框架
@@ -235,6 +238,7 @@
 - [GoTTY](https://github.com/yudai/gotty) - 基于Web的命令行实时共享
 - [progressbar](https://github.com/schollz/progressbar) - 在终端上输出进度条
 - [cheggaaa/pb](https://github.com/cheggaaa/pb) - 终端进度条
+- [mpb](https://github.com/vbauerster/mpb) - 支持多个进度条
 - [Color](https://github.com/fatih/color) - 命令行文字颜色
 - [termui](https://github.com/gizak/termui) - 终端仪表盘
 - [gosu](https://github.com/tianon/gosu) - 以指定的用户权限来运行脚本
@@ -477,6 +481,7 @@
 - [koanf](https://github.com/knadh/koanf)
 - [go-toml](https://github.com/pelletier/go-toml) - TOML
 - [butler](https://github.com/adobe/butler) - Adobe 开源的配置管理系统
+- [envsubst](https://github.com/a8m/envsubst) - 环境变量替换
 
 
 ### 爬虫
@@ -564,6 +569,7 @@
 - [gse](https://github.com/go-ego/gse) - Go 语言分词
 - [sego](https://github.com/huichen/sego) - Go 中文分词
 - [Riot](https://github.com/go-ego/riot) - 全文搜索引擎
+- [simplefts](https://github.com/akrylysov/simplefts) - 超简单的全文搜索引擎实现
 
 
 ### 表单
@@ -637,7 +643,8 @@
 
 
 ### 优雅升级
-- [tableflip](https://github.com/cloudflare/tableflip)
+- [tableflip](https://github.com/cloudflare/tableflip) - Web 服务升级
+- [selfupdate](https://github.com/minio/selfupdate) - 二进制文件自动升级
 
 
 ### 代码分析
@@ -665,6 +672,7 @@
 - [gdlv](https://github.com/aarzilli/gdlv) - Delve 界面版本
 - [repr](https://github.com/alecthomas/repr) - 变量打印工具
 - [pp](https://github.com/k0kubun/pp) - 彩色变量打印工具
+- [ffmt](https://github.com/go-ffmt/ffmt) - 变量打印工具
 - [gops](https://github.com/google/gops) - 谷歌官方出品的 Go 程序监控调试工具
 - [pprof](https://github.com/google/pprof)
 - [go-callvis](github.com/TrueFurby/go-callvis) - 可视化Go程序的调用图
@@ -716,6 +724,7 @@
 - [errlog](https://github.com/snwfdhmp/errlog) - 使用静态和堆栈跟踪分析来快速确定哪个函数调用导致的错误
 - [juju/errors](https://github.com/juju/errors)
 - [go-fault](https://github.com/github/go-fault) - GitHub 官方出品，基于标准库 http 中间件的故障注入库
+- [merry](https://github.com/ansel1/merry) - 支持堆栈、状态码的错误处理
 
 
 ### 安全
@@ -841,6 +850,7 @@
 - [go-jsonc](https://github.com/akshaybharambe14/go-jsonc) - 将带注释的 JSON 转为无注释的
 - [jin](https://github.com/ecoshub/jin) - JSON 操作工具包，同时具有标准库和类似 `tidwall/gjson` 和 `tidwall/sjson` 的功能
 - [hujson](https://github.com/tailscale/hujson) - 支持注释的 JSON 解码
+- [pkg/json](https://github.com/pkg/json) - JSON Decoder
 
 
 ### 依赖管理
@@ -921,6 +931,7 @@
 - [**participle**](https://github.com/alecthomas/participle) - 通用的自定义语法解析包
 - [GopherLua](https://github.com/yuin/gopher-lua) - VM and compiler for Lua in Go
 - [go-lua](https://github.com/Shopify/go-lua) - A Lua VM in pure Go
+- [DCLua](https://github.com/milochristiansen/lua) - Go Lua Compiler and VM
 - [otto](https://github.com/robertkrimen/otto) - JavaScript 解释器
 - [goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation in Go
 - [gpython](https://github.com/go-python/gpython) - Python Interpreter on Go
@@ -1059,6 +1070,10 @@
 - [smallnest/gen](https://github.com/smallnest/gen) - 根据表结构生成结构体
 - [sqlc](https://github.com/kyleconroy/sqlc) - 根据 SQL 语句生成 Go 代码
 - [xo](https://github.com/xo/xo) - 根据表结构或查询语句自动生成 Go 代码
+
+
+### 系统开发
+- [LinuxKit](https://github.com/linuxkit/linuxkit) - 为容器构建安全、便携、可移植操作系统的工具包
 
 
 ### 未归类
