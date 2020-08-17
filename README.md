@@ -199,6 +199,7 @@
 - [Buffalo](https://github.com/gobuffalo/buffalo) - 快速生成 Web 项目的开发工具
 - [go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark)
 - [fiber](https://github.com/gofiber/fiber) - 一种 Express 风格的、基于 fasthttp 的 HTTP Web 框架
+- [aah](https://github.com/go-aah/aah)
 
 
 ### 业务框架
@@ -442,6 +443,7 @@
 - [regexp2](https://github.com/dlclark/regexp2) - 全功能正则表达式引擎。如果标准库的 regexp 满足不了你，可以尝试使用 regexp2
 - [html2article](https://github.com/sundy-li/html2article) - 基于文本密度的 html2article 实现
 - [hostctl](https://github.com/guumaster/hostctl) - `hosts` 命令行管理工具
+- [go-shellwords](https://github.com/mattn/go-shellwords) - 解析命令行中字段
 
 
 ### 文档
@@ -527,6 +529,8 @@
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
 - [go-nulltype](https://github.com/mattn/go-nulltype)
 - [go-mysql](https://github.com/siddontang/go-mysql) - MySQL 工具集
+- [SQLittle](https://github.com/alicebob/sqlittle) - 纯读取 SQLite 文件
+- [Bifrost](https://github.com/brokercap/Bifrost) - MySQL 同步到 Redis、ClickHouse 等服务的异构中间件
 
 
 #### 数据库驱动
@@ -713,6 +717,8 @@
 - [agouti](https://github.com/sclevine/agouti) - Web 驱动的验收测试框架
 - [httpexpect](https://github.com/gavv/httpexpect) - 端到端 HTTP & REST 测试框架
 - [gocov](https://github.com/axw/gocov) - 测试覆盖率
+- [miniredis](https://github.com/alicebob/miniredis) - Redis 数据测试
+- [htmltest](https://github.com/wjdp/htmltest) - HTML 测试
 
 
 ### 错误处理
@@ -851,6 +857,7 @@
 - [jin](https://github.com/ecoshub/jin) - JSON 操作工具包，同时具有标准库和类似 `tidwall/gjson` 和 `tidwall/sjson` 的功能
 - [hujson](https://github.com/tailscale/hujson) - 支持注释的 JSON 解码
 - [pkg/json](https://github.com/pkg/json) - JSON Decoder
+- [ColorJSON](https://github.com/TylerBrock/colorjson) - 终端中打印彩色 JSON
 
 
 ### 依赖管理
@@ -954,6 +961,7 @@
 
 
 #### 自定义解释器
+- [cel-go](https://github.com/google/cel-go) - Common Expression Language(CEL 的 Go 实现)
 - [Math-Engine](https://github.com/dengsgo/math-engine) - 使用 Go 实现的数学表达式解析计算引擎库，学习语法解析很适用
 - [Gval](https://github.com/PaesslerAG/gval) - 表达式计算
 - [expression-parsing](https://github.com/vighneshq/expression-parsing)
@@ -1010,6 +1018,7 @@
 - [go-app](https://github.com/maxence-charriere/go-app) - 一个 WebAssembly 框架，用于使用 Go，HTML 和 CSS 构建 GUI 应用
 - [wails](https://github.com/wailsapp/wails) - 使用 Go 和 Web 技术创建桌面应用程序
 - [chromedp](https://github.com/chromedp/chromedp) - 纯 Go 语言实现的驱动浏览器的 Chrome DevTools Protocol，可用于爬虫、反爬虫、测试等场景
+- [Rod](https://github.com/go-rod/rod) - 一个为简化自动化和爬虫设计的 devtools driver，利用浏览器的 devtools 可编程接口来操控浏览器
 - [go-astilectron](https://github.com/asticode/go-astilectron) - 基于 Electron 的跨平台开发
 - [Gio](https://gioui.org) - 跨平台 UI 框架，支持移动应用
 - [nucular](https://github.com/aarzilli/nucular) - 基于 Gio 的实现
