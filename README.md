@@ -236,7 +236,6 @@
 ### 命令行
 - [urfave/cli](https://github.com/urfave/cli) - 命令行程序构建工具
 - [**Cobra**](https://github.com/spf13/cobra) - 命令行构建包
-- [GoTTY](https://github.com/yudai/gotty) - 基于Web的命令行实时共享
 - [progressbar](https://github.com/schollz/progressbar) - 在终端上输出进度条
 - [cheggaaa/pb](https://github.com/cheggaaa/pb) - 终端进度条
 - [mpb](https://github.com/vbauerster/mpb) - 支持多个进度条
@@ -262,6 +261,12 @@
 - [clop](https://github.com/guonaihong/clop) - 命令行解析包
 - [go-flags](https://github.com/jessevdk/go-flags) - 命令行参数解析
 - [termdash](https://github.com/mum4k/termdash) - 基于 Go Terminal 的仪表板系统
+- [kong](https://github.com/alecthomas/kong) - 命令行解析
+
+
+### 终端工具
+- [vgrep](https://github.com/vrothberg/vgrep) - 支持滚动分页的 `grep`
+- [GoTTY](https://github.com/yudai/gotty) - 基于Web的命令行实时共享
 
 
 ### 路由
@@ -342,7 +347,8 @@
 ### 序列化/解压缩
 - [vmihailenco/msgpack](https://github.com/vmihailenco/msgpack) - 支持 msgpack
 - [go/codec](https://github.com/ugorji/go) - 支持 msgpack/binc/cbor/json
-- [protobuf](https://github.com/golang/protobuf) - Go 版本的 Protocol Buffers
+- [golang/protobuf](https://github.com/golang/protobuf) - Go 版本的 Protocol Buffers
+- [gogo/protobuf](https://github.com/gogo/protobuf) - `golang/protobuf` 的扩展替代品
 - [Objx](https://github.com/stretchr/objx) - 操作 map, slice, JSON 等数据的包
 - [snappy](https://github.com/golang/snappy) - Go 语言版本的 Snappy
 
@@ -372,6 +378,7 @@
 - [MinIO](https://github.com/minio/minio) - 对象存储服务器
 - [Syncthing](https://github.com/syncthing/syncthing) - 文件同步
 - [fsnotify](https://github.com/fsnotify/fsnotify) - 文件系统监控工具
+- [reflex](https://github.com/cespare/reflex) - 监听文件变更并执行命令
 - [gohttpserver](https://github.com/codeskyblue/gohttpserver) - HTTP 静态文件服务器
 - [XLSX](https://github.com/tealeg/xlsx) - Excel 读写包
 - [Excelize](https://github.com/360EntSecGroup-Skylar/excelize) - 360 开源的 Excel 工具包
@@ -425,8 +432,10 @@
 - [mahonia](https://github.com/axgle/mahonia) - 字符集编码转换
 - [pangu.go](https://github.com/vinta/pangu) - Go 版本的 pangu，给中英文之间加空格
 - [goorgeous](https://github.com/chaseadamsio/goorgeous) - A Go ORG syntax parser to HTML
-- [go-diff](https://github.com/sergi/go-diff) - Go 版本的 diff 工具包
+- [sergi/go-diff](https://github.com/sergi/go-diff) - Go 版本的 diff 工具包
+- [sourcegraph/go-diff](https://github.com/sourcegraph/go-diff) - Go 版本的 diff 工具包
 - [Chroma](https://github.com/alecthomas/chroma) - 代码语法高亮
+- [syntaxhighlight](https://github.com/sourcegraph/syntaxhighlight) - 代码高亮
 - [kyokomi/emoji](https://github.com/kyokomi/emoji)
 - [enescakir/emoji](https://github.com/enescakir/emoji)
 - [golang/freetype](https://github.com/golang/freetype) - Freetype font rasterizer
@@ -502,7 +511,8 @@
 - [usql](https://github.com/xo/usql) - 几乎支持全部 SQL 与 NoSQL 数据库的命令行工具
 - [GORM](https://github.com/jinzhu/gorm)
     + [gorm2sql](https://github.com/liudanking/gorm2sql) - 根据 Model Struct 生成建表语句
-- [Xorm](https://github.com/go-xorm/xorm) - 支持 MySQL、PostgreSQL、SQLite3 以及 MsSQL
+- [Xorm](https://gitea.com/xorm/xorm)
+- [XormPlus](https://github.com/xormplus/xorm) - Xorm 的定制增强版本
 - [GoRose](https://github.com/gohouse/gorose)
 - [sqlx](https://github.com/jmoiron/sqlx) - `database/sql` 扩展包
 - [dbq](https://github.com/rocketlaunchr/dbq) - 数据库操作
@@ -524,7 +534,7 @@
 - [OctoSQL](https://github.com/cube2222/octosql) - 支持多数据库的 SQL 查询工具
 - [goose](https://github.com/pressly/goose) - 数据库迁移工具
 - [migrate](https://github.com/golang-migrate/migrate) - 数据库迁移工具
-- [**ent**](https://github.com/facebookincubator/ent) - An Entity Framework For Go
+- [**ent**](https://github.com/facebook/ent) - An Entity Framework For Go
 - [xsqlparser](https://github.com/akito0107/xsqlparser) - SQL 解析
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
 - [go-nulltype](https://github.com/mattn/go-nulltype)
@@ -640,10 +650,12 @@
 - [Task](https://github.com/go-task/task) - 类似于 `Make` 的构建工具
 - [codegangsta/gin](https://github.com/codegangsta/gin) - 热编译工具
 - [Air](https://github.com/cosmtrek/air) - 热编译工具
+- [Fresh](https://github.com/gravityblast/fresh) - 热编译工具
 - [dh-make-golang](https://github.com/Debian/dh-make-golang) - 自动构建 Debian 包
 - [pkger](https://github.com/markbates/pkger) - 将静态文件打包成 Go 二进制文件
 - [mewn](https://github.com/leaanthony/mewn) - 静态文件嵌入打包到二进制文件
 - [gobinaries](https://github.com/tj/gobinaries) - 不用安装Go就能编译安装Go编写的程序
+- [NFPM](https://github.com/goreleaser/nfpm) - deb、rpm、apk 等打包工具
 
 
 ### 优雅升级
@@ -822,6 +834,7 @@
 - [btree](https://github.com/google/btree) - `B-Tree`
 - [basalt](https://github.com/rpcxio/basalt) - 高性能的分布式的专门空间优化的 Bitmap 服务, 杜绝 Bloomfilter 和 CuckooFilter 的误判
 - [go-blurhash](https://github.com/buckket/go-blurhash) - BlurHash，是模糊图片的一种哈希算法
+- [xxhash](https://github.com/cespare/xxhash) - xxHash 哈希算法实现
 
 
 ### 数据结构
@@ -914,7 +927,8 @@
 - [hub](https://github.com/github/hub) - GitHub 命令行工具
 - [git-o-matic](https://github.com/muesli/gitomatic) - 一个监控 Git 仓库变化和自动 pull/push 的工具
 - [gitbase](https://github.com/src-d/gitbase) - SQL 的方式查询 Git 日志
-- [git-chglog](https://github.com/git-chglog/git-chglog) - `CHANGELOG` 命令行工具
+- [git-chglog](https://github.com/git-chglog/git-chglog) - `CHANGELOG` 管理工具
+- [chglog](https://github.com/goreleaser/chglog) - `CHANGELOG` 管理工具
 - [lazyhub](https://github.com/ryo-ma/lazyhub) - GitHub 的终端 UI 客户端
 - [goaction](https://github.com/posener/goaction) - 在 Go 中编写 GitHub Action
 
@@ -951,6 +965,7 @@
 - [properties](https://github.com/magiconair/properties) - Java properties scanner for Go
 - [gobasic](https://github.com/skx/gobasic) - A BASIC interpreter written in golang
 - [golisp](https://github.com/mattn/golisp) - `Lisp` 解释器
+- [dst](https://github.com/dave/dst) - Go Decorated Syntax Tree
 
 
 #### PHP
@@ -979,8 +994,13 @@
 - [Compiler](https://github.com/MauriceGit/compiler) - 将自定义语法代码编译成 X86-64 Assembly
 
 
+### 代码生成
+- [jennifer](https://github.com/dave/jennifer) - Go 代码生成
+
+
 ### 编辑器
 - [micro](https://github.com/zyedidia/micro) - 基于终端的编辑器
+- [sourcegraph](https://github.com/sourcegraph/sourcegraph) - 代码搜索&导航
 
 
 ### 运行器
@@ -1086,6 +1106,7 @@
 
 
 ### 未归类
+- [go-playground](https://github.com/x1unix/go-playground) - 比官方更好用的 Go Playground
 - [Robotgo](https://github.com/go-vgo/robotgo) - Golang 跨平台自动化系统，控制键盘鼠标位图和读取屏幕，窗口句柄以及全局事件监听
 - [go-homedir](https://github.com/mitchellh/go-homedir)
 - [i18n](https://github.com/Unknwon/i18n) - `i18n` 多语言工具包
@@ -1105,6 +1126,7 @@
 - [rose](https://gitlab.com/DevelopmentDuck/rose) - 在 HTML 中嵌入和运行 Go 代码
 - [esbuild](https://github.com/evanw/esbuild) - JavaScript 构建打包工具
 - [clipboard](https://github.com/d-tsuji/clipboard) - 跨平台的粘贴板实现
+- [Timeliner](https://github.com/mholt/timeliner) - 搜集整理个人在社交网站上的数据并索引成时间线
 
 
 ## logo
