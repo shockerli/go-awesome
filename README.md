@@ -136,6 +136,7 @@
 
 
 ## 文章
+- [**Go Training**](https://github.com/ardanlabs/gotraining) - 大量优质 Go 相关文章、视频等资料
 - [**Go语言爱好者周刊**](https://github.com/polaris1119/golangweekly)
 - [**Go 夜读**](https://github.com/developer-learning/night-reading-go) - Go 标准包、开源项目源代码阅读讲解
 - [Go-Questions](https://github.com/qcrao/Go-Questions) - Go 语言学习入门和进阶知识
@@ -200,6 +201,7 @@
 - [go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark)
 - [fiber](https://github.com/gofiber/fiber) - 一种 Express 风格的、基于 fasthttp 的 HTTP Web 框架
 - [aah](https://github.com/go-aah/aah)
+- [go-zero](https://github.com/tal-tech/go-zero) - 好未来开源的 Web 框架
 
 
 ### 业务框架
@@ -306,6 +308,8 @@
 - [gaio](https://github.com/xtaci/gaio) - 事件驱动网络框架（proactor 模式）
 - [httpretty](https://github.com/henvic/httpretty) - 在终端上漂亮地打印出 HTTP 请求
 - [blocky](https://github.com/0xERR0R/blocky) - 作为局域网 DNS 代理拦截广告
+- [V2Ray](https://github.com/v2ray/v2ray-core) - 科学上网工具
+- [V2Fly](https://github.com/v2fly/v2ray-core) - 科学上网工具 V2Ray 的社区版本
 
 
 ### HTTP压测
@@ -425,6 +429,7 @@
 - [go-md2man](https://github.com/cpuguy83/go-md2man) - 转换 Markdown 为 man 手册内容
 
 #### 其他
+- [go-runewidth](https://github.com/mattn/go-runewidth) - 字符长度计算
 - [gpy](https://github.com/go-ego/gpy) - Go 语言汉字转拼音工具
 - [html2text](https://github.com/jaytaylor/html2text) - HTML 转 text
 - [go-hashids](https://github.com/speps/go-hashids) - hashids 的 Go 版本
@@ -472,6 +477,7 @@
 - [now](https://github.com/jinzhu/now)
 - [when](https://github.com/olebedev/when) - 自然日期时间解析
 - [Carbon](https://github.com/uniplaces/carbon) - Carbon 时间处理库的 Go 语言实现
+- [strftime](https://github.com/lestrrat-go/strftime) - 时间格式化
 
 
 ### 配置
@@ -527,6 +533,7 @@
 - [amqp](https://github.com/streadway/amqp) - Go client for AMQP 0.9.1
 - [kingshard](https://github.com/flike/kingshard) - MySQL Proxy
 - [SOAR](https://github.com/XiaoMi/soar) - 对SQL进行优化和改写的自动化工具
+- [Vitess](https://github.com/vitessio/vitess) - 用于部署、扩展和管理大型MySQL实例集群的数据库解决方案
 - [gh-ost](https://github.com/github/gh-ost) - GitHub 开源的在线更改 MySQL 表结构的工具
 - [SQLer](https://github.com/alash3al/sqler) - write APIs using direct SQL queries with no hassle, let's rethink about SQL
 - [gocraft/dbr](https://github.com/gocraft/dbr)
@@ -536,6 +543,7 @@
 - [migrate](https://github.com/golang-migrate/migrate) - 数据库迁移工具
 - [**ent**](https://github.com/facebook/ent) - An Entity Framework For Go
 - [xsqlparser](https://github.com/akito0107/xsqlparser) - SQL 解析
+- [sqlparser](https://github.com/xwb1989/sqlparser) - SQL 解析
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
 - [go-nulltype](https://github.com/mattn/go-nulltype)
 - [go-mysql](https://github.com/siddontang/go-mysql) - MySQL 工具集
@@ -544,11 +552,12 @@
 
 
 #### 数据库驱动
-- [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql)
+- [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql) - MySQL 驱动
 - [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - MSSQL 驱动
 - [pq](https://github.com/lib/pq) - PostgreSQL 驱动
 - [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - MongoDB 官方出品的 Go 语言驱动
 - [clickhouse-go](https://github.com/ClickHouse/clickhouse-go) - ClickHouse 官方 Go 语言客户端
+- [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 驱动
 
 
 #### 数据库引擎
@@ -632,6 +641,7 @@
 - [bimg](https://github.com/h2non/bimg) - 图片处理
 - [imaginary](https://github.com/h2non/imaginary) - 图片处理服务
 - [primitive](https://github.com/fogleman/primitive) - 用原始几何图形绘制图形
+- [orly](https://github.com/nanmu42/orly) - 生成你自己的O'RLY动物书封面
 
 
 ### 图表
@@ -650,6 +660,7 @@
 - [Task](https://github.com/go-task/task) - 类似于 `Make` 的构建工具
 - [codegangsta/gin](https://github.com/codegangsta/gin) - 热编译工具
 - [Air](https://github.com/cosmtrek/air) - 热编译工具
+- [gowatch](https://github.com/silenceper/gowatch) - 热编译工具
 - [Fresh](https://github.com/gravityblast/fresh) - 热编译工具
 - [dh-make-golang](https://github.com/Debian/dh-make-golang) - 自动构建 Debian 包
 - [pkger](https://github.com/markbates/pkger) - 将静态文件打包成 Go 二进制文件
@@ -731,6 +742,7 @@
 - [gocov](https://github.com/axw/gocov) - 测试覆盖率
 - [miniredis](https://github.com/alicebob/miniredis) - Redis 数据测试
 - [htmltest](https://github.com/wjdp/htmltest) - HTML 测试
+- [SuperMonkey](https://github.com/cch123/supermonkey) - 让私有方法可测
 
 
 ### 错误处理
@@ -747,6 +759,7 @@
 
 ### 安全
 - [Kunpeng](https://github.com/opensec-cn/kunpeng) - 开源POC检测框架
+- [nmap](https://github.com/Ullaakut/nmap) - 安全审计工具 `nmap` 开发包
 
 
 ### 系统信息
@@ -754,6 +767,7 @@
 - [cpuid](https://github.com/klauspost/cpuid) - CPU 信息
 - [gopsutil](https://github.com/shirou/gopsutil) - `ps` 功能包
 - [go-sysinfo](https://github.com/elastic/go-sysinfo) - 系统信息
+- [go-locale](https://github.com/Xuanwo/go-locale) - 跨平台语言检测库
 
 
 ### UUID
@@ -764,14 +778,16 @@
 - [snowflake](https://github.com/bwmarrin/snowflake) - Twitter snowflake IDs
 
 
-### 日志&收集
+### 日志
+- [logr](https://github.com/go-logr/logr) - 日志包标准接口
 - [Logrus](https://github.com/sirupsen/logrus) - 日志记录包
 - [zerolog](https://github.com/rs/zerolog)
 - [zap](https://github.com/uber-go/zap) - Uber 开发的日志记录包
 - [Seelog](https://github.com/cihub/seelog)
 - [logkit](https://github.com/qiniu/logkit) - 七牛开源的日志收集工具
 - [gogstash](https://github.com/tsaikd/gogstash) - 类似于 Logstash 的日志收集器
-- [lumberjack](https://github.com/natefinch/lumberjack)
+- [lumberjack](https://github.com/natefinch/lumberjack) - 日志文件切割
+- [file-rotatelogs](https://github.com/lestrrat-go/file-rotatelogs) - 日志文件切割
 - [go-syslog](https://github.com/influxdata/go-syslog) - 极速 Syslog 解析器
 
 
@@ -954,7 +970,7 @@
 - [go-lua](https://github.com/Shopify/go-lua) - A Lua VM in pure Go
 - [DCLua](https://github.com/milochristiansen/lua) - Go Lua Compiler and VM
 - [otto](https://github.com/robertkrimen/otto) - JavaScript 解释器
-- [goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation in Go
+- [goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) 实现
 - [gpython](https://github.com/go-python/gpython) - Python Interpreter on Go
 - [Grumpy](https://github.com/google/grumpy) - 转换 Python 为 Go 代码，谷歌开源
 - [starlark-go](https://github.com/google/starlark-go) - Starlark in Go
@@ -1057,10 +1073,12 @@
 - [CurlyQ](https://github.com/mcmathja/curlyq) - 后台任务处理库
 - [overtalk/task](https://github.com/overtalk/task) - 任务的管理&执行，支持自定义次数的重发
 - [PPGo_Job](https://github.com/george518/PPGo_Job) - 定时任务管理系统
+- [gocelery](https://github.com/gocelery/gocelery) - Celery 的 Go 语言实现
 
 
 ### 微信
 - [weapp](https://github.com/medivhzhan/weapp) - 微信小程序 SDK
+- [wechat](https://github.com/silenceper/wechat) - WeChat SDK for Go
 
 
 ### 区块链
@@ -1075,6 +1093,7 @@
 ### 开发辅助包
 - [**copier**](https://github.com/jinzhu/copier) - struct 之间拷贝值
 - [**cast**](https://github.com/spf13/cast) - 数据类型转换
+- [diff](https://github.com/r3labs/diff) - 结构体&值比较
 - [go-extend](https://github.com/thinkeridea/go-extend)
 - [com](https://github.com/Unknwon/com) - 工具包
 - [php2go](https://github.com/syyongx/php2go) - Go 实现的 140+ 个 PHP 函数功能包
@@ -1089,6 +1108,7 @@
 - [go-testdeep](https://github.com/maxatome/go-testdeep) - 非常灵活的深度比较包，扩展了 Go 测试包
 - [go-model](https://github.com/jeevatkm/go-model) - `struct` 操作包
 - [concurrent-map](https://github.com/orcaman/concurrent-map) - 并发安全 `map`
+- [goleak](https://github.com/uber-go/goleak) - 检测 goroutine 泄漏
 - [guregu/null](https://github.com/guregu/null) - SQL/JSON的`null`处理包，提供替代类型
 - [stats](https://github.com/montanaflynn/stats) - 标准数字统计
 
