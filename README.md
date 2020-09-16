@@ -118,7 +118,7 @@
 - [over-algorithm](https://github.com/overnote/over-algorithm) - Go 算法笔记
 - [learngo](https://github.com/inancgumus/learngo) - 1000+ Go 示例、练习和测试
 - [go-leetcode](https://github.com/austingebauer/go-leetcode) - LeetCode 实现
-
+- [leetcode-cookbook](https://books.halfrost.com/leetcode/) - LeetCode Cookbook In Go
 
 ## 指南
 - [Uber Go Style Guide](https://github.com/uber-go/guide)
