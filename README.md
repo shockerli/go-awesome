@@ -118,7 +118,9 @@
 - [over-algorithm](https://github.com/overnote/over-algorithm) - Go 算法笔记
 - [learngo](https://github.com/inancgumus/learngo) - 1000+ Go 示例、练习和测试
 - [go-leetcode](https://github.com/austingebauer/go-leetcode) - LeetCode 实现
-- [leetcode-cookbook](https://books.halfrost.com/leetcode/) - LeetCode Cookbook In Go
+- [玩转 GO](https://github.com/hantmac/Mastering_Go_ZH_CN) - 《Mastering GO》中文译本
+- [leetcode-cookbook](https://github.com/halfrost/LeetCode-Go) - LeetCode in Go
+
 
 ## 指南
 - [Uber Go Style Guide](https://github.com/uber-go/guide)
@@ -282,16 +284,10 @@
 ### 网络
 - [DNS](https://github.com/miekg/dns) - DNS 库
 - [CoreDNS](https://github.com/coredns/coredns) - DNS 服务器
-- [**Caddy**](https://github.com/mholt/caddy) - Web 服务器
 - [RoadRunner](https://github.com/spiral/roadrunner) - PHP 应用服务器、进程管理器、负载均衡，用于替代 `Nginx + FPM`
-- [Traefik](https://github.com/containous/traefik) - 反向代理&负载均衡
 - [GoReplay](https://github.com/buger/goreplay) - 流量收集&回放
 - [Sharingan](https://github.com/didi/sharingan) - 滴滴开源的流量录制回放工具
 - [p2pspider](https://github.com/fanpei91/p2pspider) - 种子嗅探器
-- [Proxy](https://github.com/snail007/goproxy) - golang 实现的高性能代理服务器
-- [ProxyPool](https://github.com/henson/proxypool) - 采集免费的代理资源为爬虫提供有效的IP代理
-- [frp](https://github.com/fatedier/frp) - 可用于内网穿透的高性能的反向代理应用
-- [nps](https://github.com/cnlh/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器
 - [torrent](https://github.com/anacrolix/torrent) - BitTorrent 相关工具库
 - [rain](https://github.com/cenkalti/rain) - BitTorrent 客户端和库
 - [httpteleport](https://github.com/valyala/httpteleport) - Teleports 10Gbps http traffic over 1Gbps networks
@@ -301,6 +297,7 @@
 - [httpstat](https://github.com/davecheney/httpstat)
 - [grab](https://github.com/cavaliercoder/grab) - 文件下载
 - [go-netty](https://github.com/go-netty/go-netty) - 网络框架
+- [gnet](https://github.com/panjf2000/gnet) - 事件驱动 Go 网络框架
 - [httplab](https://github.com/gchaincl/httplab) - The interactive web server
 - [yamux](https://github.com/hashicorp/yamux) - Multiplexer
 - [sftp](https://github.com/pkg/sftp) - SFTP support for the go.crypto/ssh package
@@ -308,6 +305,19 @@
 - [gaio](https://github.com/xtaci/gaio) - 事件驱动网络框架（proactor 模式）
 - [httpretty](https://github.com/henvic/httpretty) - 在终端上漂亮地打印出 HTTP 请求
 - [blocky](https://github.com/0xERR0R/blocky) - 作为局域网 DNS 代理拦截广告
+
+
+#### 网络代理
+- [**Caddy**](https://github.com/mholt/caddy) - 类似 Nginx 的 Web 服务器
+- [Traefik](https://github.com/containous/traefik) - 反向代理&负载均衡
+- [Proxy](https://github.com/snail007/goproxy) - golang 实现的高性能代理服务器
+- [ProxyPool](https://github.com/henson/proxypool) - 采集免费的代理资源为爬虫提供有效的IP代理
+- [frp](https://github.com/fatedier/frp) - 可用于内网穿透的高性能的反向代理应用
+- [nps](https://github.com/cnlh/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器
+- [MOSN](https://github.com/mosn/mosn) - 云原生网络代理
+
+
+#### 梯子
 - [V2Ray](https://github.com/v2ray/v2ray-core) - 科学上网工具
 - [V2Fly](https://github.com/v2fly/v2ray-core) - 科学上网工具 V2Ray 的社区版本
 
@@ -338,10 +348,11 @@
 - [neffos](https://github.com/kataras/neffos) - 一个快速且可扩展的 WebSocket 框架
 
 
-### IM/实时通信
+### 即时通信
 - [Centrifugo](https://github.com/centrifugal/centrifugo) - 实时消息服务器，可以与任何语言编写的应用程序后端结合使用
 - [goim](https://github.com/Terry-Mao/goim) - 支持集群的 im 及实时推送服务
 - [Tinode](https://github.com/tinode/chat) - 即时消息服务器，通过 websocket/JSON 或 gRPC/TCP 等协议传输
+- [WebRTC](https://github.com/pion/webrtc) - WebRTC 实现
 
 
 ### 网关
@@ -549,6 +560,7 @@
 - [go-mysql](https://github.com/siddontang/go-mysql) - MySQL 工具集
 - [SQLittle](https://github.com/alicebob/sqlittle) - 纯读取 SQLite 文件
 - [Bifrost](https://github.com/brokercap/Bifrost) - MySQL 同步到 Redis、ClickHouse 等服务的异构中间件
+- [elasticsql](https://github.com/cch123/elasticsql) - 转换 SQL 成 Elasticsearch DSL
 
 
 #### 数据库驱动
@@ -591,6 +603,7 @@
 - [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch) - Sync MySQL data into elasticsearch
 - [gse](https://github.com/go-ego/gse) - Go 语言分词
 - [sego](https://github.com/huichen/sego) - Go 中文分词
+- [gojieba](https://github.com/yanyiwu/gojieba) - "结巴"中文分词的 Go 语言版本
 - [Riot](https://github.com/go-ego/riot) - 全文搜索引擎
 - [simplefts](https://github.com/akrylysov/simplefts) - 超简单的全文搜索引擎实现
 
@@ -642,6 +655,10 @@
 - [imaginary](https://github.com/h2non/imaginary) - 图片处理服务
 - [primitive](https://github.com/fogleman/primitive) - 用原始几何图形绘制图形
 - [orly](https://github.com/nanmu42/orly) - 生成你自己的O'RLY动物书封面
+
+
+#### 图片识别
+- [go-face](https://github.com/Kagami/go-face) - 面部识别
 
 
 ### 图表
@@ -716,6 +733,7 @@
 - [GoMock](https://github.com/golang/mock) - 谷歌出品的Mock测试框架
 - [GoStub](https://github.com/prashantv/gostub)
 - [Monkey](https://github.com/bouk/monkey)
+- [SuperMonkey](https://github.com/cch123/supermonkey) - 让私有方法可测
 - [Ginkgo](https://github.com/onsi/ginkgo) - BBD 测试框架
 - [fperf](https://github.com/shafreeck/fperf) - 压测工具
 - [gocheck](https://github.com/go-check/check)
@@ -742,7 +760,6 @@
 - [gocov](https://github.com/axw/gocov) - 测试覆盖率
 - [miniredis](https://github.com/alicebob/miniredis) - Redis 数据测试
 - [htmltest](https://github.com/wjdp/htmltest) - HTML 测试
-- [SuperMonkey](https://github.com/cch123/supermonkey) - 让私有方法可测
 
 
 ### 错误处理
@@ -962,6 +979,7 @@
 ### 编译器
 - [TinyGo](https://github.com/tinygo-org/tinygo) - 一个适用于微控制器、WebAssembly 和命令行工具的 Go 编译器
 - [llir/llvm](https://github.com/llir/llvm) - LLVM 编译器
+- [jit-compiler](https://github.com/bspaans/jit-compiler) - `JIT` 编译器
 
 
 ### 解释器
@@ -1008,6 +1026,7 @@
 - [Monkey](https://github.com/skx/monkey)
 - [govaluate](https://github.com/Knetic/govaluate)
 - [Compiler](https://github.com/MauriceGit/compiler) - 将自定义语法代码编译成 X86-64 Assembly
+- [elvish](https://github.com/elves/elvish) - 交互式 Shell 语言
 
 
 ### 代码生成
@@ -1074,6 +1093,7 @@
 - [overtalk/task](https://github.com/overtalk/task) - 任务的管理&执行，支持自定义次数的重发
 - [PPGo_Job](https://github.com/george518/PPGo_Job) - 定时任务管理系统
 - [gocelery](https://github.com/gocelery/gocelery) - Celery 的 Go 语言实现
+- [Machinery](https://github.com/RichardKnop/machinery) - 通过分布式消息实现异步任务调度
 
 
 ### 微信
