@@ -43,6 +43,7 @@
 ## Awesome
 - [**GitHub Topic for Go**](https://github.com/topics/golang)
 - [**Awesome Go**](https://github.com/avelino/awesome-go)
+- [**A curated list of awesome Go frameworks, libraries and software**](https://reposhub.com/go)
 - [golang-open-source-projects](https://github.com/hackstoic/golang-open-source-projects) - 含描述的中文版 Awesome Go
 - [Awesome Go Storage](https://github.com/gostor/awesome-go-storage) - Go 存储相关开源项目
 - [awesome-go-China](https://github.com/hyper0x/awesome-go-China/blob/master/zh_CN/README.md) - 专门收集华人写的开源项目
