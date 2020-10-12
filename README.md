@@ -43,7 +43,6 @@
 ## Awesome
 - [**GitHub Topic for Go**](https://github.com/topics/golang)
 - [**Awesome Go**](https://github.com/avelino/awesome-go)
-- [**A curated list of awesome Go frameworks, libraries and software**](https://reposhub.com/go)
 - [golang-open-source-projects](https://github.com/hackstoic/golang-open-source-projects) - 含描述的中文版 Awesome Go
 - [Awesome Go Storage](https://github.com/gostor/awesome-go-storage) - Go 存储相关开源项目
 - [awesome-go-China](https://github.com/hyper0x/awesome-go-China/blob/master/zh_CN/README.md) - 专门收集华人写的开源项目
@@ -52,6 +51,7 @@
 - [go-algorithms](https://github.com/0xAX/go-algorithms) - Go 版本的数据结构和算法
 - [Go 学习之路](https://github.com/developer-learning/learning-golang) - Go 学习资料汇集
 - [Go 开发者路线图](https://github.com/Alikhll/golang-developer-roadmap)
+- [ReposHub-Go](https://reposhub.com/go)
 
 
 ## 大牛
@@ -171,6 +171,7 @@
 - [daily-warm](https://github.com/BarryYan/daily-warm) - 每天定时发邮件给你关心的人
 - [pipe](https://github.com/88250/pipe) - 博客平台
 - [mdr](https://github.com/MichaelMure/mdr) - 命令行下的 Markdown 阅读工具
+- [miniflux](https://github.com/miniflux/miniflux) - Feed 阅读器
 - [链滴笔记](https://github.com/88250/liandi) - 桌面端笔记应用
 
 
@@ -267,6 +268,7 @@
 - [go-flags](https://github.com/jessevdk/go-flags) - 命令行参数解析
 - [termdash](https://github.com/mum4k/termdash) - 基于 Go Terminal 的仪表板系统
 - [kong](https://github.com/alecthomas/kong) - 命令行解析
+- [bubbletea](https://github.com/charmbracelet/bubbletea) - TUI 框架
 
 
 ### 终端工具
@@ -288,6 +290,7 @@
 - [RoadRunner](https://github.com/spiral/roadrunner) - PHP 应用服务器、进程管理器、负载均衡，用于替代 `Nginx + FPM`
 - [GoReplay](https://github.com/buger/goreplay) - 流量收集&回放
 - [Sharingan](https://github.com/didi/sharingan) - 滴滴开源的流量录制回放工具
+- [Glorp](https://github.com/denandz/glorp) - HTTP 拦截&重放的 CLI 工具
 - [p2pspider](https://github.com/fanpei91/p2pspider) - 种子嗅探器
 - [torrent](https://github.com/anacrolix/torrent) - BitTorrent 相关工具库
 - [rain](https://github.com/cenkalti/rain) - BitTorrent 客户端和库
@@ -638,6 +641,7 @@
 - [goav](https://github.com/giorgisio/goav) - FFmpeg 视频处理
 - [lal](https://github.com/q191201771/lal) - 直播流媒体网络传输服务器
 - [bililive-go](https://github.com/hr3lxphr6j/bililive-go) - 直播录制工具
+- [screego](https://github.com/screego/server) - 通过浏览器共享开发者屏幕
 
 
 ### 图形处理
@@ -669,6 +673,7 @@
 - [globe](https://github.com/mmcloughlin/globe) - 地球线框图绘制
 - [ink](https://github.com/buchanae/ink) - Go 中的 2D 图形框架
 - [go-plantuml](https://github.com/bykof/go-plantuml) - 基于 Go 源码生成 plantuml 图
+- [go-diagrams](https://github.com/blushft/go-diagrams) - 通过代码生成图表
 
 
 ### 构建编译
@@ -709,6 +714,8 @@
 - [GoPlantUML](https://github.com/jfeliu007/goplantuml) - 为 Go 项目生成 PlantUML 类图
 - [gosize](https://github.com/bradfitz/gosize) - 分析Go二进制文件大小
 - [shotizam](https://github.com/bradfitz/shotizam) - 分析 Go 二进制文件的大小并输出到 SQLite3
+- [goconst](https://github.com/jgautheron/goconst) - 查找可以被常量替换的重复字符串
+- [sploit](https://github.com/zznop/sploit) - 帮助二进制分析和开发的库
 
 
 ### 调试
@@ -727,6 +734,7 @@
 - [debugcharts](https://github.com/mkevac/debugcharts) - Go 内存占用可视化调试工具
 - [gcvis](https://github.com/davecheney/gcvis) - 实时可视化 gctrace
 - [pkg/profile](https://github.com/pkg/profile)
+- [statsviz](https://github.com/arl/statsviz) - 在浏览器中实时查看 Go 应用程序运行时统计信息（GC，MemStats 等）
 
 
 ### 测试
@@ -761,6 +769,7 @@
 - [gocov](https://github.com/axw/gocov) - 测试覆盖率
 - [miniredis](https://github.com/alicebob/miniredis) - Redis 数据测试
 - [htmltest](https://github.com/wjdp/htmltest) - HTML 测试
+- [gnomock](https://github.com/orlangure/gnomock) - 无需 mock 的 Go 代码测试框架
 
 
 ### 错误处理
@@ -778,6 +787,7 @@
 ### 安全
 - [Kunpeng](https://github.com/opensec-cn/kunpeng) - 开源POC检测框架
 - [nmap](https://github.com/Ullaakut/nmap) - 安全审计工具 `nmap` 开发包
+- [Hetty](https://github.com/dstotijn/hetty) - 用于安全研究的 HTTP 工具包，具有 Web 接口和代理日志查看器的拦截 HTTP 代理
 
 
 ### 系统信息
@@ -887,6 +897,7 @@
 
 ### 依赖注入
 - [Wire](https://github.com/google/wire)
+- [go-autowire](https://github.com/Just-maple/go-autowire) - 使用注解自动生成 [wire](https://github.com/google/wire) 依赖注入文件
 - [dig](https://github.com/uber-go/dig)
 - [Fx](https://github.com/uber-go/fx)
 
@@ -913,7 +924,8 @@
 - [Gopm](https://github.com/gpmgo/gopm) - Go 包管理工具
 - [govendor](https://github.com/kardianos/govendor) - Vendor 包管理工具
 - [gom](https://github.com/mattn/gom) - 包版本管理工具
-- [goup](https://github.com/rvflash/goup) - 检查包版本是否有更新
+- [rvflash/goup](https://github.com/rvflash/goup) - 检查包版本是否有更新
+- [owenthereal/goup](https://github.com/owenthereal/goup) - Go 多版本管理
 
 
 ### 微服务
@@ -965,6 +977,7 @@
 - [chglog](https://github.com/goreleaser/chglog) - `CHANGELOG` 管理工具
 - [lazyhub](https://github.com/ryo-ma/lazyhub) - GitHub 的终端 UI 客户端
 - [goaction](https://github.com/posener/goaction) - 在 Go 中编写 GitHub Action
+- [bit](https://github.com/chriswalz/bit) - Git 命令增强版，支持文件和分支名称自动完成、命令和标志建议
 
 
 ### 限流器
@@ -1105,6 +1118,7 @@
 ### 区块链
 - [Hyperledger Fabric](https://github.com/hyperledger/fabric) - 基于区块链的超级账本
 - [go-ethereum](https://github.com/ethereum/go-ethereum) - 以太坊协议的官方 Go 语言实现
+- [bbgo](https://github.com/c9s/bbgo) - 用 Go 编写的加密货币交易框架
 
 
 ### 协程池
