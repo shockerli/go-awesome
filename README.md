@@ -319,6 +319,7 @@
 - [frp](https://github.com/fatedier/frp) - 可用于内网穿透的高性能的反向代理应用
 - [nps](https://github.com/cnlh/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器
 - [MOSN](https://github.com/mosn/mosn) - 云原生网络代理
+- [Pomerium](https://github.com/pomerium/pomerium) - 基于身份的反向代理
 
 
 #### 梯子
@@ -473,6 +474,7 @@
 - [html2article](https://github.com/sundy-li/html2article) - 基于文本密度的 html2article 实现
 - [hostctl](https://github.com/guumaster/hostctl) - `hosts` 命令行管理工具
 - [go-shellwords](https://github.com/mattn/go-shellwords) - 解析命令行中字段
+- [woke](https://github.com/get-woke/woke) - 检查文本文件中是否存在歧视词汇
 
 
 ### 文档
@@ -939,6 +941,7 @@
 - [Go Micro](https://github.com/micro/go-micro) - 微服务框架
 - [Kite](https://github.com/koding/kite)
 - [Kratos](https://github.com/bilibili/kratos) - B站开源的微服务框架
+- [Temporal](https://github.com/temporalio/temporal) - 微服务编排平台
 
 
 ### Serverless
@@ -1003,6 +1006,7 @@
 - [DCLua](https://github.com/milochristiansen/lua) - Go Lua Compiler and VM
 - [otto](https://github.com/robertkrimen/otto) - JavaScript 解释器
 - [goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) 实现
+- [v8go](https://github.com/rogchap/v8go) - Execute JavaScript from Go
 - [gpython](https://github.com/go-python/gpython) - Python Interpreter on Go
 - [Grumpy](https://github.com/google/grumpy) - 转换 Python 为 Go 代码，谷歌开源
 - [starlark-go](https://github.com/google/starlark-go) - Starlark in Go
