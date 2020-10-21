@@ -49,7 +49,7 @@
 - [Go Patterns](https://github.com/tmrts/go-patterns) - Go 版本的设计模式
 - [sevenelevenlee/go-patterns](https://github.com/sevenelevenlee/go-patterns) - 设计模式
 - [go-algorithms](https://github.com/0xAX/go-algorithms) - Go 版本的数据结构和算法
-- [Go 学习之路](https://github.com/developer-learning/learning-golang) - Go 学习资料汇集
+- [Go 学习之路](https://github.com/talkgo/read) - Go 学习资料汇集
 - [Go 开发者路线图](https://github.com/Alikhll/golang-developer-roadmap)
 - [ReposHub-Go](https://reposhub.com/go)
 
@@ -381,6 +381,7 @@
 - [rpcx](https://github.com/smallnest/rpcx)
 - [Twirp](https://github.com/twitchtv/twirp) - 基于 Protobuf 的 RPC 框架，与 gRPC 类似
 - [lile](https://github.com/lileio/lile) - gRPC 服务生成工具
+- [dubbo-go](https://github.com/apache/dubbo-go)
 
 
 ### 邮件
@@ -532,7 +533,8 @@
 
 #### 数据库相关
 - [usql](https://github.com/xo/usql) - 几乎支持全部 SQL 与 NoSQL 数据库的命令行工具
-- [GORM](https://github.com/jinzhu/gorm)
+- [GORM](https://github.com/go-gorm/gorm) - GORM V2
+    + [GORM V1](https://github.com/jinzhu/gorm)
     + [gorm2sql](https://github.com/liudanking/gorm2sql) - 根据 Model Struct 生成建表语句
 - [Xorm](https://gitea.com/xorm/xorm)
 - [XormPlus](https://github.com/xormplus/xorm) - Xorm 的定制增强版本
@@ -559,6 +561,7 @@
 - [goose](https://github.com/pressly/goose) - 数据库迁移工具
 - [migrate](https://github.com/golang-migrate/migrate) - 数据库迁移工具
 - [**ent**](https://github.com/facebook/ent) - An Entity Framework For Go
+- [pingcap/parser](https://github.com/pingcap/parser) - 兼容 MySQL 的 SQL 解析
 - [xsqlparser](https://github.com/akito0107/xsqlparser) - SQL 解析
 - [sqlparser](https://github.com/xwb1989/sqlparser) - SQL 解析
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
@@ -600,6 +603,7 @@
 - [groupcache](https://github.com/golang/groupcache) - 分布式缓存
 - [Tile38](https://github.com/tidwall/tile38) - GEO 数据库
 - [Redcon](https://github.com/tidwall/redcon) - 兼容 Redis 协议的自定义 Redis 服务，采用 BuntDB 和 Tile38 实现存储
+- [genji](https://github.com/genjidb/genji) - 文档内嵌型数据库
 
 
 ### 搜索
