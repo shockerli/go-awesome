@@ -269,6 +269,7 @@
 - [termdash](https://github.com/mum4k/termdash) - 基于 Go Terminal 的仪表板系统
 - [kong](https://github.com/alecthomas/kong) - 命令行解析
 - [bubbletea](https://github.com/charmbracelet/bubbletea) - TUI 框架
+- [pty](https://github.com/creack/pty) - PTY for Go
 
 
 ### 终端工具
@@ -309,6 +310,7 @@
 - [gaio](https://github.com/xtaci/gaio) - 事件驱动网络框架（proactor 模式）
 - [httpretty](https://github.com/henvic/httpretty) - 在终端上漂亮地打印出 HTTP 请求
 - [blocky](https://github.com/0xERR0R/blocky) - 作为局域网 DNS 代理拦截广告
+- [lossy](https://github.com/cevatbarisyilmaz/lossy) - 模拟 net.PacketConn 和 net.Conn 接口的带宽，延迟和数据包丢失
 
 
 #### 网络代理
@@ -476,6 +478,8 @@
 - [hostctl](https://github.com/guumaster/hostctl) - `hosts` 命令行管理工具
 - [go-shellwords](https://github.com/mattn/go-shellwords) - 解析命令行中字段
 - [woke](https://github.com/get-woke/woke) - 检查文本文件中是否存在歧视词汇
+- [go-password-validator](https://github.com/lane-c-wagner/go-password-validator) - 密码强度校验器
+- [xurls](https://github.com/mvdan/xurls) - 从文本中提取 URL
 
 
 ### 文档
@@ -875,6 +879,7 @@
 - [GoDS](https://github.com/emirpasic/gods) - Go 实现了多种数据结构
 - [Dragonboat](https://github.com/lni/dragonboat) - 多组 Raft 共识算法库
 - [eliben/raft](https://github.com/eliben/raft) - Raft 算法
+- [hashicorp/raft](https://github.com/hashicorp/raft) - Raft 算法
 - [golang-lru](https://github.com/hashicorp/golang-lru) - LRU 算法实现
 - [tinylru](https://github.com/tidwall/tinylru)
 - [finn](https://github.com/tidwall/finn) - Fast **Raft** framework using the Redis protocol for Go
@@ -995,6 +1000,7 @@
 - [Circuit](https://github.com/cep21/circuit) - 熔断器
 - [uber-go/ratelimit](https://github.com/uber-go/ratelimit)
 - [Sentinel](https://github.com/sentinel-group/sentinel-golang) - 阿里巴巴开源的面向分布式服务架构的流量控制组件 Go 语言版本
+- [gohalt](https://github.com/1pkg/gohalt) - 限流
 
 
 ### 编译器
@@ -1106,6 +1112,13 @@
 - [golang/mobile](https://github.com/golang/mobile) - Go support for Mobile devices
 
 
+### 协程管理
+- [ants](https://github.com/panjf2000/ants) - goroutine 池
+- [tunny](https://github.com/Jeffail/tunny)
+- [go-workers](https://github.com/catmullet/go-workers) - 安全地并发运行一组 worker，通过 channel 进行输入输出
+- [Machine](https://github.com/autom8ter/machine) - 受 errgroup.Group 启发的协程管理
+
+
 ### 任务/定时器
 - [Grift](https://github.com/markbates/grift) - Go based task runner
 - [cron](https://github.com/robfig/cron) - a cron library for go
@@ -1116,6 +1129,7 @@
 - [PPGo_Job](https://github.com/george518/PPGo_Job) - 定时任务管理系统
 - [gocelery](https://github.com/gocelery/gocelery) - Celery 的 Go 语言实现
 - [Machinery](https://github.com/RichardKnop/machinery) - 通过分布式消息实现异步任务调度
+- [benthos](https://github.com/Jeffail/benthos) - 普通任务的流处理器
 
 
 ### 微信
@@ -1127,10 +1141,6 @@
 - [Hyperledger Fabric](https://github.com/hyperledger/fabric) - 基于区块链的超级账本
 - [go-ethereum](https://github.com/ethereum/go-ethereum) - 以太坊协议的官方 Go 语言实现
 - [bbgo](https://github.com/c9s/bbgo) - 用 Go 编写的加密货币交易框架
-
-
-### 协程池
-- [tunny](https://github.com/Jeffail/tunny)
 
 
 ### 开发辅助包
@@ -1146,6 +1156,7 @@
 - [naza](https://github.com/q191201771/naza) - Go语言基础库
 - [automaxprocs](https://github.com/uber-go/automaxprocs) - 自动设置 `GOMAXPROCS`
 - [c2go](https://github.com/elliotchance/c2go) - 将 C 代码转换为 Go 代码的工具
+- [rnm](https://github.com/raviqqe/rnm) - 代码重构辅助工具
 - [memviz](https://github.com/bradleyjkemp/memviz) - 图形化数据结构
 - [underscore.go](https://github.com/ahl5esoft/golang-underscore)
 - [go-testdeep](https://github.com/maxatome/go-testdeep) - 非常灵活的深度比较包，扩展了 Go 测试包
@@ -1184,7 +1195,6 @@
 - [CRDT](https://github.com/neurodrone/crdt) - CRDT(Convergent and Commutative Replicated Data Types)最终一致性算法的实现
 - [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
 - [sysadmin-utils](https://github.com/skx/sysadmin-util)
-- [ants](https://github.com/panjf2000/ants) - goroutine 池
 - [licenseclassifier](https://github.com/google/licenseclassifier) - 识别文件中的 license 类型
 - [rose](https://gitlab.com/DevelopmentDuck/rose) - 在 HTML 中嵌入和运行 Go 代码
 - [esbuild](https://github.com/evanw/esbuild) - JavaScript 构建打包工具
