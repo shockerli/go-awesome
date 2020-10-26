@@ -48,6 +48,7 @@
 - [awesome-go-China](https://github.com/hyper0x/awesome-go-China/blob/master/zh_CN/README.md) - 专门收集华人写的开源项目
 - [Go Patterns](https://github.com/tmrts/go-patterns) - Go 版本的设计模式
 - [sevenelevenlee/go-patterns](https://github.com/sevenelevenlee/go-patterns) - 设计模式
+- [GoF 设计模式](https://github.com/qiualiang/gof)
 - [go-algorithms](https://github.com/0xAX/go-algorithms) - Go 版本的数据结构和算法
 - [Go 学习之路](https://github.com/talkgo/read) - Go 学习资料汇集
 - [Go 开发者路线图](https://github.com/Alikhll/golang-developer-roadmap)
@@ -160,8 +161,6 @@
 
 ## 成品项目
 - [studygolang](https://github.com/studygolang/studygolang) - Go 语言中文网
-- [Hugo](https://github.com/gohugoio/hugo) - 静态网站生成器
-- [jrnl](https://github.com/andrewpillar/jrnl) - 静态网站生成器
 - [mkcert](https://github.com/FiloSottile/mkcert) - 生成本地 HTTPS 加密证书的工具
 - [Rainbond](https://github.com/goodrain/rainbond) - 基于Docker、Kubernetes等容器技术的开源PaaS
 - [**NYADB2**](https://github.com/qw4990/NYADB2) - Go 实现的关系型数据库, 值得用于学习
@@ -173,6 +172,14 @@
 - [mdr](https://github.com/MichaelMure/mdr) - 命令行下的 Markdown 阅读工具
 - [miniflux](https://github.com/miniflux/miniflux) - Feed 阅读器
 - [链滴笔记](https://github.com/88250/liandi) - 桌面端笔记应用
+- [wayback](https://github.com/wabarc/wayback) - 网页快照备份
+
+
+### 静态网站生成器
+- [Hugo](https://github.com/gohugoio/hugo)
+- [jrnl](https://github.com/andrewpillar/jrnl)
+- [plenti](https://github.com/plentico/plenti)
+- [verless](https://github.com/verless/verless)
 
 
 ## 学习项目
@@ -270,6 +277,7 @@
 - [kong](https://github.com/alecthomas/kong) - 命令行解析
 - [bubbletea](https://github.com/charmbracelet/bubbletea) - TUI 框架
 - [pty](https://github.com/creack/pty) - PTY for Go
+- [vtclean](https://github.com/lunixbochs/vtclean) - 从终端输出字符串中解析出纯文本
 
 
 ### 终端工具
@@ -311,6 +319,9 @@
 - [httpretty](https://github.com/henvic/httpretty) - 在终端上漂亮地打印出 HTTP 请求
 - [blocky](https://github.com/0xERR0R/blocky) - 作为局域网 DNS 代理拦截广告
 - [lossy](https://github.com/cevatbarisyilmaz/lossy) - 模拟 net.PacketConn 和 net.Conn 接口的带宽，延迟和数据包丢失
+- [go-libp2p](https://github.com/libp2p/go-libp2p) - P2P
+- [go-ipfs-api](https://github.com/ipfs/go-ipfs-api) - IPFS
+- [go-multiaddr](https://github.com/multiformats/go-multiaddr) - multiaddr
 
 
 #### 网络代理
@@ -447,10 +458,17 @@
 - [glamour](https://github.com/charmbracelet/glamour) - 命令行下渲染 Markdown
 - [go-md2man](https://github.com/cpuguy83/go-md2man) - 转换 Markdown 为 man 手册内容
 
+
+#### HTML
+- [DOM](https://github.com/go-shiori/dom) - HTML DOM 节点操作
+- [obelisk](https://github.com/go-shiori/obelisk) - 保存 Web 网页为 HTML 单页面
+- [html2text](https://github.com/jaytaylor/html2text) - HTML 转 text
+- [go-readability](https://github.com/go-shiori/go-readability) - 让 HTML 可读性更高
+
+
 #### 其他
 - [go-runewidth](https://github.com/mattn/go-runewidth) - 字符长度计算
 - [gpy](https://github.com/go-ego/gpy) - Go 语言汉字转拼音工具
-- [html2text](https://github.com/jaytaylor/html2text) - HTML 转 text
 - [go-hashids](https://github.com/speps/go-hashids) - hashids 的 Go 版本
 - [go-pinyin](https://github.com/mozillazg/go-pinyin) - 汉语拼音转换工具 Go 版
 - [mahonia](https://github.com/axgle/mahonia) - 字符集编码转换
@@ -471,6 +489,7 @@
 - [etree](https://github.com/beevik/etree) - XML 解析&生成
 - [feeds](https://github.com/gorilla/feeds) - RSS 内容生成
 - [gofeed](https://github.com/mmcdole/gofeed) - RSS & Atom feeds 内容解析
+- [sitemap](https://github.com/kataras/sitemap) - sitemap.xml 生成
 - [gogrep](https://github.com/mvdan/gogrep) - 通过语法树搜索 Go 源码
 - [PipeIt](https://github.com/AllenDang/PipeIt) - 文本转换，清理和提取工具
 - [regexp2](https://github.com/dlclark/regexp2) - 全功能正则表达式引擎。如果标准库的 regexp 满足不了你，可以尝试使用 regexp2
@@ -1135,12 +1154,14 @@
 ### 微信
 - [weapp](https://github.com/medivhzhan/weapp) - 微信小程序 SDK
 - [wechat](https://github.com/silenceper/wechat) - WeChat SDK for Go
+- [wechat-go](https://github.com/songtianyi/wechat-go) - 微信 Web 版 API 的 Go 实现
 
 
 ### 区块链
 - [Hyperledger Fabric](https://github.com/hyperledger/fabric) - 基于区块链的超级账本
 - [go-ethereum](https://github.com/ethereum/go-ethereum) - 以太坊协议的官方 Go 语言实现
 - [bbgo](https://github.com/c9s/bbgo) - 用 Go 编写的加密货币交易框架
+- [btcd](https://github.com/btcsuite/btcd) - 比特币实现
 
 
 ### 开发辅助包
@@ -1165,6 +1186,7 @@
 - [goleak](https://github.com/uber-go/goleak) - 检测 goroutine 泄漏
 - [guregu/null](https://github.com/guregu/null) - SQL/JSON的`null`处理包，提供替代类型
 - [stats](https://github.com/montanaflynn/stats) - 标准数字统计
+- [Chronos](https://github.com/amit-davidson/Chronos) - 静态竞争检测器
 
 
 ### 代码生成
@@ -1190,7 +1212,6 @@
 - [go-semver](github.com/coreos/go-semver) - 语义版本
 - [Metabolize](https://github.com/keighl/metabolize) - Decodes HTML meta tags into a Golang struct
 - [otp](https://github.com/pquerna/otp) - 一次性密码工具包(One Time Password utilities)
-- [wechat-go](https://github.com/songtianyi/wechat-go) - 微信 Web 版 API 的 Go 实现
 - [misspell](https://github.com/client9/misspell) - 常拼写错误的英语单词
 - [CRDT](https://github.com/neurodrone/crdt) - CRDT(Convergent and Commutative Replicated Data Types)最终一致性算法的实现
 - [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
