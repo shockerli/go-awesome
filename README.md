@@ -49,6 +49,7 @@
 - [Go Patterns](https://github.com/tmrts/go-patterns) - Go 版本的设计模式
 - [sevenelevenlee/go-patterns](https://github.com/sevenelevenlee/go-patterns) - 设计模式
 - [GoF 设计模式](https://github.com/qiualiang/gof)
+- [greyireland/algorithm-pattern](https://github.com/greyireland/algorithm-pattern) - 算法模板
 - [go-algorithms](https://github.com/0xAX/go-algorithms) - Go 版本的数据结构和算法
 - [Go 学习之路](https://github.com/talkgo/read) - Go 学习资料汇集
 - [Go 开发者路线图](https://github.com/Alikhll/golang-developer-roadmap)
@@ -608,6 +609,7 @@
 - [etcd](https://github.com/etcd-io/etcd) - KV 分布式存储
 - [InfluxDB](https://github.com/influxdata/influxdb) - 时间序列数据库
 - [Prometheus](https://github.com/prometheus/prometheus) - 服务监控系统 & 时间序列数据库
+- [Thanos](https://github.com/thanos-io/thanos) - 支持 Prometheus 简化部署、高可用、分布式存储
 - [CockroachDB](https://github.com/cockroachdb/cockroach) - SQL database
 - [Cayley](https://github.com/cayleygraph/cayley) - 图数据库
 - [RadonDB](https://github.com/radondb/radon) - 基于 MySQL 研发的新一代分布式关系型数据库
@@ -651,6 +653,7 @@
 - [Casbin](https://github.com/casbin/casbin) - 权限控制管理
 - [pam-ussh](https://github.com/uber/pam-ussh) - Uber's SSH certificate pam module
 - [jwt-go](https://github.com/dgrijalva/jwt-go) - JWT for Go
+- [jwt](https://github.com/kataras/jwt) - JWT 轻量级实现
 - [sessions](https://github.com/gorilla/sessions) - 后端 SESSION 服务
 - [securecookie](https://github.com/gorilla/securecookie) - cookie 加密/解密
 - [Goth](https://github.com/markbates/goth) - Multi-Provider Authentication for Go
@@ -799,6 +802,7 @@
 - [miniredis](https://github.com/alicebob/miniredis) - Redis 数据测试
 - [htmltest](https://github.com/wjdp/htmltest) - HTML 测试
 - [gnomock](https://github.com/orlangure/gnomock) - 无需 mock 的 Go 代码测试框架
+- [gunit](https://github.com/smartystreets/gunit) - xUnit 风格测试框架
 
 
 ### 错误处理
@@ -1221,6 +1225,7 @@
 - [esbuild](https://github.com/evanw/esbuild) - JavaScript 构建打包工具
 - [clipboard](https://github.com/d-tsuji/clipboard) - 跨平台的粘贴板实现
 - [Timeliner](https://github.com/mholt/timeliner) - 搜集整理个人在社交网站上的数据并索引成时间线
+- [hc](https://github.com/brutella/hc) - `HomeKit` 平台开发框架
 
 
 ## logo
