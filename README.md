@@ -218,7 +218,7 @@
 
 ### 业务框架
 - [GoAdminGroup/go-admin](https://github.com/GoAdminGroup/go-admin) - 后台管理快速开发框架，与 laravel-admin 类似
-- [wenjianzhang/go-admin](https://github.com/wenjianzhang/go-admin) - 基于 Gin + Vue 实现的后台框架
+- [wenjianzhang/go-admin](https://github.com/go-admin-team/go-admin) - 基于 Gin + Vue 实现的后台框架
 - [gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin) - 基于 Gin + Vue 实现的后台框架
 - [goxygen](https://github.com/Shpota/goxygen) - 基于 Go, React, MongoDB 技术实现的全栈应用生成器
 - [nging](https://github.com/admpub/nging) - Go语言通用后台管理框架
@@ -334,11 +334,8 @@
 - [nps](https://github.com/cnlh/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器
 - [MOSN](https://github.com/mosn/mosn) - 云原生网络代理
 - [Pomerium](https://github.com/pomerium/pomerium) - 基于身份的反向代理
-
-
-#### 梯子
-- [V2Ray](https://github.com/v2ray/v2ray-core) - 科学上网工具
-- [V2Fly](https://github.com/v2fly/v2ray-core) - 科学上网工具 V2Ray 的社区版本
+- [V2Ray](https://github.com/v2ray/v2ray-core)
+- [V2Fly](https://github.com/v2fly/v2ray-core) - V2Ray 的社区版本
 
 
 ### HTTP压测
@@ -356,6 +353,7 @@
 - [goz](https://github.com/idoubi/goz)
 - [UserAgent](https://github.com/mssola/user_agent) - 解析 HTTP User Agent
 - [purell](https://github.com/PuerkitoBio/purell) - URL 规范工具包
+- [go-autorest](https://github.com/Azure/go-autorest) - HTTP 管道请求方式的客户端
 
 
 ### WebSocket
@@ -588,6 +586,7 @@
 - [pingcap/parser](https://github.com/pingcap/parser) - 兼容 MySQL 的 SQL 解析
 - [xsqlparser](https://github.com/akito0107/xsqlparser) - SQL 解析
 - [sqlparser](https://github.com/xwb1989/sqlparser) - SQL 解析
+- [vitess-sqlparser](https://github.com/blastrain/vitess-sqlparser) - SQL 解析
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
 - [go-nulltype](https://github.com/mattn/go-nulltype)
 - [go-mysql](https://github.com/siddontang/go-mysql) - MySQL 工具集
@@ -684,6 +683,7 @@
 - [Caire](https://github.com/esimov/caire) - 图片操作库
 - [Imaging](https://github.com/disintegration/imaging) - 图片操作库
 - [gocaptcha](https://github.com/lifei6671/gocaptcha) - 验证码生成
+- [base64Captcha](https://github.com/mojocn/base64Captcha) - 验证码
 - [go-is-svg](https://github.com/h2non/go-is-svg) - 校验是否为 SVG 图片
 - [identicon](https://github.com/issue9/identicon) - 根据用户的 IP 、邮箱名等任意数据为用户产生漂亮的随机头像
 - [prominentcolor](https://github.com/EdlinOrg/prominentcolor) - 识别图片的主要颜色
@@ -829,6 +829,7 @@
 - [gopsutil](https://github.com/shirou/gopsutil) - `ps` 功能包
 - [go-sysinfo](https://github.com/elastic/go-sysinfo) - 系统信息
 - [go-locale](https://github.com/Xuanwo/go-locale) - 跨平台语言检测库
+- [go-ps](https://github.com/mitchellh/go-ps) - 系统进程信息
 
 
 ### UUID
@@ -974,6 +975,7 @@
 - [Kite](https://github.com/koding/kite)
 - [Kratos](https://github.com/bilibili/kratos) - B站开源的微服务框架
 - [Temporal](https://github.com/temporalio/temporal) - 微服务编排平台
+- [Serf](https://github.com/hashicorp/serf) - 服务编排管理平台
 
 
 ### Serverless
@@ -1177,7 +1179,7 @@
 - [php2go](https://github.com/syyongx/php2go) - Go 实现的 140+ 个 PHP 函数功能包
 - [gommon](https://github.com/labstack/gommon) - Common packages for Go
 - [**reflect2**](https://github.com/modern-go/reflect2) - reflect api without runtime reflect.Value cost
-- [mapstructure](https://github.com/mitchellh/mapstructure) - Go library for decoding generic map values into native Go structures
+- [mapstructure](https://github.com/mitchellh/mapstructure) - 将 map 值转换到结构体中
 - [naza](https://github.com/q191201771/naza) - Go语言基础库
 - [automaxprocs](https://github.com/uber-go/automaxprocs) - 自动设置 `GOMAXPROCS`
 - [c2go](https://github.com/elliotchance/c2go) - 将 C 代码转换为 Go 代码的工具
@@ -1203,6 +1205,7 @@
 
 ### 系统开发
 - [LinuxKit](https://github.com/linuxkit/linuxkit) - 为容器构建安全、便携、可移植操作系统的工具包
+- [go-systemd](https://github.com/coreos/go-systemd) - 绑定 systemd
 
 
 ### 未归类
