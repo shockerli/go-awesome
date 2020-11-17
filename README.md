@@ -108,7 +108,7 @@
 - [Ultimate Go](https://github.com/hoanhan101/ultimate-go) - 终极 Go 学习指南，包含大量文档化的代码和程序分析
 - [Go 教程](https://cloud.tencent.com/developer/doc/1101) - 腾讯云开发者手册
 - [Golang 开发笔记](https://github.com/guyan0319/golang_development_notes/blob/master/zh/preface.md)
-- [golang-notes](https://github.com/cch123/golang-notes)
+- [golang-notes](https://github.com/cch123/golang-notes) - Go 源码阅读笔记
 - [The Little Go Book](https://github.com/karlseguin/the-little-go-book) [（中文版）](https://github.com/songleo/the-little-go-book_ZH_CN)
 - [Learning Go — from zero to hero](https://www.freecodecamp.org/news/learning-go-from-zero-to-hero-d2a3223b3d86/)
 - [go-internals](https://github.com/teh-cmc/go-internals) - 深入理解 Go
@@ -248,35 +248,41 @@
 
 
 ### 命令行
+#### 参数解析
 - [urfave/cli](https://github.com/urfave/cli) - 命令行程序构建工具
 - [**Cobra**](https://github.com/spf13/cobra) - 命令行构建包
+- [flaggy](https://github.com/integrii/flaggy) - 命令参数解析
+- [pflag](https://github.com/spf13/pflag) - 命令行参数处理
+- [kong](https://github.com/alecthomas/kong) - 命令行解析
+- [clop](https://github.com/guonaihong/clop) - 命令行解析包
+- [go-flags](https://github.com/jessevdk/go-flags) - 命令行参数解析
+
+#### 输出展示
 - [progressbar](https://github.com/schollz/progressbar) - 在终端上输出进度条
 - [cheggaaa/pb](https://github.com/cheggaaa/pb) - 终端进度条
 - [mpb](https://github.com/vbauerster/mpb) - 支持多个进度条
 - [Color](https://github.com/fatih/color) - 命令行文字颜色
 - [termui](https://github.com/gizak/termui) - 终端仪表盘
-- [gosu](https://github.com/tianon/gosu) - 以指定的用户权限来运行脚本
 - [tui](https://github.com/marcusolsson/tui-go) - 终端 UI
-- [gotop](https://github.com/cjbassi/gotop) - 类 top 系统监控显示
-- [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for Windows
-- [go-isatty](https://github.com/mattn/go-isatty) - TTY 环境判断
-- [fzf](https://github.com/junegunn/fzf) - 命令行下的文件 Finder
-- [flaggy](https://github.com/integrii/flaggy) - 命令参数解析
-- [go-daemon](https://github.com/sevlyar/go-daemon) - daemon 进程包
-- [pflag](https://github.com/spf13/pflag) - 命令行参数处理
-- [PIXterm](https://github.com/eliukblau/pixterm) - 在命令行终端中绘图
-- [WTF](https://github.com/wtfutil/wtf) - 一个命令行的信息仪表盘，可以定制显示内容
-- [go-prompt](https://github.com/c-bata/go-prompt) - 命令行交互式输入
-- [peco](https://github.com/peco/peco) - 交互式过滤工具
 - [termenv](https://github.com/muesli/termenv) - 终端应用程序的高级 ANSI 样式和颜色支持
 - [asciigraph](https://github.com/guptarohit/asciigraph) - 在终端中绘制 ASCII 字符的图表
 - [spinner](https://github.com/briandowns/spinner) - 涵盖70多种符号或进度条的控制器
 - [tablewriter](https://github.com/olekukonko/tablewriter) - 终端中输出表格内容
-- [clop](https://github.com/guonaihong/clop) - 命令行解析包
-- [go-flags](https://github.com/jessevdk/go-flags) - 命令行参数解析
+- [PIXterm](https://github.com/eliukblau/pixterm) - 在命令行终端中绘图
+- [WTF](https://github.com/wtfutil/wtf) - 一个命令行的信息仪表盘，可以定制显示内容
 - [termdash](https://github.com/mum4k/termdash) - 基于 Go Terminal 的仪表板系统
-- [kong](https://github.com/alecthomas/kong) - 命令行解析
 - [bubbletea](https://github.com/charmbracelet/bubbletea) - TUI 框架
+- [PTerm](https://github.com/pterm/pterm) - 支持图表、表格、进度条、树等终端输出展示
+
+#### 其他
+- [gosu](https://github.com/tianon/gosu) - 以指定的用户权限来运行脚本
+- [gotop](https://github.com/cjbassi/gotop) - 类 top 系统监控显示
+- [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for Windows
+- [go-isatty](https://github.com/mattn/go-isatty) - TTY 环境判断
+- [fzf](https://github.com/junegunn/fzf) - 命令行下的文件 Finder
+- [go-daemon](https://github.com/sevlyar/go-daemon) - daemon 进程包
+- [go-prompt](https://github.com/c-bata/go-prompt) - 命令行交互式输入
+- [peco](https://github.com/peco/peco) - 交互式过滤工具
 - [pty](https://github.com/creack/pty) - PTY for Go
 - [vtclean](https://github.com/lunixbochs/vtclean) - 从终端输出字符串中解析出纯文本
 
@@ -748,6 +754,8 @@
 - [shotizam](https://github.com/bradfitz/shotizam) - 分析 Go 二进制文件的大小并输出到 SQLite3
 - [goconst](https://github.com/jgautheron/goconst) - 查找可以被常量替换的重复字符串
 - [sploit](https://github.com/zznop/sploit) - 帮助二进制分析和开发的库
+- [perf](https://github.com/hodgesds/perf-utils) - Perf Utilities for Go
+- [fgprof](https://github.com/felixge/fgprof) - Go 性能分析工具
 
 
 ### 调试
@@ -815,6 +823,8 @@
 - [juju/errors](https://github.com/juju/errors)
 - [go-fault](https://github.com/github/go-fault) - GitHub 官方出品，基于标准库 http 中间件的故障注入库
 - [merry](https://github.com/ansel1/merry) - 支持堆栈、状态码的错误处理
+- [cockroachdb/errors](https://github.com/cockroachdb/errors) - Go errors with network portability
+- [go-multierror](https://github.com/hashicorp/go-multierror) - 支持错误列表
 
 
 ### 安全
@@ -897,6 +907,7 @@
 - [Gobot](https://github.com/hybridgroup/gobot) - 机器人和物理计算语言库
 - [Olivia](https://github.com/olivia-ai/olivia) - 神经网络
 - [Pico](https://github.com/esimov/pigo) - 基于像素强度比较的物体检测纸张的纯 Go 脸部检测库
+- [tfgo](https://github.com/galeone/tfgo) - Tensorflow in Go
 
 
 ### 算法
@@ -914,6 +925,7 @@
 - [basalt](https://github.com/rpcxio/basalt) - 高性能的分布式的专门空间优化的 Bitmap 服务, 杜绝 Bloomfilter 和 CuckooFilter 的误判
 - [go-blurhash](https://github.com/buckket/go-blurhash) - BlurHash，是模糊图片的一种哈希算法
 - [xxhash](https://github.com/cespare/xxhash) - xxHash 哈希算法实现
+- [go-multihash](https://github.com/multiformats/go-multihash) - 各种 Hash 算法实现
 
 
 ### 数据结构
@@ -1030,11 +1042,13 @@
 
 ### 编译器
 - [TinyGo](https://github.com/tinygo-org/tinygo) - 一个适用于微控制器、WebAssembly 和命令行工具的 Go 编译器
+- [minigo](https://github.com/DQNEO/minigo) - A Go compiler from scratch
 - [llir/llvm](https://github.com/llir/llvm) - LLVM 编译器
 - [jit-compiler](https://github.com/bspaans/jit-compiler) - `JIT` 编译器
 
 
 ### 解释器
+#### 语言解释器
 - [**participle**](https://github.com/alecthomas/participle) - 通用的自定义语法解析包
 - [GopherLua](https://github.com/yuin/gopher-lua) - VM and compiler for Lua in Go
 - [go-lua](https://github.com/Shopify/go-lua) - A Lua VM in pure Go
@@ -1080,6 +1094,7 @@
 - [govaluate](https://github.com/Knetic/govaluate)
 - [Compiler](https://github.com/MauriceGit/compiler) - 将自定义语法代码编译成 X86-64 Assembly
 - [elvish](https://github.com/elves/elvish) - 交互式 Shell 语言
+- [QLBridge](https://github.com/araddon/qlbridge) - Go SQL Runtime Engine
 
 
 ### 代码生成
@@ -1193,6 +1208,7 @@
 - [guregu/null](https://github.com/guregu/null) - SQL/JSON的`null`处理包，提供替代类型
 - [stats](https://github.com/montanaflynn/stats) - 标准数字统计
 - [Chronos](https://github.com/amit-davidson/Chronos) - 静态竞争检测器
+- [collection](https://github.com/jianfengye/collection) - 替代原生的 Slice
 
 
 ### 代码生成
