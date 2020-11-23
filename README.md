@@ -1,4 +1,4 @@
-# go-awesome
+# Go 资料
 > Go 语言优秀资源整理，为项目落地加速🏃
 > 
 > 在 [GitHub](https://github.com/shockerli/go-awesome) 上稳定更新，觉得不错请点个 Star ❤️
@@ -78,6 +78,7 @@
 
 
 ## 文档
+- [Proposing Changes to Go](https://github.com/golang/proposal) - Go 语言设计文档
 - [**Go 语言设计与实现**](https://draveness.me/golang/)
 - [**Go 语言原本**](https://github.com/changkun/go-under-the-hood)
 - [**Go 101**](https://github.com/go101/go101) [（中文版）](https://github.com/golang101/golang101)
@@ -316,6 +317,7 @@
 - [ggz](https://github.com/go-ggz/ggz) - 短网址服务
 - [httpstat](https://github.com/davecheney/httpstat)
 - [grab](https://github.com/cavaliercoder/grab) - 文件下载
+- [go-getter](https://github.com/hashicorp/go-getter) - 可使用 URL 作为输入的主要形式从各种来源下载文件或目录
 - [go-netty](https://github.com/go-netty/go-netty) - 网络框架
 - [gnet](https://github.com/panjf2000/gnet) - 事件驱动 Go 网络框架
 - [httplab](https://github.com/gchaincl/httplab) - The interactive web server
@@ -469,6 +471,7 @@
 - [obelisk](https://github.com/go-shiori/obelisk) - 保存 Web 网页为 HTML 单页面
 - [html2text](https://github.com/jaytaylor/html2text) - HTML 转 text
 - [go-readability](https://github.com/go-shiori/go-readability) - 让 HTML 可读性更高
+- [gomponents](https://github.com/maragudk/gomponents) - 声明式视图组件，可以渲染成 HTML5
 
 
 #### 其他
@@ -672,6 +675,7 @@
 - [go-cache](https://github.com/patrickmn/go-cache) - KV 内存缓存
 - [gomemcache](https://github.com/bradfitz/gomemcache) - Memcache 客户端
 - [cache2go](https://github.com/muesli/cache2go)
+- [ristretto](https://github.com/dgraph-io/ristretto)
 
 
 ### 视频
@@ -756,6 +760,7 @@
 - [sploit](https://github.com/zznop/sploit) - 帮助二进制分析和开发的库
 - [perf](https://github.com/hodgesds/perf-utils) - Perf Utilities for Go
 - [fgprof](https://github.com/felixge/fgprof) - Go 性能分析工具
+- [statsview](https://github.com/go-echarts/statsview) - 实时 Go 运行时统计数据可视化分析器
 
 
 ### 调试
@@ -896,8 +901,11 @@
 
 ### 集群管理
 - [Nomad](https://github.com/hashicorp/nomad) - 集群管理器和调度器
-- [kubernetes](https://github.com/kubernetes/kubernetes) - 容器调度管理平台
 - [OpenShift Origin](https://github.com/openshift/origin) - Red Hat 开发的容器化软件解决方案
+
+#### Kubernetes
+- [kubernetes](https://github.com/kubernetes/kubernetes) - 容器调度管理平台
+- [k0s](https://github.com/k0sproject/k0s) - 最小体积的 k8s 发行版
 
 
 ### 机器学习
@@ -1245,6 +1253,7 @@
 - [clipboard](https://github.com/d-tsuji/clipboard) - 跨平台的粘贴板实现
 - [Timeliner](https://github.com/mholt/timeliner) - 搜集整理个人在社交网站上的数据并索引成时间线
 - [hc](https://github.com/brutella/hc) - `HomeKit` 平台开发框架
+- [address](https://github.com/bojanz/address) - 地址处理库，支持多国语言
 
 
 ## logo
