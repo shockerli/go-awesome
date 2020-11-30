@@ -231,6 +231,7 @@
 - [go-starter](https://github.com/adobe/go-starter) - Adobe 的 Go 工程模板
 - [go-clean-arch](https://github.com/bxcodec/go-clean-arch)
 - [go-rest-api](https://github.com/qiangxue/go-rest-api) - Go RESTful API Starter Kit
+- [Create Go App CLI](https://github.com/create-go-app/cli) - 通过命令行创建前后端项目的开发骨架
 
 
 ### TCP 框架
@@ -299,6 +300,7 @@
 - [gocraft/web](https://github.com/gocraft/web)
 - [go-querystring](https://github.com/google/go-querystring) - 转换结构体为URL请求参数
 - [CleverGo](https://github.com/clevergo/clevergo)
+- [rewrite](https://github.com/kataras/rewrite) - rewrite 中间件
 
 
 ### 网络
@@ -633,7 +635,6 @@
 - [VectorSQL](https://github.com/vectorengine/vectorsql) - 应用于 IoT 和大数据的 DBMS 数据库，类似于 ClickHouse
 - [BuntDB](https://github.com/tidwall/buntdb) - 基于内存的KV数据库，支持磁盘持久化、ACID事务
 - [**TinySQL**](https://github.com/pingcap-incubator/tinysql) - 迷你分布式关系型数据库
-- [groupcache](https://github.com/golang/groupcache) - 分布式缓存
 - [Tile38](https://github.com/tidwall/tile38) - GEO 数据库
 - [Redcon](https://github.com/tidwall/redcon) - 兼容 Redis 协议的自定义 Redis 服务，采用 BuntDB 和 Tile38 实现存储
 - [genji](https://github.com/genjidb/genji) - 文档内嵌型数据库
@@ -668,6 +669,10 @@
 - [branca](https://github.com/hako/branca) - 号称比 JWT 更安全的 token 解决方案
 
 
+### 加密/解密
+- [2fa](https://github.com/rsc/2fa) - Two-factor authentication on the command line
+
+
 ### 缓存
 - [GCache](https://github.com/bluele/gcache)
 - [bbolt](https://github.com/etcd-io/bbolt) - key/value store
@@ -676,6 +681,9 @@
 - [gomemcache](https://github.com/bradfitz/gomemcache) - Memcache 客户端
 - [cache2go](https://github.com/muesli/cache2go)
 - [ristretto](https://github.com/dgraph-io/ristretto)
+- [fastcache](https://github.com/VictoriaMetrics/fastcache)
+- [FreeCache](https://github.com/coocood/freecache)
+- [groupcache](https://github.com/golang/groupcache) - 分布式缓存
 
 
 ### 视频
@@ -761,6 +769,7 @@
 - [perf](https://github.com/hodgesds/perf-utils) - Perf Utilities for Go
 - [fgprof](https://github.com/felixge/fgprof) - Go 性能分析工具
 - [statsview](https://github.com/go-echarts/statsview) - 实时 Go 运行时统计数据可视化分析器
+- [codesearch](https://github.com/google/codesearch) - 代码搜索工具
 
 
 ### 调试
@@ -934,6 +943,7 @@
 - [go-blurhash](https://github.com/buckket/go-blurhash) - BlurHash，是模糊图片的一种哈希算法
 - [xxhash](https://github.com/cespare/xxhash) - xxHash 哈希算法实现
 - [go-multihash](https://github.com/multiformats/go-multihash) - 各种 Hash 算法实现
+- [memberlist](https://github.com/hashicorp/memberlist) - 基于 gossip 协议实现的管理集群成员和成员失败检测的开发包
 
 
 ### 数据结构
@@ -1035,6 +1045,7 @@
 - [lazyhub](https://github.com/ryo-ma/lazyhub) - GitHub 的终端 UI 客户端
 - [goaction](https://github.com/posener/goaction) - 在 Go 中编写 GitHub Action
 - [bit](https://github.com/chriswalz/bit) - Git 命令增强版，支持文件和分支名称自动完成、命令和标志建议
+- [go-github](https://github.com/google/go-github) - GitHub API 操作库
 
 
 ### 限流器
@@ -1072,6 +1083,7 @@
 - [GopherJS](https://github.com/gopherjs/gopherjs) - 把 Go 代码编译成 JavaScript 代码
 - [Yaegi](https://github.com/containous/yaegi) - Go 语言解释器
 - [properties](https://github.com/magiconair/properties) - Java properties scanner for Go
+- [jvm.go](https://github.com/zxh0/jvm.go) - JVM
 - [gobasic](https://github.com/skx/gobasic) - A BASIC interpreter written in golang
 - [golisp](https://github.com/mattn/golisp) - `Lisp` 解释器
 - [dst](https://github.com/dave/dst) - Go Decorated Syntax Tree
@@ -1217,6 +1229,7 @@
 - [stats](https://github.com/montanaflynn/stats) - 标准数字统计
 - [Chronos](https://github.com/amit-davidson/Chronos) - 静态竞争检测器
 - [collection](https://github.com/jianfengye/collection) - 替代原生的 Slice
+- [rf](https://github.com/rsc/rf) - 代码重构工具
 
 
 ### 代码生成
