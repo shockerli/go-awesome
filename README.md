@@ -1,4 +1,4 @@
-# Go 资料
+# go-awesome
 > Go 语言优秀资源整理，为项目落地加速🏃
 > 
 > 在 [GitHub](https://github.com/shockerli/go-awesome) 上稳定更新，觉得不错请点个 Star ❤️
@@ -417,8 +417,9 @@
 - [NATS](https://github.com/nats-io/nats-server) - 云原生消息中间件
 
 
-### 文件
+### 文件/存储
 - [MinIO](https://github.com/minio/minio) - 对象存储服务器
+- [rclone](https://github.com/rclone/rclone) - 不同云存储之间同步文件
 - [Syncthing](https://github.com/syncthing/syncthing) - 文件同步
 - [fsnotify](https://github.com/fsnotify/fsnotify) - 文件系统监控工具
 - [reflex](https://github.com/cespare/reflex) - 监听文件变更并执行命令
@@ -564,6 +565,14 @@
 
 ### 数据库
 
+#### SQL解析
+- [pingcap/parser](https://github.com/pingcap/parser) - 兼容 MySQL 的 SQL 解析
+- [xsqlparser](https://github.com/akito0107/xsqlparser) - SQL 解析
+- [sqlparser](https://github.com/xwb1989/sqlparser) - SQL 解析
+- [vitess-sqlparser](https://github.com/blastrain/vitess-sqlparser) - SQL 解析
+- [dbml-go](https://github.com/duythinht/dbml-go) - [DBML](https://github.com/holistics/dbml) 解析
+
+
 #### 数据库相关
 - [usql](https://github.com/xo/usql) - 几乎支持全部 SQL 与 NoSQL 数据库的命令行工具
 - [GORM](https://github.com/go-gorm/gorm) - GORM V2
@@ -594,10 +603,6 @@
 - [goose](https://github.com/pressly/goose) - 数据库迁移工具
 - [migrate](https://github.com/golang-migrate/migrate) - 数据库迁移工具
 - [**ent**](https://github.com/facebook/ent) - An Entity Framework For Go
-- [pingcap/parser](https://github.com/pingcap/parser) - 兼容 MySQL 的 SQL 解析
-- [xsqlparser](https://github.com/akito0107/xsqlparser) - SQL 解析
-- [sqlparser](https://github.com/xwb1989/sqlparser) - SQL 解析
-- [vitess-sqlparser](https://github.com/blastrain/vitess-sqlparser) - SQL 解析
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
 - [go-nulltype](https://github.com/mattn/go-nulltype)
 - [go-mysql](https://github.com/siddontang/go-mysql) - MySQL 工具集
@@ -662,7 +667,8 @@
 - [Casbin](https://github.com/casbin/casbin) - 权限控制管理
 - [pam-ussh](https://github.com/uber/pam-ussh) - Uber's SSH certificate pam module
 - [jwt-go](https://github.com/dgrijalva/jwt-go) - JWT for Go
-- [jwt](https://github.com/kataras/jwt) - JWT 轻量级实现
+- [kataras/jwt](https://github.com/kataras/jwt) - JWT 轻量级实现
+- [cristalhq/jwt](https://github.com/cristalhq/jwt)
 - [sessions](https://github.com/gorilla/sessions) - 后端 SESSION 服务
 - [securecookie](https://github.com/gorilla/securecookie) - cookie 加密/解密
 - [Goth](https://github.com/markbates/goth) - Multi-Provider Authentication for Go
@@ -1046,6 +1052,7 @@
 - [goaction](https://github.com/posener/goaction) - 在 Go 中编写 GitHub Action
 - [bit](https://github.com/chriswalz/bit) - Git 命令增强版，支持文件和分支名称自动完成、命令和标志建议
 - [go-github](https://github.com/google/go-github) - GitHub API 操作库
+- [askgit](https://github.com/augmentable-dev/askgit) - 通过 SQL 访问 Git 仓库信息
 
 
 ### 限流器
