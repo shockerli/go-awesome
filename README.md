@@ -173,6 +173,7 @@
 - [pipe](https://github.com/88250/pipe) - 博客平台
 - [mdr](https://github.com/MichaelMure/mdr) - 命令行下的 Markdown 阅读工具
 - [miniflux](https://github.com/miniflux/miniflux) - Feed 阅读器
+- [golinks](https://github.com/prologic/golinks) - 创建自定义书签、命令、搜索等
 - [链滴笔记](https://github.com/88250/liandi) - 桌面端笔记应用
 - [wayback](https://github.com/wabarc/wayback) - 网页快照备份
 
@@ -403,7 +404,7 @@
 - [rpcx](https://github.com/smallnest/rpcx)
 - [Twirp](https://github.com/twitchtv/twirp) - 基于 Protobuf 的 RPC 框架，与 gRPC 类似
 - [lile](https://github.com/lileio/lile) - gRPC 服务生成工具
-- [dubbo-go](https://github.com/apache/dubbo-go)
+- [dubbo-go](https://github.com/apache/dubbo-go) - Dubbo Go 版本
 
 
 ### 邮件
@@ -475,6 +476,7 @@
 - [html2text](https://github.com/jaytaylor/html2text) - HTML 转 text
 - [go-readability](https://github.com/go-shiori/go-readability) - 让 HTML 可读性更高
 - [gomponents](https://github.com/maragudk/gomponents) - 声明式视图组件，可以渲染成 HTML5
+- [daz](https://github.com/stevelacy/daz) - HTML 组件组合，渲染 HTML
 
 
 #### 其他
@@ -697,6 +699,7 @@
 - [lal](https://github.com/q191201771/lal) - 直播流媒体网络传输服务器
 - [bililive-go](https://github.com/hr3lxphr6j/bililive-go) - 直播录制工具
 - [screego](https://github.com/screego/server) - 通过浏览器共享开发者屏幕
+- [livego](https://github.com/gwuhaolin/livego) - 直播服务器
 
 
 ### 图形处理
@@ -716,6 +719,7 @@
 - [imaginary](https://github.com/h2non/imaginary) - 图片处理服务
 - [primitive](https://github.com/fogleman/primitive) - 用原始几何图形绘制图形
 - [orly](https://github.com/nanmu42/orly) - 生成你自己的O'RLY动物书封面
+- [smartcrop](https://github.com/muesli/smartcrop) - 智能裁剪图片
 
 
 #### 图片识别
@@ -912,6 +916,7 @@
 - [Skopeo](https://github.com/containers/skopeo) - 镜像管理工具
 - [Buildah](https://github.com/containers/buildah) - 构建 `OCI` 容器镜像的工具
 - [go-docker](https://github.com/pibigstar/go-docker) - 用 Go 实现 Docker 核心功能
+- [Packer](https://github.com/hashicorp/packer) - 轻量级的镜像定义工具
 
 
 ### 集群管理
@@ -931,6 +936,7 @@
 - [Olivia](https://github.com/olivia-ai/olivia) - 神经网络
 - [Pico](https://github.com/esimov/pigo) - 基于像素强度比较的物体检测纸张的纯 Go 脸部检测库
 - [tfgo](https://github.com/galeone/tfgo) - Tensorflow in Go
+- [Prophecis](https://github.com/WeBankFinTech/Prophecis) - 微众银行自研的一站式云原生机器学习平台
 
 
 ### 算法
@@ -1203,6 +1209,10 @@
 - [weapp](https://github.com/medivhzhan/weapp) - 微信小程序 SDK
 - [wechat](https://github.com/silenceper/wechat) - WeChat SDK for Go
 - [wechat-go](https://github.com/songtianyi/wechat-go) - 微信 Web 版 API 的 Go 实现
+
+
+### SDK
+- [gopay](https://github.com/iGoogle-ink/gopay) - QQ、微信（WeChat）、支付宝（AliPay）的Go版本SDK
 
 
 ### 区块链
