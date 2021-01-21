@@ -116,6 +116,7 @@
 - [Learn Go with Tests](https://github.com/quii/learn-go-with-tests)
 - [Go基础教程](http://www.topgoer.com)
 - [7天用Go从零实现系列](https://github.com/geektutu/7days-golang)
+- [Go 语言高性能编程](https://github.com/geektutu/high-performance-go)
 - [Golang - 100天从新手到大师](https://github.com/rubyhan1314/Golang-100-Days) - 某培训机构的部分教程内容
 - [algo](https://github.com/hoanhan101/algo) - 107+ 编码面试问题，包括详细的解决方案，测试用例和程序分析
 - [over-golang](https://github.com/overnote/over-golang) - Go 学习笔记
@@ -124,6 +125,7 @@
 - [go-leetcode](https://github.com/austingebauer/go-leetcode) - LeetCode 实现
 - [玩转 GO](https://github.com/hantmac/Mastering_Go_ZH_CN) - 《Mastering GO》中文译本
 - [leetcode-cookbook](https://github.com/halfrost/LeetCode-Go) - LeetCode in Go
+- [Golang修养之路](https://github.com/aceld/golang)
 
 
 ## 指南
@@ -265,6 +267,7 @@
 - [cheggaaa/pb](https://github.com/cheggaaa/pb) - 终端进度条
 - [mpb](https://github.com/vbauerster/mpb) - 支持多个进度条
 - [Color](https://github.com/fatih/color) - 命令行文字颜色
+- [gookit/color](https://github.com/gookit/color) - 命令行色彩使用库
 - [termui](https://github.com/gizak/termui) - 终端仪表盘
 - [tui](https://github.com/marcusolsson/tui-go) - 终端 UI
 - [termenv](https://github.com/muesli/termenv) - 终端应用程序的高级 ANSI 样式和颜色支持
@@ -334,6 +337,7 @@
 - [go-libp2p](https://github.com/libp2p/go-libp2p) - P2P
 - [go-ipfs-api](https://github.com/ipfs/go-ipfs-api) - IPFS
 - [go-multiaddr](https://github.com/multiformats/go-multiaddr) - multiaddr
+- [kcp-go](https://github.com/xtaci/kcp-go) - 可靠的 UDP 通讯包
 
 
 #### 网络代理
@@ -442,6 +446,7 @@
 - [Bigfile](https://github.com/bigfile/bigfile) - 文件传输管理系统
 - [statik](https://github.com/rakyll/statik) - 静态文件服务
 - [filetype](https://github.com/h2non/filetype) - 文件类型与 MIME 检测
+- [go-app-paths](https://github.com/muesli/go-app-paths) - 跨平台检索目录文件
 
 
 ### 模板引擎
@@ -512,6 +517,7 @@
 - [woke](https://github.com/get-woke/woke) - 检查文本文件中是否存在歧视词汇
 - [go-password-validator](https://github.com/lane-c-wagner/go-password-validator) - 密码强度校验器
 - [xurls](https://github.com/mvdan/xurls) - 从文本中提取 URL
+- [whatlanggo](https://github.com/abadojack/whatlanggo) - 自然语言探测
 
 
 ### 文档
@@ -657,6 +663,7 @@
 - [gojieba](https://github.com/yanyiwu/gojieba) - "结巴"中文分词的 Go 语言版本
 - [Riot](https://github.com/go-ego/riot) - 全文搜索引擎
 - [simplefts](https://github.com/akrylysov/simplefts) - 超简单的全文搜索引擎实现
+- [Blast](https://github.com/mosuka/blast) - 全文搜索
 
 
 ### 表单
@@ -1162,6 +1169,7 @@
 
 
 ### 桌面开发
+#### GUI
 - [Lorca](https://github.com/zserge/lorca) - 用 Go 编写 HTML5 桌面程序，依赖 Chrome 进行 UI 渲染，但却不把 Chrome 打包到应用中
 - [webview](https://github.com/zserge/webview) - 用 Go 构建跨平台的桌面软件
 - [walk](https://github.com/lxn/walk) - Windows GUI toolkit
@@ -1179,6 +1187,10 @@
 - [Gio](https://gioui.org) - 跨平台 UI 框架，支持移动应用
 - [nucular](https://github.com/aarzilli/nucular) - 基于 Gio 的实现
 - [GoVCL](https://github.com/ying32/govcl) - 跨平台的 GUI 包
+- [vugu](https://github.com/vugu/vugu) - WebAssembly UI 框架
+
+#### 桌面辅助包
+- [pkg/browser](https://github.com/pkg/browser) - 在浏览器中打开文件、URL
 
 
 ### 移动端
@@ -1284,6 +1296,7 @@
 - [Timeliner](https://github.com/mholt/timeliner) - 搜集整理个人在社交网站上的数据并索引成时间线
 - [hc](https://github.com/brutella/hc) - `HomeKit` 平台开发框架
 - [address](https://github.com/bojanz/address) - 地址处理库，支持多国语言
+- [webhook](https://github.com/adnanh/webhook) - 可执行 Shell 命令的 Web Hook 服务
 
 
 ## logo
