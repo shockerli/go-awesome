@@ -330,7 +330,7 @@
 - [gnet](https://github.com/panjf2000/gnet) - 事件驱动 Go 网络框架
 - [httplab](https://github.com/gchaincl/httplab) - The interactive web server
 - [yamux](https://github.com/hashicorp/yamux) - Multiplexer
-- [sftp](https://github.com/pkg/sftp) - SFTP support for the go.crypto/ssh package
+- [sftp](https://github.com/pkg/sftp) - SFTP support for the `go.crypto/ssh` package
 - [evio](https://github.com/tidwall/evio) - 事件驱动网络框架（reactor 模式）
 - [gaio](https://github.com/xtaci/gaio) - 事件驱动网络框架（proactor 模式）
 - [httpretty](https://github.com/henvic/httpretty) - 在终端上漂亮地打印出 HTTP 请求
@@ -487,6 +487,8 @@
 - [go-readability](https://github.com/go-shiori/go-readability) - 让 HTML 可读性更高
 - [gomponents](https://github.com/maragudk/gomponents) - 声明式视图组件，可以渲染成 HTML5
 - [daz](https://github.com/stevelacy/daz) - HTML 组件组合，渲染 HTML
+- [html-strip-tags-go](https://github.com/grokify/html-strip-tags-go) - 去除 HTML 标签
+- [bluemonday](https://github.com/microcosm-cc/bluemonday) - XSS 探测
 
 
 #### 其他
@@ -543,6 +545,7 @@
 - [when](https://github.com/olebedev/when) - 自然日期时间解析
 - [Carbon](https://github.com/uniplaces/carbon) - Carbon 时间处理库的 Go 语言实现
 - [strftime](https://github.com/lestrrat-go/strftime) - 时间格式化
+- [dateparse](https://github.com/araddon/dateparse) - 解析任意未知格式的时间字符串
 
 
 ### 配置
@@ -704,6 +707,7 @@
 - [fastcache](https://github.com/VictoriaMetrics/fastcache)
 - [FreeCache](https://github.com/coocood/freecache)
 - [groupcache](https://github.com/golang/groupcache) - 分布式缓存
+- [cachego](https://github.com/faabiosr/cachego) - 支持 Redis、Bolt 等缓存接口
 
 
 ### 视频
@@ -812,6 +816,7 @@
 - [pkg/profile](https://github.com/pkg/profile)
 - [statsviz](https://github.com/arl/statsviz) - 在浏览器中实时查看 Go 应用程序运行时统计信息（GC，MemStats 等）
 - [autopprof](https://github.com/rakyll/autopprof) - 自动分析 pprof
+- [stack](https://github.com/go-stack/stack) - 捕获、操作、格式化调用栈信息
 
 
 ### 测试
