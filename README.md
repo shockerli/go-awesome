@@ -126,6 +126,7 @@
 - [玩转 GO](https://github.com/hantmac/Mastering_Go_ZH_CN) - 《Mastering GO》中文译本
 - [leetcode-cookbook](https://github.com/halfrost/LeetCode-Go) - LeetCode in Go
 - [Golang修养之路](https://github.com/aceld/golang)
+- [Go语法树入门](https://github.com/chai2010/go-ast-book)
 
 
 ## 指南
@@ -185,6 +186,8 @@
 - [jrnl](https://github.com/andrewpillar/jrnl)
 - [plenti](https://github.com/plentico/plenti)
 - [verless](https://github.com/verless/verless)
+- [ink](https://github.com/InkProject/ink)
+- [moul](https://github.com/moulco/moul) - 生成照片站点
 
 
 ## 学习项目
@@ -449,9 +452,9 @@
 - [fsync](https://github.com/spf13/fsync) - 文件/目录同步
 - [filebrowser](https://github.com/filebrowser/filebrowser) - Web File Browser
 - [Bigfile](https://github.com/bigfile/bigfile) - 文件传输管理系统
-- [statik](https://github.com/rakyll/statik) - 静态文件服务
 - [filetype](https://github.com/h2non/filetype) - 文件类型与 MIME 检测
 - [go-app-paths](https://github.com/muesli/go-app-paths) - 跨平台检索目录文件
+- [copy](https://github.com/otiai10/copy) - 拷贝文件夹
 
 
 ### 模板引擎
@@ -538,6 +541,7 @@
 - [fixed](https://github.com/robaho/fixed)
 - [apd](https://github.com/cockroachdb/apd) - decimal 包
 - [mathfmt](https://github.com/mmcloughlin/mathfmt) - 将 LaTeX 语法的注释转换为数学公式格式
+- [q](https://github.com/itsubaki/q) - 量子计算模拟器
 
 
 ### 日期时间
@@ -659,6 +663,7 @@
 - [Tile38](https://github.com/tidwall/tile38) - GEO 数据库
 - [Redcon](https://github.com/tidwall/redcon) - 兼容 Redis 协议的自定义 Redis 服务，采用 BuntDB 和 Tile38 实现存储
 - [genji](https://github.com/genjidb/genji) - 文档内嵌型数据库
+- [Dolt](https://github.com/dolthub/dolt) - 像 Git 一样操作数据库
 
 
 ### 搜索
@@ -762,15 +767,20 @@
 - [gowatch](https://github.com/silenceper/gowatch) - 热编译工具
 - [Fresh](https://github.com/gravityblast/fresh) - 热编译工具
 - [dh-make-golang](https://github.com/Debian/dh-make-golang) - 自动构建 Debian 包
-- [pkger](https://github.com/markbates/pkger) - 将静态文件打包成 Go 二进制文件
-- [mewn](https://github.com/leaanthony/mewn) - 静态文件嵌入打包到二进制文件
 - [gobinaries](https://github.com/tj/gobinaries) - 不用安装Go就能编译安装Go编写的程序
 - [NFPM](https://github.com/goreleaser/nfpm) - deb、rpm、apk 等打包工具
+
+#### 静态资源内嵌
+- [pkger](https://github.com/markbates/pkger) - 将静态文件打包成 Go 二进制文件
+- [mewn](https://github.com/leaanthony/mewn) - 静态文件嵌入打包到二进制文件
+- [statik](https://github.com/rakyll/statik) - 静态文件嵌入
+- [go.rice](https://github.com/GeertJohan/go.rice)
 
 
 ### 优雅升级
 - [tableflip](https://github.com/cloudflare/tableflip) - Web 服务升级
 - [selfupdate](https://github.com/minio/selfupdate) - 二进制文件自动升级
+- [overseer](https://github.com/jpillora/overseer)
 
 
 ### 代码分析
@@ -794,14 +804,17 @@
 - [sploit](https://github.com/zznop/sploit) - 帮助二进制分析和开发的库
 - [perf](https://github.com/hodgesds/perf-utils) - Perf Utilities for Go
 - [fgprof](https://github.com/felixge/fgprof) - Go 性能分析工具
+- [conprof](https://github.com/conprof/conprof) - 协程分析
 - [statsview](https://github.com/go-echarts/statsview) - 实时 Go 运行时统计数据可视化分析器
 - [codesearch](https://github.com/google/codesearch) - 代码搜索工具
+- [Pyroscope](https://github.com/pyroscope-io/pyroscope) - 可视化程序性能监控工具，支持多种语言
 
 
 ### 调试
 - [**go-spew**](https://github.com/davecgh/go-spew) - 变量打印工具
 - [**Delve**](https://github.com/go-delve/delve) - Debug 工具
 - [gdlv](https://github.com/aarzilli/gdlv) - Delve 界面版本
+- [Weaver](https://github.com/grantseltzer/weaver) - 跟踪 Go 程序执行链路
 - [repr](https://github.com/alecthomas/repr) - 变量打印工具
 - [pp](https://github.com/k0kubun/pp) - 彩色变量打印工具
 - [ffmt](https://github.com/go-ffmt/ffmt) - 变量打印工具
@@ -817,6 +830,7 @@
 - [statsviz](https://github.com/arl/statsviz) - 在浏览器中实时查看 Go 应用程序运行时统计信息（GC，MemStats 等）
 - [autopprof](https://github.com/rakyll/autopprof) - 自动分析 pprof
 - [stack](https://github.com/go-stack/stack) - 捕获、操作、格式化调用栈信息
+- [pretty](https://github.com/kr/pretty) - 打印变量
 
 
 ### 测试
@@ -956,6 +970,7 @@
 - [tfgo](https://github.com/galeone/tfgo) - Tensorflow in Go
 - [Prophecis](https://github.com/WeBankFinTech/Prophecis) - 微众银行自研的一站式云原生机器学习平台
 - [AID](https://github.com/autoai-org/AID) - 机器学习ops平台，发现、部署、优化
+- [SQLFlow](https://github.com/sql-machine-learning/sqlflow) - SQL引擎+AI引擎
 
 
 ### 算法
@@ -1013,6 +1028,7 @@
 - [hujson](https://github.com/tailscale/hujson) - 支持注释的 JSON 解码
 - [pkg/json](https://github.com/pkg/json) - JSON Decoder
 - [ColorJSON](https://github.com/TylerBrock/colorjson) - 终端中打印彩色 JSON
+- [jid](https://github.com/simeji/jid) - JSON 数据解析读取工具
 
 
 ### 依赖管理
@@ -1121,6 +1137,7 @@
 - [gobasic](https://github.com/skx/gobasic) - A BASIC interpreter written in golang
 - [golisp](https://github.com/mattn/golisp) - `Lisp` 解释器
 - [dst](https://github.com/dave/dst) - Go Decorated Syntax Tree
+- [mvdan/sh](https://github.com/mvdan/sh) - Shell 解析、格式化、接口
 
 
 #### PHP
@@ -1149,6 +1166,7 @@
 - [Compiler](https://github.com/MauriceGit/compiler) - 将自定义语法代码编译成 X86-64 Assembly
 - [elvish](https://github.com/elves/elvish) - 交互式 Shell 语言
 - [QLBridge](https://github.com/araddon/qlbridge) - Go SQL Runtime Engine
+- [YQL](https://github.com/caibirdme/yql) - SQL WHERE 风格的规则引擎
 
 
 ### 代码生成
@@ -1198,7 +1216,7 @@
 - [chromedp](https://github.com/chromedp/chromedp) - 纯 Go 语言实现的驱动浏览器的 Chrome DevTools Protocol，可用于爬虫、反爬虫、测试等场景
 - [Rod](https://github.com/go-rod/rod) - 一个为简化自动化和爬虫设计的 devtools driver，利用浏览器的 devtools 可编程接口来操控浏览器
 - [go-astilectron](https://github.com/asticode/go-astilectron) - 基于 Electron 的跨平台开发
-- [Gio](https://gioui.org) - 跨平台 UI 框架，支持移动应用
+- [Gio](https://github.com/gioui/gio) - 跨平台 UI 框架，支持移动应用
 - [nucular](https://github.com/aarzilli/nucular) - 基于 Gio 的实现
 - [GoVCL](https://github.com/ying32/govcl) - 跨平台的 GUI 包
 - [vugu](https://github.com/vugu/vugu) - WebAssembly UI 框架
@@ -1229,7 +1247,14 @@
 - [PPGo_Job](https://github.com/george518/PPGo_Job) - 定时任务管理系统
 - [gocelery](https://github.com/gocelery/gocelery) - Celery 的 Go 语言实现
 - [Machinery](https://github.com/RichardKnop/machinery) - 通过分布式消息实现异步任务调度
-- [benthos](https://github.com/Jeffail/benthos) - 普通任务的流处理器
+
+
+### 流处理
+- [benthos](https://github.com/Jeffail/benthos)
+- [gostream](https://github.com/itsubaki/gostream)
+- [watermill](https://github.com/ThreeDotsLabs/watermill)
+- [go-streams](https://github.com/reugn/go-streams)
+- [goflow](https://github.com/s8sg/goflow)
 
 
 ### 微信
@@ -1240,6 +1265,7 @@
 
 ### SDK
 - [gopay](https://github.com/iGoogle-ink/gopay) - QQ、微信（WeChat）、支付宝（AliPay）的Go版本SDK
+- [alipay](https://github.com/smartwalle/alipay) - 支付宝SDK
 
 
 ### 区块链
