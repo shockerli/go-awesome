@@ -481,6 +481,7 @@
 - [docx2md](https://github.com/mattn/docx2md) - 转换 Word 为 Markdown
 - [glamour](https://github.com/charmbracelet/glamour) - 命令行下渲染 Markdown
 - [go-md2man](https://github.com/cpuguy83/go-md2man) - 转换 Markdown 为 man 手册内容
+- [gomarkdown/markdown](https://github.com/gomarkdown/markdown)
 
 
 #### HTML
@@ -666,6 +667,21 @@
 - [Dolt](https://github.com/dolthub/dolt) - 像 Git 一样操作数据库
 
 
+### 缓存
+- [GCache](https://github.com/bluele/gcache)
+- [bbolt](https://github.com/etcd-io/bbolt) - key/value store
+- [BigCache](https://github.com/allegro/bigcache)
+- [go-cache](https://github.com/patrickmn/go-cache) - KV 内存缓存
+- [gomemcache](https://github.com/bradfitz/gomemcache) - Memcache 客户端
+- [cache2go](https://github.com/muesli/cache2go)
+- [ristretto](https://github.com/dgraph-io/ristretto)
+- [fastcache](https://github.com/VictoriaMetrics/fastcache)
+- [FreeCache](https://github.com/coocood/freecache)
+- [groupcache](https://github.com/golang/groupcache) - 分布式缓存
+- [cachego](https://github.com/faabiosr/cachego) - 支持 Redis、Bolt 等缓存接口
+- [diskv](https://github.com/peterbourgon/diskv) - 基于硬盘的 KV 存储
+
+
 ### 搜索
 - [wukong](https://github.com/huichen/wukong) - 全文搜索引擎
 - [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - 官方 ES 客户端
@@ -699,20 +715,6 @@
 
 ### 加密/解密
 - [2fa](https://github.com/rsc/2fa) - Two-factor authentication on the command line
-
-
-### 缓存
-- [GCache](https://github.com/bluele/gcache)
-- [bbolt](https://github.com/etcd-io/bbolt) - key/value store
-- [BigCache](https://github.com/allegro/bigcache)
-- [go-cache](https://github.com/patrickmn/go-cache) - KV 内存缓存
-- [gomemcache](https://github.com/bradfitz/gomemcache) - Memcache 客户端
-- [cache2go](https://github.com/muesli/cache2go)
-- [ristretto](https://github.com/dgraph-io/ristretto)
-- [fastcache](https://github.com/VictoriaMetrics/fastcache)
-- [FreeCache](https://github.com/coocood/freecache)
-- [groupcache](https://github.com/golang/groupcache) - 分布式缓存
-- [cachego](https://github.com/faabiosr/cachego) - 支持 Redis、Bolt 等缓存接口
 
 
 ### 视频
@@ -867,6 +869,7 @@
 - [htmltest](https://github.com/wjdp/htmltest) - HTML 测试
 - [gnomock](https://github.com/orlangure/gnomock) - 无需 mock 的 Go 代码测试框架
 - [gunit](https://github.com/smartystreets/gunit) - xUnit 风格测试框架
+- [quicktest](https://github.com/frankban/quicktest)
 
 
 ### 错误处理
@@ -1148,6 +1151,7 @@
 
 
 #### 自定义解释器
+- [CUE](https://github.com/cuelang/cue) - Configure Unify Execute(Validate and define text-based and dynamic configuration)
 - [cel-go](https://github.com/google/cel-go) - Common Expression Language(CEL 的 Go 实现)
 - [Math-Engine](https://github.com/dengsgo/math-engine) - 使用 Go 实现的数学表达式解析计算引擎库，学习语法解析很适用
 - [Gval](https://github.com/PaesslerAG/gval) - 表达式计算
@@ -1224,6 +1228,9 @@
 #### 桌面辅助包
 - [pkg/browser](https://github.com/pkg/browser) - 在浏览器中打开文件、URL
 - [MacDriver](https://github.com/progrium/macdriver) - macOS 原生 API
+
+#### 桌面应用
+- [xbar](https://github.com/matryer/xbar) - 基于 [Wails.app](https://github.com/wailsapp/wails) 开发的 macOS 菜单栏管理
 
 
 ### 移动端
