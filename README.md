@@ -127,6 +127,7 @@
 - [leetcode-cookbook](https://github.com/halfrost/LeetCode-Go) - LeetCode in Go
 - [Golang修养之路](https://github.com/aceld/golang)
 - [Go语法树入门](https://github.com/chai2010/go-ast-book)
+- [Go Concurrency Patterns](https://github.com/lotusirous/go-concurrency-patterns) - Go 并发模式场景集合
 
 
 ## 指南
@@ -157,6 +158,7 @@
 - [GoStub 框架使用指南](https://www.jianshu.com/p/70a93a9ed186)
 - [GoMock 框架使用指南](https://www.jianshu.com/p/f4e773a1b11f)
 - [Monkey 框架使用指南](https://www.jianshu.com/p/2f675d5e334e)
+- [The Evolution of a Go Programmer](https://github.com/SuperPaintman/the-evolution-of-a-go-programmer) - Go 程序员的进化之路
 
 
 ## 付费教程
@@ -283,6 +285,8 @@
 - [termdash](https://github.com/mum4k/termdash) - 基于 Go Terminal 的仪表板系统
 - [bubbletea](https://github.com/charmbracelet/bubbletea) - TUI 框架
 - [PTerm](https://github.com/pterm/pterm) - 支持图表、表格、进度条、树等终端输出展示
+- [Lip Gloss](https://github.com/charmbracelet/lipgloss) - 终端布局、样式
+- [glow](https://github.com/charmbracelet/glow) - 终端渲染展示 Markdown
 
 #### 其他
 - [gosu](https://github.com/tianon/gosu) - 以指定的用户权限来运行脚本
@@ -425,9 +429,11 @@
 - [Hermes](https://github.com/matcornic/hermes) - Go 版本的 mailgen 引擎，根据配置生成 HTML 格式的邮件
 
 
-### 消息
+### 消息队列
 - [NSQ](https://github.com/nsqio/nsq) - 实时分布式消息平台
 - [NATS](https://github.com/nats-io/nats-server) - 云原生消息中间件
+- [amqp](https://github.com/streadway/amqp) - Go client for AMQP 0.9.1
+- [sarama](https://github.com/Shopify/sarama) - Kafka 客户端
 
 
 ### 文件/存储
@@ -612,7 +618,6 @@
 - [mgo](http://labix.org/mgo)
     + [globalsign/mgo](https://github.com/globalsign/mgo) - The MongoDB driver for Go
     + [mgo使用指南](https://studygolang.com/articles/3485)
-- [amqp](https://github.com/streadway/amqp) - Go client for AMQP 0.9.1
 - [kingshard](https://github.com/flike/kingshard) - MySQL Proxy
 - [SOAR](https://github.com/XiaoMi/soar) - 对SQL进行优化和改写的自动化工具
 - [Vitess](https://github.com/vitessio/vitess) - 用于部署、扩展和管理大型MySQL实例集群的数据库解决方案
@@ -856,6 +861,7 @@
 - [go-fuzz](https://github.com/dvyukov/go-fuzz) - randomized testing for Go
 - [gofight](https://github.com/appleboy/gofight) - Testing API Handler
 - [sqlmock](https://github.com/DATA-DOG/go-sqlmock) - SQL 测试
+- [sqlbench](https://github.com/felixge/sqlbench) - SQL 
 - [silk](https://github.com/matryer/silk) - 基于 Markdown 的接口测试
 - [gock](https://github.com/h2non/gock) - HTTP mock 测试
 - [godog](https://github.com/cucumber/godog) - BDD 测试框架 Cucumber 的 Go 版本
@@ -870,6 +876,7 @@
 - [gnomock](https://github.com/orlangure/gnomock) - 无需 mock 的 Go 代码测试框架
 - [gunit](https://github.com/smartystreets/gunit) - xUnit 风格测试框架
 - [quicktest](https://github.com/frankban/quicktest)
+- [k6](https://github.com/k6io/k6) - 负载测试工具
 
 
 ### 错误处理
@@ -961,6 +968,7 @@
 #### Kubernetes
 - [kubernetes](https://github.com/kubernetes/kubernetes) - 容器调度管理平台
 - [k0s](https://github.com/k0sproject/k0s) - 最小体积的 k8s 发行版
+- [sealos](https://github.com/fanux/sealos) - 一条命令部署 Kubernetes 高可用集群
 
 
 ### 机器学习
@@ -1008,6 +1016,7 @@
 - [tinybtree](https://github.com/tidwall/tinybtree) - B-tree
 - [dataframe-go](https://github.com/rocketlaunchr/dataframe-go) - 用于数据统计和操作的包
 - [go-set](https://github.com/scylladb/go-set) - 集合工具包
+- [orderedmap](https://github.com/elliotchance/orderedmap) - 有序字典
 
 
 ### 依赖注入
@@ -1071,6 +1080,10 @@
 - [pulumi](https://github.com/pulumi/pulumi)
 - [Knative](https://github.com/knative/serving)
 - [fx](https://github.com/metrue/fx)
+
+
+### devops
+- [act](https://github.com/nektos/act) - 本地运行 [GitHub Actions](https://developer.github.com/actions/)
 
 
 ### 持续集成/部署
@@ -1175,6 +1188,7 @@
 
 ### 代码生成
 - [jennifer](https://github.com/dave/jennifer) - Go 代码生成
+- [ifacemaker](https://github.com/vburenin/ifacemaker) - 根据结构体方法生成接口
 
 
 ### 编辑器
@@ -1254,6 +1268,7 @@
 - [PPGo_Job](https://github.com/george518/PPGo_Job) - 定时任务管理系统
 - [gocelery](https://github.com/gocelery/gocelery) - Celery 的 Go 语言实现
 - [Machinery](https://github.com/RichardKnop/machinery) - 通过分布式消息实现异步任务调度
+- [dkron](https://github.com/distribworks/dkron) - 分布式任务调度系统
 
 
 ### 流处理
@@ -1329,9 +1344,10 @@
 - [i18n](https://github.com/Unknwon/i18n) - `i18n` 多语言工具包
 - [Paginater](https://github.com/Unknwon/paginater) - 分页工具
 - [gls](https://github.com/jtolds/gls) - Goroutine local storage
-- [go-version](https://github.com/mcuadros/go-version) - 版本号比较
+- [mcuadros/go-version](https://github.com/mcuadros/go-version) - 版本号比较
 - [go-semver](github.com/coreos/go-semver) - 语义版本
 - [semver](https://github.com/Masterminds/semver) - 另一个语义版本
+- [hashicorp/go-version](https://github.com/hashicorp/go-version)
 - [Metabolize](https://github.com/keighl/metabolize) - Decodes HTML meta tags into a Golang struct
 - [otp](https://github.com/pquerna/otp) - 一次性密码工具包(One Time Password utilities)
 - [misspell](https://github.com/client9/misspell) - 常拼写错误的英语单词
