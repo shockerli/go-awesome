@@ -635,6 +635,7 @@
 - [SQLittle](https://github.com/alicebob/sqlittle) - 纯读取 SQLite 文件
 - [Bifrost](https://github.com/brokercap/Bifrost) - MySQL 同步到 Redis、ClickHouse 等服务的异构中间件
 - [elasticsql](https://github.com/cch123/elasticsql) - 转换 SQL 成 Elasticsearch DSL
+- [rosedb](https://github.com/roseduan/rosedb) - 简洁、高效的 k-v 数据库，支持多种数据结构
 
 
 #### 数据库驱动
