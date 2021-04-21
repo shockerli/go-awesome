@@ -287,6 +287,7 @@
 - [PTerm](https://github.com/pterm/pterm) - 支持图表、表格、进度条、树等终端输出展示
 - [Lip Gloss](https://github.com/charmbracelet/lipgloss) - 终端布局、样式
 - [glow](https://github.com/charmbracelet/glow) - 终端渲染展示 Markdown
+- [tview](https://github.com/rivo/tview) - Terminal UI
 
 #### 其他
 - [gosu](https://github.com/tianon/gosu) - 以指定的用户权限来运行脚本
@@ -349,6 +350,7 @@
 - [go-multiaddr](https://github.com/multiformats/go-multiaddr) - multiaddr
 - [kcp-go](https://github.com/xtaci/kcp-go) - 可靠的 UDP 通讯包
 - [gliderlabs/ssh](https://github.com/gliderlabs/ssh) - 像 `net/http` 一样轻松搭建 SSH 服务器
+- [netaddr](https://github.com/inetaf/netaddr) - 网络地址处理
 
 
 #### 网络代理
@@ -362,6 +364,7 @@
 - [Pomerium](https://github.com/pomerium/pomerium) - 基于身份的反向代理
 - [V2Ray](https://github.com/v2ray/v2ray-core)
 - [V2Fly](https://github.com/v2fly/v2ray-core) - V2Ray 的社区版本
+- [Tailscale](https://github.com/tailscale/tailscale) - WireGuard 解决方案
 
 
 ### HTTP压测
@@ -389,6 +392,7 @@
 - [ws](https://github.com/gobwas/ws) - WebSocket 开发包
 - [melody](https://github.com/olahol/melody) - WebSocket 服务框架
 - [neffos](https://github.com/kataras/neffos) - 一个快速且可扩展的 WebSocket 框架
+- [fastws](https://github.com/dgrr/fastws)
 
 
 ### 即时通信
@@ -397,19 +401,27 @@
 - [Tinode](https://github.com/tinode/chat) - 即时消息服务器，通过 websocket/JSON 或 gRPC/TCP 等协议传输
 - [WebRTC](https://github.com/pion/webrtc) - WebRTC 实现
 - [Berty](https://github.com/berty/berty) - 安全的点对点通讯软件
+- [Keybase](https://github.com/keybase/client) - 即时通讯工具 Keybase 全平台客户端
 
 
 ### 网关
 - [GoKu API Gateway CE](https://github.com/eolinker/GoKu-API-Gateway) - eoLinker 开源的 API 网关
 
 
-### 序列化/解压缩
+### 序列化
 - [vmihailenco/msgpack](https://github.com/vmihailenco/msgpack) - 支持 msgpack
 - [go/codec](https://github.com/ugorji/go) - 支持 msgpack/binc/cbor/json
 - [golang/protobuf](https://github.com/golang/protobuf) - Go 版本的 Protocol Buffers
 - [gogo/protobuf](https://github.com/gogo/protobuf) - `golang/protobuf` 的扩展替代品
 - [Objx](https://github.com/stretchr/objx) - 操作 map, slice, JSON 等数据的包
+
+
+### 解压缩
 - [snappy](https://github.com/golang/snappy) - Go 语言版本的 Snappy
+- [cae](https://github.com/Unknwon/cae) - 实现 ZIP/TAR.GZ 解压缩
+- [archiver](https://github.com/mholt/archiver) - 多格式支持的解压缩包
+- [compress](https://github.com/klauspost/compress) - Optimized compression packages
+- [Brotli](https://github.com/andybalholm/brotli)
 
 
 ### RPC
@@ -451,9 +463,6 @@
 - [go-fastdfs](https://github.com/sjqzhang/go-fastdfs) - 分布式文件存储服务
 - [Dragonfly](https://github.com/dragonflyoss/Dragonfly) - 基于 P2P 的分布式文件系统
 - [filetype](https://github.com/h2non/filetype) - 检测文件类型
-- [cae](https://github.com/Unknwon/cae) - 实现 ZIP/TAR.GZ 解压缩
-- [archiver](https://github.com/mholt/archiver) - 多格式支持的解压缩包
-- [compress](https://github.com/klauspost/compress) - Optimized compression packages
 - [Afero](https://github.com/spf13/afero) - 文件操作包
 - [fsync](https://github.com/spf13/fsync) - 文件/目录同步
 - [filebrowser](https://github.com/filebrowser/filebrowser) - Web File Browser
@@ -525,6 +534,7 @@
 - [feeds](https://github.com/gorilla/feeds) - RSS 内容生成
 - [gofeed](https://github.com/mmcdole/gofeed) - RSS & Atom feeds 内容解析
 - [sitemap](https://github.com/kataras/sitemap) - sitemap.xml 生成
+- [yarr](https://github.com/nkanaev/yarr) - RSS 阅读软件
 - [gogrep](https://github.com/mvdan/gogrep) - 通过语法树搜索 Go 源码
 - [PipeIt](https://github.com/AllenDang/PipeIt) - 文本转换，清理和提取工具
 - [regexp2](https://github.com/dlclark/regexp2) - 全功能正则表达式引擎。如果标准库的 regexp 满足不了你，可以尝试使用 regexp2
@@ -635,7 +645,6 @@
 - [SQLittle](https://github.com/alicebob/sqlittle) - 纯读取 SQLite 文件
 - [Bifrost](https://github.com/brokercap/Bifrost) - MySQL 同步到 Redis、ClickHouse 等服务的异构中间件
 - [elasticsql](https://github.com/cch123/elasticsql) - 转换 SQL 成 Elasticsearch DSL
-- [rosedb](https://github.com/roseduan/rosedb) - 简洁、高效的 k-v 数据库，支持多种数据结构
 
 
 #### 数据库驱动
@@ -652,7 +661,7 @@
 - [InfluxDB](https://github.com/influxdata/influxdb) - 时间序列数据库
 - [Prometheus](https://github.com/prometheus/prometheus) - 服务监控系统 & 时间序列数据库
 - [Thanos](https://github.com/thanos-io/thanos) - 支持 Prometheus 简化部署、高可用、分布式存储
-- [CockroachDB](https://github.com/cockroachdb/cockroach) - SQL database
+- [CockroachDB](https://github.com/cockroachdb/cockroach) - 分布式 SQL 数据库
 - [Cayley](https://github.com/cayleygraph/cayley) - 图数据库
 - [RadonDB](https://github.com/radondb/radon) - 基于 MySQL 研发的新一代分布式关系型数据库
 - [TiDB](https://github.com/pingcap/tidb) - 分布式关系型数据库，兼容 MySQL 协议
@@ -671,6 +680,7 @@
 - [Redcon](https://github.com/tidwall/redcon) - 兼容 Redis 协议的自定义 Redis 服务，采用 BuntDB 和 Tile38 实现存储
 - [genji](https://github.com/genjidb/genji) - 文档内嵌型数据库
 - [Dolt](https://github.com/dolthub/dolt) - 像 Git 一样操作数据库
+- [rosedb](https://github.com/roseduan/rosedb) - 简洁、高效的 KV 数据库，支持多种数据结构
 
 
 ### 缓存
@@ -686,6 +696,7 @@
 - [groupcache](https://github.com/golang/groupcache) - 分布式缓存
 - [cachego](https://github.com/faabiosr/cachego) - 支持 Redis、Bolt 等缓存接口
 - [diskv](https://github.com/peterbourgon/diskv) - 基于硬盘的 KV 存储
+- [Pebble](https://github.com/cockroachdb/pebble) - 被 CockroachDB 使用的 KV 存储
 
 
 ### 搜索
@@ -839,6 +850,7 @@
 - [autopprof](https://github.com/rakyll/autopprof) - 自动分析 pprof
 - [stack](https://github.com/go-stack/stack) - 捕获、操作、格式化调用栈信息
 - [pretty](https://github.com/kr/pretty) - 打印变量
+- [go-deadlock](https://github.com/sasha-s/go-deadlock) - 对 `(RW)Mutex` 进行注入，并提供死锁检测
 
 
 ### 测试
@@ -890,7 +902,7 @@
 - [juju/errors](https://github.com/juju/errors)
 - [go-fault](https://github.com/github/go-fault) - GitHub 官方出品，基于标准库 http 中间件的故障注入库
 - [merry](https://github.com/ansel1/merry) - 支持堆栈、状态码的错误处理
-- [cockroachdb/errors](https://github.com/cockroachdb/errors) - Go errors with network portability
+- [cockroachdb/errors](https://github.com/cockroachdb/errors) - 功能强大、可替代 `errors` 和 `github.com/pkg/errors` 的错误处理包
 - [go-multierror](https://github.com/hashicorp/go-multierror) - 支持错误列表
 
 
@@ -1067,6 +1079,7 @@
 - [Kratos](https://github.com/bilibili/kratos) - B站开源的微服务框架
 - [Temporal](https://github.com/temporalio/temporal) - 微服务编排平台
 - [Serf](https://github.com/hashicorp/serf) - 服务编排管理平台
+- [Open Policy Agent](https://github.com/open-policy-agent/opa) - 通用策略引擎，CNCF 孵化项目
 
 
 ### Serverless
@@ -1243,6 +1256,7 @@
 #### 桌面辅助包
 - [pkg/browser](https://github.com/pkg/browser) - 在浏览器中打开文件、URL
 - [MacDriver](https://github.com/progrium/macdriver) - macOS 原生 API
+- [gon](https://github.com/mitchellh/gon) - 为 macOS 签名和公证
 
 #### 桌面应用
 - [xbar](https://github.com/matryer/xbar) - 基于 [Wails.app](https://github.com/wailsapp/wails) 开发的 macOS 菜单栏管理
@@ -1270,6 +1284,7 @@
 - [gocelery](https://github.com/gocelery/gocelery) - Celery 的 Go 语言实现
 - [Machinery](https://github.com/RichardKnop/machinery) - 通过分布式消息实现异步任务调度
 - [dkron](https://github.com/distribworks/dkron) - 分布式任务调度系统
+- [Grit](https://github.com/climech/grit) - 基于 MultiTree 实现的任务管理
 
 
 ### 流处理
@@ -1323,6 +1338,8 @@
 - [Chronos](https://github.com/amit-davidson/Chronos) - 静态竞争检测器
 - [collection](https://github.com/jianfengye/collection) - 替代原生的 Slice
 - [rf](https://github.com/rsc/rf) - 代码重构工具
+- [bytebufferpool](https://github.com/valyala/bytebufferpool) - byte buffers pool
+- [bpool](https://github.com/oxtoacart/bpool) - byte buffers pool，支持 bytes.Buffers
 
 
 ### 代码生成
@@ -1363,6 +1380,7 @@
 - [hc](https://github.com/brutella/hc) - `HomeKit` 平台开发框架
 - [address](https://github.com/bojanz/address) - 地址处理库，支持多国语言
 - [webhook](https://github.com/adnanh/webhook) - 可执行 Shell 命令的 Web Hook 服务
+- [webhookd](https://github.com/ncarlier/webhookd) - 为 Shell 脚本提供 Web Hook 服务
 
 
 ## logo
