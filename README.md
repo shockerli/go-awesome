@@ -360,7 +360,6 @@
 - [ProxyPool](https://github.com/henson/proxypool) - 采集免费的代理资源为爬虫提供有效的IP代理
 - [frp](https://github.com/fatedier/frp) - 可用于内网穿透的高性能的反向代理应用
 - [nps](https://github.com/cnlh/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器
-- [MOSN](https://github.com/mosn/mosn) - 云原生网络代理
 - [Pomerium](https://github.com/pomerium/pomerium) - 基于身份的反向代理
 - [V2Ray](https://github.com/v2ray/v2ray-core)
 - [V2Fly](https://github.com/v2fly/v2ray-core) - V2Ray 的社区版本
@@ -414,6 +413,7 @@
 - [golang/protobuf](https://github.com/golang/protobuf) - Go 版本的 Protocol Buffers
 - [gogo/protobuf](https://github.com/gogo/protobuf) - `golang/protobuf` 的扩展替代品
 - [Objx](https://github.com/stretchr/objx) - 操作 map, slice, JSON 等数据的包
+- [msgp](https://github.com/tinylib/msgp) - MessagePack 代码生成器
 
 
 ### 解压缩
@@ -670,7 +670,7 @@
 - [Dgraph](https://github.com/dgraph-io/dgraph) - 分布式图数据库
 - [rqlite](https://github.com/rqlite/rqlite) - 基于 SQLite 的轻量级分布式关系数据库
 - [gaeadb](https://github.com/infinivision/gaeadb)
-- [BadgerDB](https://github.com/dgraph-io/badger) - KV 数据库
+- [BadgerDB](https://github.com/dgraph-io/badger) - KV 数据库，支持 ACID 事务
 - [LBADD](https://github.com/tomarrell/lbadd) - 用 Go 实现的分布式 SQL 数据库
 - [go-memdb](https://github.com/hashicorp/go-memdb) - 建立在不可变 Radix 树上的内存数据库
 - [VectorSQL](https://github.com/vectorengine/vectorsql) - 应用于 IoT 和大数据的 DBMS 数据库，类似于 ClickHouse
@@ -760,6 +760,7 @@
 - [primitive](https://github.com/fogleman/primitive) - 用原始几何图形绘制图形
 - [orly](https://github.com/nanmu42/orly) - 生成你自己的O'RLY动物书封面
 - [smartcrop](https://github.com/muesli/smartcrop) - 智能裁剪图片
+- [gift](https://github.com/disintegration/gift) - 图片滤镜
 
 
 #### 图片识别
@@ -851,6 +852,7 @@
 - [stack](https://github.com/go-stack/stack) - 捕获、操作、格式化调用栈信息
 - [pretty](https://github.com/kr/pretty) - 打印变量
 - [go-deadlock](https://github.com/sasha-s/go-deadlock) - 对 `(RW)Mutex` 进行注入，并提供死锁检测
+- [mmcloughlin/profile](https://github.com/mmcloughlin/profile)
 
 
 ### 测试
@@ -952,6 +954,7 @@
 - [go-osstat](https://github.com/mackerelio/go-osstat) - 系统指标统计
 - [grafterm](https://github.com/slok/grafterm) - Metrics dashboards on terminal
 - [mymon](https://github.com/open-falcon/mymon) - MySQL 运行监控
+- [PingMe](https://github.com/kha7iq/pingme) - 支持多消息平台的服务可用性报警命令工具
 
 
 ### 统计分析
@@ -1015,6 +1018,7 @@
 - [xxhash](https://github.com/cespare/xxhash) - xxHash 哈希算法实现
 - [go-multihash](https://github.com/multiformats/go-multihash) - 各种 Hash 算法实现
 - [memberlist](https://github.com/hashicorp/memberlist) - 基于 gossip 协议实现的管理集群成员和成员失败检测的开发包
+- [backoff](https://github.com/cenkalti/backoff) - 指数退避算法(Exponential Backoff)
 
 
 ### 数据结构
@@ -1054,6 +1058,7 @@
 - [pkg/json](https://github.com/pkg/json) - JSON Decoder
 - [ColorJSON](https://github.com/TylerBrock/colorjson) - 终端中打印彩色 JSON
 - [jid](https://github.com/simeji/jid) - JSON 数据解析读取工具
+- [jsonc](https://github.com/tidwall/jsonc) - 支持注释与逗号
 
 
 ### 依赖管理
@@ -1070,16 +1075,18 @@
 - [Istio](https://github.com/istio/istio) [[中文文档](https://preliminary.istio.io/zh/docs/)] - 大型微服务系统管理工具
 - [goa](https://github.com/goadesign/goa)
 - [Micro](https://github.com/micro/micro) - 微服务工具
+- [Go Micro](https://github.com/micro/go-micro) - 微服务框架
 - [Go kit](https://github.com/go-kit/kit) - Go 微服务工具集
 - [GoKit CLI](https://github.com/kujtimiihoxha/kit) - Go kit 脚手架
 - [gogo](https://github.com/dolab/gogo)
 - [go-chassis](https://github.com/go-chassis/go-chassis)
-- [Go Micro](https://github.com/micro/go-micro) - 微服务框架
 - [Kite](https://github.com/koding/kite)
 - [Kratos](https://github.com/bilibili/kratos) - B站开源的微服务框架
 - [Temporal](https://github.com/temporalio/temporal) - 微服务编排平台
 - [Serf](https://github.com/hashicorp/serf) - 服务编排管理平台
 - [Open Policy Agent](https://github.com/open-policy-agent/opa) - 通用策略引擎，CNCF 孵化项目
+- [gizmo](https://github.com/nytimes/gizmo) - 微服务工具集
+- [MOSN](https://github.com/mosn/mosn) - 用于边缘和服务网格的云原生网络数据平面
 
 
 ### Serverless
@@ -1088,7 +1095,7 @@
 - [riff](https://github.com/projectriff/riff) - 基于 Kubernetes 的 FaaS
 - [Nuclio](https://github.com/nuclio/nuclio) - 实时事件与数据的 Serverless 框架
 - [Flogo](https://github.com/tibcosoftware/flogo) - 事件驱动的 Serverless 框架
-- [Dapr](https://github.com/dapr/dapr)
+- [Dapr](https://github.com/dapr/dapr) - 微软开源的云和边缘计算的微服务构件
 - [kubeless](https://github.com/kubeless/kubeless)
 - [Fission](https://github.com/fission/fission) - 基于 Kubernetes 的 Serverless
 - [pulumi](https://github.com/pulumi/pulumi)
@@ -1198,6 +1205,7 @@
 - [elvish](https://github.com/elves/elvish) - 交互式 Shell 语言
 - [QLBridge](https://github.com/araddon/qlbridge) - Go SQL Runtime Engine
 - [YQL](https://github.com/caibirdme/yql) - SQL WHERE 风格的规则引擎
+- [Flux](https://github.com/influxdata/flux) - InfluxDB 数据语言
 
 
 ### 代码生成
@@ -1285,6 +1293,7 @@
 - [Machinery](https://github.com/RichardKnop/machinery) - 通过分布式消息实现异步任务调度
 - [dkron](https://github.com/distribworks/dkron) - 分布式任务调度系统
 - [Grit](https://github.com/climech/grit) - 基于 MultiTree 实现的任务管理
+- [Asynq](https://github.com/hibiken/asynq) - 异步分布式任务队列
 
 
 ### 流处理
@@ -1353,6 +1362,7 @@
 ### 系统开发
 - [LinuxKit](https://github.com/linuxkit/linuxkit) - 为容器构建安全、便携、可移植操作系统的工具包
 - [go-systemd](https://github.com/coreos/go-systemd) - 绑定 systemd
+- [Lima](https://github.com/AkihiroSuda/lima) - Linux-on-Mac ("macOS subsystem for Linux", "containerd for Mac")
 
 
 ### 未归类
@@ -1381,6 +1391,7 @@
 - [address](https://github.com/bojanz/address) - 地址处理库，支持多国语言
 - [webhook](https://github.com/adnanh/webhook) - 可执行 Shell 命令的 Web Hook 服务
 - [webhookd](https://github.com/ncarlier/webhookd) - 为 Shell 脚本提供 Web Hook 服务
+- [go-cid](https://github.com/ipfs/go-cid) - [CID spec](https://github.com/ipld/cid) Go 语言实现
 
 
 ## logo
