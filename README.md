@@ -287,6 +287,7 @@
 - [PTerm](https://github.com/pterm/pterm) - 支持图表、表格、进度条、树等终端输出展示
 - [Lip Gloss](https://github.com/charmbracelet/lipgloss) - 终端布局、样式
 - [glow](https://github.com/charmbracelet/glow) - 终端渲染展示 Markdown
+- [Slides](https://github.com/maaslalani/slides) - 终端渲染展示 Markdown
 - [tview](https://github.com/rivo/tview) - Terminal UI
 
 #### 其他
@@ -351,6 +352,8 @@
 - [kcp-go](https://github.com/xtaci/kcp-go) - 可靠的 UDP 通讯包
 - [gliderlabs/ssh](https://github.com/gliderlabs/ssh) - 像 `net/http` 一样轻松搭建 SSH 服务器
 - [netaddr](https://github.com/inetaf/netaddr) - 网络地址处理
+- [sx](https://github.com/v-byte-cpu/sx) - 网络扫描命令工具
+- [echoip](https://github.com/mpolden/echoip) - IP 地址查找服务
 
 
 #### 网络代理
@@ -405,6 +408,7 @@
 
 ### 网关
 - [GoKu API Gateway CE](https://github.com/eolinker/GoKu-API-Gateway) - eoLinker 开源的 API 网关
+- [Easegress](https://github.com/megaease/easegress)
 
 
 ### 序列化
@@ -598,6 +602,7 @@
 - [goquery](https://github.com/PuerkitoBio/goquery)
 - [Muffet](https://github.com/raviqqe/muffet) - 网站链接检查器
 - [Creeper](https://github.com/wspl/creeper)
+- [Geziyor](https://github.com/geziyor/geziyor) - 支持 JS 渲染的快速爬虫框架
 
 
 ### 数据库
@@ -608,6 +613,10 @@
 - [sqlparser](https://github.com/xwb1989/sqlparser) - SQL 解析
 - [vitess-sqlparser](https://github.com/blastrain/vitess-sqlparser) - SQL 解析
 - [dbml-go](https://github.com/duythinht/dbml-go) - [DBML](https://github.com/holistics/dbml) 解析
+
+
+#### 分布式事务
+- [go-saga](https://github.com/lysu/go-saga) - Saga 分布式事务实现
 
 
 #### 数据库相关
@@ -638,6 +647,7 @@
 - [OctoSQL](https://github.com/cube2222/octosql) - 支持多数据库的 SQL 查询工具
 - [goose](https://github.com/pressly/goose) - 数据库迁移工具
 - [migrate](https://github.com/golang-migrate/migrate) - 数据库迁移工具
+- [dbmate](https://github.com/amacneil/dbmate) - 数据库迁移工具
 - [**ent**](https://github.com/facebook/ent) - An Entity Framework For Go
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
 - [go-nulltype](https://github.com/mattn/go-nulltype)
@@ -710,6 +720,7 @@
 - [Riot](https://github.com/go-ego/riot) - 全文搜索引擎
 - [simplefts](https://github.com/akrylysov/simplefts) - 超简单的全文搜索引擎实现
 - [Blast](https://github.com/mosuka/blast) - 全文搜索
+- [Fuzzy Search](https://github.com/lithammer/fuzzysearch) - 文本模糊搜索
 
 
 ### 表单
@@ -728,6 +739,7 @@
 - [securecookie](https://github.com/gorilla/securecookie) - cookie 加密/解密
 - [Goth](https://github.com/markbates/goth) - Multi-Provider Authentication for Go
 - [branca](https://github.com/hako/branca) - 号称比 JWT 更安全的 token 解决方案
+- [gin-jwt](https://github.com/appleboy/gin-jwt) - Gin 框架的 JWT 中间件
 
 
 ### 加密/解密
@@ -853,6 +865,7 @@
 - [pretty](https://github.com/kr/pretty) - 打印变量
 - [go-deadlock](https://github.com/sasha-s/go-deadlock) - 对 `(RW)Mutex` 进行注入，并提供死锁检测
 - [mmcloughlin/profile](https://github.com/mmcloughlin/profile)
+- [gcnotifier](https://github.com/CAFxX/gcnotifier) - 当发生 GC 时通知
 
 
 ### 测试
@@ -921,6 +934,7 @@
 - [go-sysinfo](https://github.com/elastic/go-sysinfo) - 系统信息
 - [go-locale](https://github.com/Xuanwo/go-locale) - 跨平台语言检测库
 - [go-ps](https://github.com/mitchellh/go-ps) - 系统进程信息
+- [ghw](https://github.com/jaypipes/ghw) - 硬件信息
 
 
 ### UUID
@@ -985,6 +999,7 @@
 - [kubernetes](https://github.com/kubernetes/kubernetes) - 容器调度管理平台
 - [k0s](https://github.com/k0sproject/k0s) - 最小体积的 k8s 发行版
 - [sealos](https://github.com/fanux/sealos) - 一条命令部署 Kubernetes 高可用集群
+- [KubeEye](https://github.com/kubesphere/kubeeye) - 通过配置规则发现 Kubernetes 上的各种问题
 
 
 ### 机器学习
@@ -1392,6 +1407,7 @@
 - [webhook](https://github.com/adnanh/webhook) - 可执行 Shell 命令的 Web Hook 服务
 - [webhookd](https://github.com/ncarlier/webhookd) - 为 Shell 脚本提供 Web Hook 服务
 - [go-cid](https://github.com/ipfs/go-cid) - [CID spec](https://github.com/ipld/cid) Go 语言实现
+- [gorush](https://github.com/appleboy/gorush) - APP 消息通知服务
 
 
 ## logo
