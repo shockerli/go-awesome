@@ -243,6 +243,13 @@
 - [Create Go App CLI](https://github.com/create-go-app/cli) - 通过命令行创建前后端项目的开发骨架
 
 
+### DDD 框架
+- [Wild Workouts](https://github.com/ThreeDotsLabs/wild-workouts-go-ddd-example) - DDD、整洁架构、CQRS的示例项目
+- [Clean Architecture in Go](https://github.com/eminetto/clean-architecture-go-v2) - 整洁架构示例
+- [freedom](https://github.com/8treenet/freedom) - 基于六边形架构的框架
+- [esim](https://github.com/jukylin/esim) - 基于六边形架构的微服务框架
+
+
 ### TCP 框架
 - [zinx](https://github.com/aceld/zinx) - TCP并发服务器框架
 
@@ -267,6 +274,7 @@
 - [kong](https://github.com/alecthomas/kong) - 命令行解析
 - [clop](https://github.com/guonaihong/clop) - 命令行解析包
 - [go-flags](https://github.com/jessevdk/go-flags) - 命令行参数解析
+- [mow.cli](https://github.com/jawher/mow.cli)
 
 #### 输出展示
 - [progressbar](https://github.com/schollz/progressbar) - 在终端上输出进度条
@@ -301,6 +309,7 @@
 - [peco](https://github.com/peco/peco) - 交互式过滤工具
 - [pty](https://github.com/creack/pty) - PTY for Go
 - [vtclean](https://github.com/lunixbochs/vtclean) - 从终端输出字符串中解析出纯文本
+- [Survey](https://github.com/AlecAivazis/survey) - 交互式输入
 
 
 
@@ -374,6 +383,7 @@
 - [hey](https://github.com/rakyll/hey) - Web 压测工具
 - [bombardier](https://github.com/codesenberg/bombardier) - Web 压测工具
 - [go-wrk](https://github.com/tsliwowicz/go-wrk)
+- [plow](https://github.com/six-ddc/plow)
 
 
 ### HTTP
@@ -443,6 +453,9 @@
 - [gomail](https://github.com/go-gomail/gomail) - 邮件发送包
 - [scorredoira/email](https://github.com/scorredoira/email)
 - [Hermes](https://github.com/matcornic/hermes) - Go 版本的 mailgen 引擎，根据配置生成 HTML 格式的邮件
+- [Go-Guerrilla](https://github.com/flashmob/go-guerrilla) - SMTP 邮件服务器
+- [MailHog](https://github.com/mailhog/MailHog) - 基于Web和API的SMTP测试
+- [Maddy](https://github.com/foxcpp/maddy) - SMTP 邮件服务器
 
 
 ### 消息队列
@@ -670,6 +683,7 @@
 - [etcd](https://github.com/etcd-io/etcd) - KV 分布式存储
 - [InfluxDB](https://github.com/influxdata/influxdb) - 时间序列数据库
 - [Prometheus](https://github.com/prometheus/prometheus) - 服务监控系统 & 时间序列数据库
+- [tstorage](https://github.com/nakabonne/tstorage) - 时间序列数据库
 - [Thanos](https://github.com/thanos-io/thanos) - 支持 Prometheus 简化部署、高可用、分布式存储
 - [CockroachDB](https://github.com/cockroachdb/cockroach) - 分布式 SQL 数据库
 - [Cayley](https://github.com/cayleygraph/cayley) - 图数据库
@@ -725,6 +739,7 @@
 
 ### 表单
 - [validator](https://github.com/go-playground/validator)
+- [ozzo-validation](https://github.com/go-ozzo/ozzo-validation) - 使用代码指定规则，而非Tag
 - [go-tagexpr](https://github.com/bytedance/go-tagexpr) - 字节跳动开源的结构体标签表达式解释器
 - [schema](https://github.com/gorilla/schema) - converts structs to and from form values
 
@@ -943,6 +958,7 @@
 - [google/uuid](https://github.com/google/uuid) - Google 开源的 uuid 包
 - [gofrs/uuid](https://github.com/gofrs/uuid)
 - [snowflake](https://github.com/bwmarrin/snowflake) - Twitter snowflake IDs
+- [sonyflake](https://github.com/sony/sonyflake) - Sony 版本的 Twitter's Snowflake
 
 
 ### 日志
@@ -1074,6 +1090,8 @@
 - [ColorJSON](https://github.com/TylerBrock/colorjson) - 终端中打印彩色 JSON
 - [jid](https://github.com/simeji/jid) - JSON 数据解析读取工具
 - [jsonc](https://github.com/tidwall/jsonc) - 支持注释与逗号
+- [sonic](https://github.com/bytedance/sonic) - 字节跳动开源的 JSON 解析器&修改器
+- [go-json](https://github.com/goccy/go-json)
 
 
 ### 依赖管理
@@ -1102,6 +1120,7 @@
 - [Open Policy Agent](https://github.com/open-policy-agent/opa) - 通用策略引擎，CNCF 孵化项目
 - [gizmo](https://github.com/nytimes/gizmo) - 微服务工具集
 - [MOSN](https://github.com/mosn/mosn) - 用于边缘和服务网格的云原生网络数据平面
+- [Erda](https://github.com/erda-project/erda) - 为企业提供 DevOps、微服务治理、多云管理的 PaaS
 
 
 ### Serverless
@@ -1159,6 +1178,7 @@
 - [uber-go/ratelimit](https://github.com/uber-go/ratelimit)
 - [Sentinel](https://github.com/sentinel-group/sentinel-golang) - 阿里巴巴开源的面向分布式服务架构的流量控制组件 Go 语言版本
 - [gohalt](https://github.com/1pkg/gohalt) - 限流
+- [gobreaker](https://github.com/sony/gobreaker) - 熔断器
 
 
 ### 编译器
@@ -1166,6 +1186,7 @@
 - [minigo](https://github.com/DQNEO/minigo) - A Go compiler from scratch
 - [llir/llvm](https://github.com/llir/llvm) - LLVM 编译器
 - [jit-compiler](https://github.com/bspaans/jit-compiler) - `JIT` 编译器
+- [GoPlus](https://github.com/goplus/gop) - 七牛云开源面向数据科学的语言，完全兼容Go语言
 
 
 ### 解释器
@@ -1283,6 +1304,7 @@
 
 #### 桌面应用
 - [xbar](https://github.com/matryer/xbar) - 基于 [Wails.app](https://github.com/wailsapp/wails) 开发的 macOS 菜单栏管理
+- [阿里云盘小白羊版](https://github.com/liupan1890/aliyunpan) - UI由Flutter构建
 
 
 ### 移动端
@@ -1317,6 +1339,7 @@
 - [watermill](https://github.com/ThreeDotsLabs/watermill)
 - [go-streams](https://github.com/reugn/go-streams)
 - [goflow](https://github.com/s8sg/goflow)
+- [Cadence](https://github.com/uber/cadence) ([Cadence Web UI](https://github.com/uber/cadence-web)) - Uber开源的分布式工作流引擎，主要用于微服务编排和分布式事务等场景
 
 
 ### 微信
@@ -1385,6 +1408,7 @@
 - [Robotgo](https://github.com/go-vgo/robotgo) - Golang 跨平台自动化系统，控制键盘鼠标位图和读取屏幕，窗口句柄以及全局事件监听
 - [go-homedir](https://github.com/mitchellh/go-homedir)
 - [i18n](https://github.com/Unknwon/i18n) - `i18n` 多语言工具包
+- [go-i18n](https://github.com/nicksnyder/go-i18n) - 多语言工具包
 - [Paginater](https://github.com/Unknwon/paginater) - 分页工具
 - [gls](https://github.com/jtolds/gls) - Goroutine local storage
 - [mcuadros/go-version](https://github.com/mcuadros/go-version) - 版本号比较
@@ -1408,6 +1432,7 @@
 - [webhookd](https://github.com/ncarlier/webhookd) - 为 Shell 脚本提供 Web Hook 服务
 - [go-cid](https://github.com/ipfs/go-cid) - [CID spec](https://github.com/ipld/cid) Go 语言实现
 - [gorush](https://github.com/appleboy/gorush) - APP 消息通知服务
+- [EventBus](https://github.com/asaskevich/EventBus) - 事件总线
 
 
 ## logo
