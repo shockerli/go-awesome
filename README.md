@@ -241,6 +241,8 @@
 - [go-clean-arch](https://github.com/bxcodec/go-clean-arch)
 - [go-rest-api](https://github.com/qiangxue/go-rest-api) - Go RESTful API Starter Kit
 - [Create Go App CLI](https://github.com/create-go-app/cli) - 通过命令行创建前后端项目的开发骨架
+- [clean-gin](https://github.com/dipeshdulal/clean-gin) - 基于 Gin 构建的整洁架构项目骨架
+- [golang-repo-template](https://github.com/moul/golang-repo-template) - 一个包含了很多实践的项目模板
 
 
 ### DDD 框架
@@ -316,6 +318,7 @@
 ### 终端工具
 - [vgrep](https://github.com/vrothberg/vgrep) - 支持滚动分页的 `grep`
 - [GoTTY](https://github.com/yudai/gotty) - 基于Web的命令行实时共享
+- [Jump](https://github.com/gsamokovarov/jump) - 根据习惯快速跳转目录
 
 
 ### 路由
@@ -363,6 +366,8 @@
 - [netaddr](https://github.com/inetaf/netaddr) - 网络地址处理
 - [sx](https://github.com/v-byte-cpu/sx) - 网络扫描命令工具
 - [echoip](https://github.com/mpolden/echoip) - IP 地址查找服务
+- [EasyTCP](https://github.com/DarthPestilane/easytcp) - TCP Server 框架
+- [GoPacket](https://github.com/google/gopacket) - 网络捕获抓包
 
 
 #### 网络代理
@@ -514,6 +519,7 @@
 - [glamour](https://github.com/charmbracelet/glamour) - 命令行下渲染 Markdown
 - [go-md2man](https://github.com/cpuguy83/go-md2man) - 转换 Markdown 为 man 手册内容
 - [gomarkdown/markdown](https://github.com/gomarkdown/markdown)
+- [html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - 转换 HTML 为 Markdown
 
 
 #### HTML
@@ -616,6 +622,7 @@
 - [Muffet](https://github.com/raviqqe/muffet) - 网站链接检查器
 - [Creeper](https://github.com/wspl/creeper)
 - [Geziyor](https://github.com/geziyor/geziyor) - 支持 JS 渲染的快速爬虫框架
+- [Apollo](https://github.com/amirgamil/apollo) - 一个爬虫工具
 
 
 ### 数据库
@@ -630,6 +637,7 @@
 
 #### 分布式事务
 - [go-saga](https://github.com/lysu/go-saga) - Saga 分布式事务实现
+- [DTM](https://github.com/yedf/dtm) - 跨语言的分布式事务管理服务，支持TCC、Saga、XA等
 
 
 #### 数据库相关
@@ -747,7 +755,7 @@
 ### Auth
 - [Casbin](https://github.com/casbin/casbin) - 权限控制管理
 - [pam-ussh](https://github.com/uber/pam-ussh) - Uber's SSH certificate pam module
-- [jwt-go](https://github.com/dgrijalva/jwt-go) - JWT for Go
+- [jwt-go](https://github.com/golang-jwt/jwt) - JWT for Go
 - [kataras/jwt](https://github.com/kataras/jwt) - JWT 轻量级实现
 - [cristalhq/jwt](https://github.com/cristalhq/jwt)
 - [sessions](https://github.com/gorilla/sessions) - 后端 SESSION 服务
@@ -788,6 +796,7 @@
 - [orly](https://github.com/nanmu42/orly) - 生成你自己的O'RLY动物书封面
 - [smartcrop](https://github.com/muesli/smartcrop) - 智能裁剪图片
 - [gift](https://github.com/disintegration/gift) - 图片滤镜
+- [Germanium](https://github.com/matsuyoshi30/germanium) - 给代码生成图片
 
 
 #### 图片识别
@@ -1242,6 +1251,7 @@
 - [QLBridge](https://github.com/araddon/qlbridge) - Go SQL Runtime Engine
 - [YQL](https://github.com/caibirdme/yql) - SQL WHERE 风格的规则引擎
 - [Flux](https://github.com/influxdata/flux) - InfluxDB 数据语言
+- [Spiker](https://github.com/shockerli/spiker) - Go 编写的简单规则表达式执行器，支持自定义函数和流程控制，适用于业务规则复杂的场景
 
 
 ### 代码生成
