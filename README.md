@@ -54,6 +54,7 @@
 - [Go 学习之路](https://github.com/talkgo/read) - Go 学习资料汇集
 - [Go 开发者路线图](https://github.com/Alikhll/golang-developer-roadmap)
 - [ReposHub-Go](https://reposhub.com/go)
+- [VisuAlgo](https://visualgo.net) - 数据结构和算法动态可视化
 
 
 ## 大牛
@@ -118,7 +119,7 @@
 - [7天用Go从零实现系列](https://github.com/geektutu/7days-golang)
 - [Go 语言高性能编程](https://github.com/geektutu/high-performance-go)
 - [Golang - 100天从新手到大师](https://github.com/rubyhan1314/Golang-100-Days) - 某培训机构的部分教程内容
-- [algo](https://github.com/hoanhan101/algo) - 107+ 编码面试问题，包括详细的解决方案，测试用例和程序分析
+- [hoanhan101/algo](https://github.com/hoanhan101/algo) - 107+ 编码面试问题，包括详细的解决方案，测试用例和程序分析
 - [over-golang](https://github.com/overnote/over-golang) - Go 学习笔记
 - [over-algorithm](https://github.com/overnote/over-algorithm) - Go 算法笔记
 - [learngo](https://github.com/inancgumus/learngo) - 1000+ Go 示例、练习和测试
@@ -128,6 +129,7 @@
 - [Golang修养之路](https://github.com/aceld/golang)
 - [Go语法树入门](https://github.com/chai2010/go-ast-book)
 - [Go Concurrency Patterns](https://github.com/lotusirous/go-concurrency-patterns) - Go 并发模式场景集合
+- [yezihack/algo](https://github.com/yezihack/algo) - 数据结构与算法
 
 
 ## 指南
@@ -277,6 +279,7 @@
 - [clop](https://github.com/guonaihong/clop) - 命令行解析包
 - [go-flags](https://github.com/jessevdk/go-flags) - 命令行参数解析
 - [mow.cli](https://github.com/jawher/mow.cli)
+- [go-arg](https://github.com/alexflint/go-arg) - 基于结构体Tag解析命令行参数
 
 #### 输出展示
 - [progressbar](https://github.com/schollz/progressbar) - 在终端上输出进度条
@@ -433,6 +436,7 @@
 - [gogo/protobuf](https://github.com/gogo/protobuf) - `golang/protobuf` 的扩展替代品
 - [Objx](https://github.com/stretchr/objx) - 操作 map, slice, JSON 等数据的包
 - [msgp](https://github.com/tinylib/msgp) - MessagePack 代码生成器
+- [Buf](https://github.com/bufbuild/buf) - protoc 替代品
 
 
 ### 解压缩
