@@ -197,6 +197,7 @@
 ## 学习项目
 - [1m-go-websockets](https://github.com/eranyanay/1m-go-websockets) - 该项目演示了如何用 Go 编写一个可以提供超过一百万个 `websockets` 连接、运行内存小于 1GB 的服务器
 - [Go by Example](https://github.com/mmcgrana/gobyexample) - 通过实例学习 Go
+- [IAM](https://github.com/marmotedu/iam) - 身份识别与访问管理系统（教学项目）
 
 
 ## 开源类库
@@ -322,6 +323,7 @@
 - [vgrep](https://github.com/vrothberg/vgrep) - 支持滚动分页的 `grep`
 - [GoTTY](https://github.com/yudai/gotty) - 基于Web的命令行实时共享
 - [Jump](https://github.com/gsamokovarov/jump) - 根据习惯快速跳转目录
+- [GoFish](https://github.com/fishworks/gofish) - 一个受 [Homebrew](https://brew.sh) 启发的跨平台软件管理工具，支持 Linux 和 Windows
 
 
 ### 路由
@@ -717,6 +719,8 @@
 - [genji](https://github.com/genjidb/genji) - 文档内嵌型数据库
 - [Dolt](https://github.com/dolthub/dolt) - 像 Git 一样操作数据库
 - [rosedb](https://github.com/roseduan/rosedb) - 简洁、高效的 KV 数据库，支持多种数据结构
+- [LinDB](https://github.com/lindb/lindb) - 分布式时序数据库
+- [mandodb](https://github.com/chenjiandongx/mandodb) - 一个示例项目，作者介绍如何从零开始实现一个小型的时序数据库
 
 
 ### 缓存
@@ -801,6 +805,7 @@
 - [smartcrop](https://github.com/muesli/smartcrop) - 智能裁剪图片
 - [gift](https://github.com/disintegration/gift) - 图片滤镜
 - [Germanium](https://github.com/matsuyoshi30/germanium) - 给代码生成图片
+- [Go Graphics](https://github.com/fogleman/gg) - 2D 图片渲染
 
 
 #### 图片识别
@@ -868,6 +873,7 @@
 - [statsview](https://github.com/go-echarts/statsview) - 实时 Go 运行时统计数据可视化分析器
 - [codesearch](https://github.com/google/codesearch) - 代码搜索工具
 - [Pyroscope](https://github.com/pyroscope-io/pyroscope) - 可视化程序性能监控工具，支持多种语言
+- [gosec](https://github.com/securego/gosec) - 代码安全性检查工具
 
 
 ### 调试
