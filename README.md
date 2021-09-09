@@ -386,6 +386,7 @@
 - [V2Ray](https://github.com/v2ray/v2ray-core)
 - [V2Fly](https://github.com/v2fly/v2ray-core) - V2Ray 的社区版本
 - [Tailscale](https://github.com/tailscale/tailscale) - WireGuard 解决方案
+- [Clash](https://github.com/Dreamacro/clash) - 支持多种协议的多平台代理客户端
 
 
 ### HTTP压测
@@ -498,6 +499,7 @@
 - [filetype](https://github.com/h2non/filetype) - 文件类型与 MIME 检测
 - [go-app-paths](https://github.com/muesli/go-app-paths) - 跨平台检索目录文件
 - [copy](https://github.com/otiai10/copy) - 拷贝文件夹
+- [lakeFS](https://github.com/treeverse/lakeFS) - 类 Git 文件对象存储
 
 
 ### 模板引擎
@@ -775,6 +777,7 @@
 
 ### 加密/解密
 - [2fa](https://github.com/rsc/2fa) - Two-factor authentication on the command line
+- [age](https://github.com/FiloSottile/age) - 文件加密工具（库）
 
 
 ### 视频
@@ -874,6 +877,7 @@
 - [codesearch](https://github.com/google/codesearch) - 代码搜索工具
 - [Pyroscope](https://github.com/pyroscope-io/pyroscope) - 可视化程序性能监控工具，支持多种语言
 - [gosec](https://github.com/securego/gosec) - 代码安全性检查工具
+- [gokart](https://github.com/praetorian-inc/gokart) - 代码静态分析工具
 
 
 ### 调试
@@ -991,6 +995,7 @@
 - [lumberjack](https://github.com/natefinch/lumberjack) - 日志文件切割
 - [file-rotatelogs](https://github.com/lestrrat-go/file-rotatelogs) - 日志文件切割
 - [go-syslog](https://github.com/influxdata/go-syslog) - 极速 Syslog 解析器
+- [glog](https://github.com/golang/glog)
 
 
 ### 监控
@@ -1069,6 +1074,7 @@
 - [go-multihash](https://github.com/multiformats/go-multihash) - 各种 Hash 算法实现
 - [memberlist](https://github.com/hashicorp/memberlist) - 基于 gossip 协议实现的管理集群成员和成员失败检测的开发包
 - [backoff](https://github.com/cenkalti/backoff) - 指数退避算法(Exponential Backoff)
+- [FSM](https://github.com/looplab/fsm) - 有限状态机
 
 
 ### 数据结构
@@ -1121,6 +1127,7 @@
 - [gom](https://github.com/mattn/gom) - 包版本管理工具
 - [rvflash/goup](https://github.com/rvflash/goup) - 检查包版本是否有更新
 - [owenthereal/goup](https://github.com/owenthereal/goup) - Go 多版本管理
+- [Athens](https://github.com/gomods/athens) - `GOPROXY` 代理服务
 
 
 ### 微服务
@@ -1294,6 +1301,7 @@
 - [Leaf](https://github.com/name5566/leaf)
 - [einx](https://github.com/Cyinx/einx)
 - [CloudRetro](https://github.com/giongto35/cloud-game) - 游戏云服务框架
+- [G3N](https://github.com/g3n/engine) - Go 3D Game Engine
 
 
 ### 桌面开发
@@ -1316,6 +1324,8 @@
 - [nucular](https://github.com/aarzilli/nucular) - 基于 Gio 的实现
 - [GoVCL](https://github.com/ying32/govcl) - 跨平台的 GUI 包
 - [vugu](https://github.com/vugu/vugu) - WebAssembly UI 框架
+- [GoGi](https://github.com/goki/gi) - 2D/3D GUI  框架
+
 
 #### 桌面辅助包
 - [pkg/browser](https://github.com/pkg/browser) - 在浏览器中打开文件、URL
@@ -1331,11 +1341,12 @@
 - [golang/mobile](https://github.com/golang/mobile) - Go support for Mobile devices
 
 
-### 协程管理
+### 协程/线程
 - [ants](https://github.com/panjf2000/ants) - goroutine 池
 - [tunny](https://github.com/Jeffail/tunny)
 - [go-workers](https://github.com/catmullet/go-workers) - 安全地并发运行一组 worker，通过 channel 进行输入输出
 - [Machine](https://github.com/autom8ter/machine) - 受 errgroup.Group 启发的协程管理
+- [thread](https://github.com/golang-design/thread)
 
 
 ### 任务/定时器
@@ -1421,6 +1432,7 @@
 - [LinuxKit](https://github.com/linuxkit/linuxkit) - 为容器构建安全、便携、可移植操作系统的工具包
 - [go-systemd](https://github.com/coreos/go-systemd) - 绑定 systemd
 - [Lima](https://github.com/AkihiroSuda/lima) - Linux-on-Mac ("macOS subsystem for Linux", "containerd for Mac")
+- [gopher-os](https://github.com/gopher-os/gopher-os) - 一个兼容 Linux 的 64 位 POSIX 风格系统
 
 
 ### 未归类
@@ -1453,6 +1465,7 @@
 - [go-cid](https://github.com/ipfs/go-cid) - [CID spec](https://github.com/ipld/cid) Go 语言实现
 - [gorush](https://github.com/appleboy/gorush) - APP 消息通知服务
 - [EventBus](https://github.com/asaskevich/EventBus) - 事件总线
+- [go-winio](https://github.com/microsoft/go-winio) - 为 Win32 IO 操作提供接口支持
 
 
 ## logo
