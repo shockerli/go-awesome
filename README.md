@@ -227,6 +227,7 @@
 - [aah](https://github.com/go-aah/aah)
 - [go-zero](https://github.com/tal-tech/go-zero) - 好未来开源的 Web 框架
 - [pingcap/fn](https://github.com/pingcap/fn) - 支持绑定任何方法，构建成 POST+JSON 接口
+- [flamego](https://github.com/flamego/flamego) - `unknwon` 开发的又一款 Web 框架
 
 
 ### 业务框架
@@ -309,7 +310,7 @@
 - [gotop](https://github.com/cjbassi/gotop) - 类 top 系统监控显示
 - [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for Windows
 - [go-isatty](https://github.com/mattn/go-isatty) - TTY 环境判断
-- [fzf](https://github.com/junegunn/fzf) - 命令行下的文件 Finder
+- [fzf](https://github.com/junegunn/fzf) - 终端模糊查询神器，支持多平台
 - [go-daemon](https://github.com/sevlyar/go-daemon) - daemon 进程包
 - [go-prompt](https://github.com/c-bata/go-prompt) - 命令行交互式输入
 - [peco](https://github.com/peco/peco) - 交互式过滤工具
@@ -521,7 +522,7 @@
 ### 文本处理
 #### Markdown
 - [Blackfriday](https://github.com/russross/blackfriday) - Markdown 解析器
-- [Lute](https://github.com/b3log/lute) - 结构化的 Markdown 引擎
+- [Lute](https://github.com/88250/lute) - 结构化的 Markdown 引擎
 - [goldmark](https://github.com/yuin/goldmark) - Markdown 解析器
 - [docx2md](https://github.com/mattn/docx2md) - 转换 Word 为 Markdown
 - [glamour](https://github.com/charmbracelet/glamour) - 命令行下渲染 Markdown
@@ -686,13 +687,14 @@
 - [elasticsql](https://github.com/cch123/elasticsql) - 转换 SQL 成 Elasticsearch DSL
 
 
-#### 数据库驱动
+#### 数据库客户端
 - [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql) - MySQL 驱动
 - [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - MSSQL 驱动
 - [pq](https://github.com/lib/pq) - PostgreSQL 驱动
 - [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - MongoDB 官方出品的 Go 语言驱动
 - [clickhouse-go](https://github.com/ClickHouse/clickhouse-go) - ClickHouse 官方 Go 语言客户端
 - [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 驱动
+- [gohbase](https://github.com/tsuna/gohbase) - HBase 客户端
 
 
 #### 数据库引擎
@@ -723,6 +725,8 @@
 - [rosedb](https://github.com/roseduan/rosedb) - 简洁、高效的 KV 数据库，支持多种数据结构
 - [LinDB](https://github.com/lindb/lindb) - 分布式时序数据库
 - [mandodb](https://github.com/chenjiandongx/mandodb) - 一个示例项目，作者介绍如何从零开始实现一个小型的时序数据库
+- [go-mysql-server](https://github.com/dolthub/go-mysql-server) - 解析 MySQL 协议并优化 SQL 的数据库引擎
+- [Milvus](https://github.com/milvus-io/milvus) - 向量数据库
 
 
 ### 缓存
@@ -773,6 +777,7 @@
 - [Goth](https://github.com/markbates/goth) - Multi-Provider Authentication for Go
 - [branca](https://github.com/hako/branca) - 号称比 JWT 更安全的 token 解决方案
 - [gin-jwt](https://github.com/appleboy/gin-jwt) - Gin 框架的 JWT 中间件
+- [Authboss](https://github.com/volatiletech/authboss) - Web Auth 系统
 
 
 ### 加密/解密
@@ -972,6 +977,7 @@
 - [go-sysinfo](https://github.com/elastic/go-sysinfo) - 系统信息
 - [go-locale](https://github.com/Xuanwo/go-locale) - 跨平台语言检测库
 - [go-ps](https://github.com/mitchellh/go-ps) - 系统进程信息
+- [psgo](https://github.com/containers/psgo) - `ps` 命令实现
 - [ghw](https://github.com/jaypipes/ghw) - 硬件信息
 
 
@@ -982,6 +988,7 @@
 - [gofrs/uuid](https://github.com/gofrs/uuid)
 - [snowflake](https://github.com/bwmarrin/snowflake) - Twitter snowflake IDs
 - [sonyflake](https://github.com/sony/sonyflake) - Sony 版本的 Twitter's Snowflake
+- [ulid](https://github.com/oklog/ulid) - Universally Unique Lexicographically Sortable Identifier
 
 
 ### 日志
@@ -1009,11 +1016,11 @@
 - [grafterm](https://github.com/slok/grafterm) - Metrics dashboards on terminal
 - [mymon](https://github.com/open-falcon/mymon) - MySQL 运行监控
 - [PingMe](https://github.com/kha7iq/pingme) - 支持多消息平台的服务可用性报警命令工具
+- [supervisord](https://github.com/ochinchina/supervisord) - Go 语言实现 Supervisor
 
 
 ### 统计分析
 - [Fathom](https://github.com/usefathom/fathom) - Web 站点统计
-- [Signal](https://github.com/bloom42/signal) - Web 站点统计
 - [Veneur](https://github.com/stripe/veneur) - 分布式实时数据处理管道
 - [gonum](https://github.com/gonum/gonum) - 科学计算相关
 
@@ -1418,6 +1425,7 @@
 - [rf](https://github.com/rsc/rf) - 代码重构工具
 - [bytebufferpool](https://github.com/valyala/bytebufferpool) - byte buffers pool
 - [bpool](https://github.com/oxtoacart/bpool) - byte buffers pool，支持 bytes.Buffers
+- [mergo](https://github.com/imdario/mergo) - 合并结构体和字典数据
 
 
 ### 代码生成
@@ -1466,6 +1474,7 @@
 - [gorush](https://github.com/appleboy/gorush) - APP 消息通知服务
 - [EventBus](https://github.com/asaskevich/EventBus) - 事件总线
 - [go-winio](https://github.com/microsoft/go-winio) - 为 Win32 IO 操作提供接口支持
+- [clipboard](https://github.com/atotto/clipboard) - 剪切板
 
 
 ## logo
