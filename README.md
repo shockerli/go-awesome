@@ -145,6 +145,7 @@
 - [go-advices](https://github.com/cristaloleg/go-advices)
 - [go-perfbook](https://github.com/dgryski/go-perfbook) - 编写和优化Go代码
 - [Practical Go: Real world advice for writing maintainable Go programs](https://dave.cheney.net/practical-go/presentations/qcon-china.html) [（Go 语言实践：编写可维护的程序的建议）](https://www.udnz.com/2018/10/27/%E3%80%90%E8%AF%91%E3%80%91Go-%E8%AF%AD%E8%A8%80%E5%AE%9E%E8%B7%B5%EF%BC%9A%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%BB%BA%E8%AE%AE/)
+- [Go 安全指南](https://github.com/Tencent/secguide/blob/main/Go安全指南.md) - 腾讯发布的《代码安全指南》Go 语言篇
 
 
 ## 文章
@@ -304,6 +305,8 @@
 - [glow](https://github.com/charmbracelet/glow) - 终端渲染展示 Markdown
 - [Slides](https://github.com/maaslalani/slides) - 终端渲染展示 Markdown
 - [tview](https://github.com/rivo/tview) - Terminal UI
+- [ASCIIPlayer](https://github.com/qeesung/asciiplayer) - 在终端中通过 ASCII 输出图片或视频，支持 png、jpeg、gif、mp4、avi 等格式
+
 
 #### 其他
 - [gosu](https://github.com/tianon/gosu) - 以指定的用户权限来运行脚本
@@ -632,6 +635,7 @@
 - [Creeper](https://github.com/wspl/creeper)
 - [Geziyor](https://github.com/geziyor/geziyor) - 支持 JS 渲染的快速爬虫框架
 - [Apollo](https://github.com/amirgamil/apollo) - 一个爬虫工具
+- [ferret](https://github.com/MontFerret/ferret) - 声明式 Web 数据抓取
 
 
 ### 数据库
@@ -660,6 +664,7 @@
 - [sqlx](https://github.com/jmoiron/sqlx) - `database/sql` 扩展包
 - [dbq](https://github.com/rocketlaunchr/dbq) - 数据库操作
 - [gendry](https://github.com/didi/gendry) - 滴滴开源的SQL Builder
+- [ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx)
 - [Squirrel](https://github.com/Masterminds/squirrel) - Fluent SQL Builder
 - [qb](https://github.com/aacanakin/qb) - the database toolkit for go
 - [redigo](https://github.com/gomodule/redigo) - Redis 客户端
