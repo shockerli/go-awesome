@@ -358,6 +358,7 @@
 - [go-getter](https://github.com/hashicorp/go-getter) - 可使用 URL 作为输入的主要形式从各种来源下载文件或目录
 - [go-netty](https://github.com/go-netty/go-netty) - 网络框架
 - [gnet](https://github.com/panjf2000/gnet) - 事件驱动 Go 网络框架
+- [netpoll](https://github.com/cloudwego/netpoll) - 专注于 RPC 场景的 Non-blocking I/O 网络库
 - [httplab](https://github.com/gchaincl/httplab) - The interactive web server
 - [yamux](https://github.com/hashicorp/yamux) - Multiplexer
 - [sftp](https://github.com/pkg/sftp) - SFTP support for the `go.crypto/ssh` package
@@ -399,6 +400,7 @@
 - [bombardier](https://github.com/codesenberg/bombardier) - Web 压测工具
 - [go-wrk](https://github.com/tsliwowicz/go-wrk)
 - [plow](https://github.com/six-ddc/plow)
+- [Ddosify](https://github.com/ddosify/ddosify)
 
 
 ### HTTP
@@ -580,6 +582,7 @@
 - [go-password-validator](https://github.com/lane-c-wagner/go-password-validator) - 密码强度校验器
 - [xurls](https://github.com/mvdan/xurls) - 从文本中提取 URL
 - [whatlanggo](https://github.com/abadojack/whatlanggo) - 自然语言探测
+- [go-enry](https://github.com/go-enry/go-enry) - 检测编程语言
 
 
 ### 文档
@@ -953,6 +956,7 @@
 - [gunit](https://github.com/smartystreets/gunit) - xUnit 风格测试框架
 - [quicktest](https://github.com/frankban/quicktest)
 - [k6](https://github.com/k6io/k6) - 负载测试工具
+- [gomonkey](https://github.com/agiledragon/gomonkey)
 
 
 ### 错误处理
@@ -1163,6 +1167,7 @@
 
 ### Serverless
 - [OpenFaaS](https://github.com/openfaas/faas) - Serverless Functions Made Simple(功能服务化的 FaaS 框架)
+- [faasd](https://github.com/openfaas/faasd) - 轻量级 FaaS 引擎
 - [fn](https://github.com/fnproject/fn) - 事件驱动的 FaaS
 - [riff](https://github.com/projectriff/riff) - 基于 Kubernetes 的 FaaS
 - [Nuclio](https://github.com/nuclio/nuclio) - 实时事件与数据的 Serverless 框架
@@ -1337,6 +1342,7 @@
 - [GoVCL](https://github.com/ying32/govcl) - 跨平台的 GUI 包
 - [vugu](https://github.com/vugu/vugu) - WebAssembly UI 框架
 - [GoGi](https://github.com/goki/gi) - 2D/3D GUI  框架
+- [systray](https://github.com/getlantern/systray) - 跨平台支持菜单栏管理
 
 
 #### 桌面辅助包
@@ -1466,7 +1472,8 @@
 - [CRDT](https://github.com/neurodrone/crdt) - CRDT(Convergent and Commutative Replicated Data Types)最终一致性算法的实现
 - [script](https://github.com/bitfield/script) - Making it easy to write shell-like scripts in Go
 - [sysadmin-utils](https://github.com/skx/sysadmin-util)
-- [licenseclassifier](https://github.com/google/licenseclassifier) - 识别文件中的 license 类型
+- [licenseclassifier](https://github.com/google/licenseclassifier) - 识别文件中的 LICENSE 类型
+- [go-license-detector](https://github.com/go-enry/go-license-detector)
 - [rose](https://gitlab.com/DevelopmentDuck/rose) - 在 HTML 中嵌入和运行 Go 代码
 - [esbuild](https://github.com/evanw/esbuild) - JavaScript 构建打包工具
 - [clipboard](https://github.com/d-tsuji/clipboard) - 跨平台的粘贴板实现
