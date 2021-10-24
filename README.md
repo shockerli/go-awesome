@@ -747,6 +747,7 @@
 - [ristretto](https://github.com/dgraph-io/ristretto)
 - [fastcache](https://github.com/VictoriaMetrics/fastcache)
 - [FreeCache](https://github.com/coocood/freecache)
+- [godis](https://github.com/hdt3213/godis) - Go 语言实现的 Redis 服务器和分布式集群
 - [groupcache](https://github.com/golang/groupcache) - 分布式缓存
 - [cachego](https://github.com/faabiosr/cachego) - 支持 Redis、Bolt 等缓存接口
 - [diskv](https://github.com/peterbourgon/diskv) - 基于硬盘的 KV 存储
