@@ -306,6 +306,7 @@
 - [Slides](https://github.com/maaslalani/slides) - 终端渲染展示 Markdown
 - [tview](https://github.com/rivo/tview) - Terminal UI
 - [ASCIIPlayer](https://github.com/qeesung/asciiplayer) - 在终端中通过 ASCII 输出图片或视频，支持 png、jpeg、gif、mp4、avi 等格式
+- [go-pretty](https://github.com/jedib0t/go-pretty) - 终端渲染表格、列表、进度条等
 
 
 #### 其他
@@ -378,6 +379,7 @@
 - [echoip](https://github.com/mpolden/echoip) - IP 地址查找服务
 - [EasyTCP](https://github.com/DarthPestilane/easytcp) - TCP Server 框架
 - [GoPacket](https://github.com/google/gopacket) - 网络捕获抓包
+- [croc](https://github.com/schollz/croc) - 两台电脑之间传输文件
 
 
 #### 网络代理
@@ -545,6 +547,7 @@
 - [daz](https://github.com/stevelacy/daz) - HTML 组件组合，渲染 HTML
 - [html-strip-tags-go](https://github.com/grokify/html-strip-tags-go) - 去除 HTML 标签
 - [bluemonday](https://github.com/microcosm-cc/bluemonday) - XSS 探测
+- [cascadia](https://github.com/andybalholm/cascadia) - CSS 选择器
 
 
 #### 其他
@@ -639,6 +642,7 @@
 - [Geziyor](https://github.com/geziyor/geziyor) - 支持 JS 渲染的快速爬虫框架
 - [Apollo](https://github.com/amirgamil/apollo) - 一个爬虫工具
 - [ferret](https://github.com/MontFerret/ferret) - 声明式 Web 数据抓取
+- [gocrawl](https://github.com/PuerkitoBio/gocrawl)
 
 
 ### 数据库
@@ -677,6 +681,7 @@
     + [mgo使用指南](https://studygolang.com/articles/3485)
 - [kingshard](https://github.com/flike/kingshard) - MySQL Proxy
 - [SOAR](https://github.com/XiaoMi/soar) - 对SQL进行优化和改写的自动化工具
+- [SQLE](https://github.com/actiontech/sqle) - SQL 审核工具
 - [Vitess](https://github.com/vitessio/vitess) - 用于部署、扩展和管理大型MySQL实例集群的数据库解决方案
 - [gh-ost](https://github.com/github/gh-ost) - GitHub 开源的在线更改 MySQL 表结构的工具
 - [SQLer](https://github.com/alash3al/sqler) - write APIs using direct SQL queries with no hassle, let's rethink about SQL
@@ -999,6 +1004,7 @@
 - [snowflake](https://github.com/bwmarrin/snowflake) - Twitter snowflake IDs
 - [sonyflake](https://github.com/sony/sonyflake) - Sony 版本的 Twitter's Snowflake
 - [ulid](https://github.com/oklog/ulid) - Universally Unique Lexicographically Sortable Identifier
+- [ksuid](https://github.com/segmentio/ksuid) - K-Sortable Globally Unique IDs
 
 
 ### 日志
@@ -1179,6 +1185,8 @@
 - [pulumi](https://github.com/pulumi/pulumi)
 - [Knative](https://github.com/knative/serving)
 - [fx](https://github.com/metrue/fx)
+- [IronFunctions](https://github.com/iron-io/functions)
+- [schollz/faas](https://github.com/schollz/faas) - 让任何包的函数变成一个 HTTP 接口
 
 
 ### devops
@@ -1344,6 +1352,7 @@
 - [vugu](https://github.com/vugu/vugu) - WebAssembly UI 框架
 - [GoGi](https://github.com/goki/gi) - 2D/3D GUI  框架
 - [systray](https://github.com/getlantern/systray) - 跨平台支持菜单栏管理
+- [go-flutter ](https://github.com/go-flutter-desktop/go-flutter) - 绑定 Flutter 到桌面应用
 
 
 #### 桌面辅助包
