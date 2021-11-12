@@ -215,7 +215,6 @@
 - [Teleport](https://github.com/henrylee2cn/teleport) - Socket 框架
 - [GoFrame](https://github.com/gogf/gf) - `国产`
 - [QOR](https://github.com/qor/qor) - 系列应用开发组件包
-- [Buffalo](https://github.com/gobuffalo/buffalo)
 - [DotWeb](https://github.com/devfeel/dotweb) - `国产`
 - [REST Layer](https://github.com/rs/rest-layer) - REST API framework
 - [Honeytrap](https://github.com/honeytrap/honeytrap)
@@ -329,6 +328,7 @@
 - [GoTTY](https://github.com/yudai/gotty) - 基于Web的命令行实时共享
 - [Jump](https://github.com/gsamokovarov/jump) - 根据习惯快速跳转目录
 - [GoFish](https://github.com/fishworks/gofish) - 一个受 [Homebrew](https://brew.sh) 启发的跨平台软件管理工具，支持 Linux 和 Windows
+- [viddy](https://github.com/sachaos/viddy) - 增强版 `watch` 命令
 
 
 ### 路由
@@ -363,6 +363,7 @@
 - [httplab](https://github.com/gchaincl/httplab) - The interactive web server
 - [yamux](https://github.com/hashicorp/yamux) - Multiplexer
 - [sftp](https://github.com/pkg/sftp) - SFTP support for the `go.crypto/ssh` package
+- [goftp](https://github.com/jlaffaye/ftp) - FTP 客户端
 - [evio](https://github.com/tidwall/evio) - 事件驱动网络框架（reactor 模式）
 - [gaio](https://github.com/xtaci/gaio) - 事件驱动网络框架（proactor 模式）
 - [httpretty](https://github.com/henvic/httpretty) - 在终端上漂亮地打印出 HTTP 请求
@@ -380,12 +381,13 @@
 - [EasyTCP](https://github.com/DarthPestilane/easytcp) - TCP Server 框架
 - [GoPacket](https://github.com/google/gopacket) - 网络捕获抓包
 - [croc](https://github.com/schollz/croc) - 两台电脑之间传输文件
+- [cmux](https://github.com/soheilhy/cmux) - 监听同一个端口，启动多种协议服务
 
 
 #### 网络代理
 - [**Caddy**](https://github.com/mholt/caddy) - 类似 Nginx 的 Web 服务器
 - [Traefik](https://github.com/containous/traefik) - 反向代理&负载均衡
-- [Proxy](https://github.com/snail007/goproxy) - golang 实现的高性能代理服务器
+- [snail007/goproxy](https://github.com/snail007/goproxy) - golang 实现的高性能代理服务器
 - [ProxyPool](https://github.com/henson/proxypool) - 采集免费的代理资源为爬虫提供有效的IP代理
 - [frp](https://github.com/fatedier/frp) - 可用于内网穿透的高性能的反向代理应用
 - [nps](https://github.com/cnlh/nps) - 一款轻量级、高性能、功能强大的内网穿透代理服务器
@@ -394,6 +396,8 @@
 - [V2Fly](https://github.com/v2fly/v2ray-core) - V2Ray 的社区版本
 - [Tailscale](https://github.com/tailscale/tailscale) - WireGuard 解决方案
 - [Clash](https://github.com/Dreamacro/clash) - 支持多种协议的多平台代理客户端
+- [elazarl/goproxy](https://github.com/elazarl/goproxy) - HTTP 代理
+- [oxy](https://github.com/vulcand/oxy) - Go middlewares for HTTP servers & proxies
 
 
 ### HTTP压测
@@ -467,6 +471,7 @@
 - [Twirp](https://github.com/twitchtv/twirp) - 基于 Protobuf 的 RPC 框架，与 gRPC 类似
 - [lile](https://github.com/lileio/lile) - gRPC 服务生成工具
 - [dubbo-go](https://github.com/apache/dubbo-go) - Dubbo Go 版本
+- [Kitex](https://github.com/cloudwego/kitex)
 
 
 ### 邮件
@@ -508,6 +513,7 @@
 - [go-app-paths](https://github.com/muesli/go-app-paths) - 跨平台检索目录文件
 - [copy](https://github.com/otiai10/copy) - 拷贝文件夹
 - [lakeFS](https://github.com/treeverse/lakeFS) - 类 Git 文件对象存储
+- [Duplicacy](https://github.com/gilbertchen/duplicacy) - 无锁云备份工具，支持几乎所有存储方式
 
 
 ### 模板引擎
@@ -520,6 +526,7 @@
 - [Ace](https://github.com/yosssi/ace)
 - [Sprig](https://github.com/Masterminds/sprig) - 常用模板方法
 - [pongo2](https://github.com/flosch/pongo2) - Django 语法风格的模板引擎
+- [plush](https://github.com/gobuffalo/plush)
 
 
 ### 代码生成
@@ -698,6 +705,7 @@
 - [SQLittle](https://github.com/alicebob/sqlittle) - 纯读取 SQLite 文件
 - [Bifrost](https://github.com/brokercap/Bifrost) - MySQL 同步到 Redis、ClickHouse 等服务的异构中间件
 - [elasticsql](https://github.com/cch123/elasticsql) - 转换 SQL 成 Elasticsearch DSL
+- [POP](https://github.com/gobuffalo/pop) - 基于 [sqlx](https://github.com/jmoiron/sqlx) 封装的数据库 ORM 工具
 
 
 #### 数据库客户端
@@ -862,6 +870,7 @@
 - [mewn](https://github.com/leaanthony/mewn) - 静态文件嵌入打包到二进制文件
 - [statik](https://github.com/rakyll/statik) - 静态文件嵌入
 - [go.rice](https://github.com/GeertJohan/go.rice)
+- [go-bindata](https://github.com/go-bindata/go-bindata) - 将静态文件转换成 Go 代码文件
 
 
 ### 优雅升级
@@ -1116,8 +1125,7 @@
 
 
 ### 依赖注入
-- [Wire](https://github.com/google/wire)
-- [go-autowire](https://github.com/Just-maple/go-autowire) - 使用注解自动生成 [wire](https://github.com/google/wire) 依赖注入文件
+- [go-autowire](https://github.com/Just-maple/go-autowire) - 使用注解自动生成 [wire](https://github.com/google/wire) - 依赖注入
 - [dig](https://github.com/uber-go/dig)
 - [Fx](https://github.com/uber-go/fx)
 
@@ -1420,8 +1428,9 @@
 
 
 ### 开发辅助包
-- [**copier**](https://github.com/jinzhu/copier) - struct 之间拷贝值
-- [**cast**](https://github.com/spf13/cast) - 数据类型转换
+- [cvt](https://github.com/shockerli/cvt) - 任意数据类型转换，支持自定义类型、提取结构体字段和值
+- [copier](https://github.com/jinzhu/copier) - struct 之间拷贝值
+- [cast](https://github.com/spf13/cast) - 数据类型转换
 - [diff](https://github.com/r3labs/diff) - 结构体&值比较
 - [go-extend](https://github.com/thinkeridea/go-extend)
 - [com](https://github.com/Unknwon/com) - 工具包
