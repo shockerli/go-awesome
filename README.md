@@ -336,6 +336,7 @@
 - [mux](https://github.com/gorilla/mux) - URL 路由和调度器
 - [gocraft/web](https://github.com/gocraft/web)
 - [go-querystring](https://github.com/google/go-querystring) - 转换结构体为URL请求参数
+- [gorilla/schema](https://github.com/gorilla/schema) - converts structs to and from form values
 - [CleverGo](https://github.com/clevergo/clevergo)
 - [rewrite](https://github.com/kataras/rewrite) - rewrite 中间件
 
@@ -442,6 +443,7 @@
 ### 网关
 - [GoKu API Gateway CE](https://github.com/eolinker/GoKu-API-Gateway) - eoLinker 开源的 API 网关
 - [Easegress](https://github.com/megaease/easegress)
+- [Manba](https://github.com/fagongzi/manba)
 
 
 ### 序列化
@@ -545,7 +547,7 @@
 - [html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - 转换 HTML 为 Markdown
 
 
-#### HTML
+#### HTML/CSS
 - [DOM](https://github.com/go-shiori/dom) - HTML DOM 节点操作
 - [obelisk](https://github.com/go-shiori/obelisk) - 保存 Web 网页为 HTML 单页面
 - [html2text](https://github.com/jaytaylor/html2text) - HTML 转 text
@@ -767,7 +769,7 @@
 - [Pebble](https://github.com/cockroachdb/pebble) - 被 CockroachDB 使用的 KV 存储
 
 
-### 搜索
+### 搜索推荐
 - [wukong](https://github.com/huichen/wukong) - 全文搜索引擎
 - [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - 官方 ES 客户端
 - [elastic](https://github.com/olivere/elastic) - Elasticsearch 客户端
@@ -779,13 +781,13 @@
 - [simplefts](https://github.com/akrylysov/simplefts) - 超简单的全文搜索引擎实现
 - [Blast](https://github.com/mosuka/blast) - 全文搜索
 - [Fuzzy Search](https://github.com/lithammer/fuzzysearch) - 文本模糊搜索
+- [gorse](https://github.com/zhenghaoz/gorse) - 单节点训练和分布式预测推荐系统引擎
 
 
 ### 表单
 - [validator](https://github.com/go-playground/validator)
 - [ozzo-validation](https://github.com/go-ozzo/ozzo-validation) - 使用代码指定规则，而非Tag
 - [go-tagexpr](https://github.com/bytedance/go-tagexpr) - 字节跳动开源的结构体标签表达式解释器
-- [schema](https://github.com/gorilla/schema) - converts structs to and from form values
 
 
 ### Auth
@@ -1386,6 +1388,7 @@
 
 
 ### 任务/定时器
+- [RxGo](https://github.com/ReactiveX/RxGo) - Go 版 [ReactiveX](https://github.com/ReactiveX)，简单方便的处理异步数据流
 - [Grift](https://github.com/markbates/grift) - Go based task runner
 - [cron](https://github.com/robfig/cron) - a cron library for go
 - [goCron](https://github.com/jasonlvhit/gocron) - A Golang Job Scheduling Package
@@ -1509,7 +1512,7 @@
 
 
 ## logo
-- [Gophers....](https://github.com/egonelbre/gophers)
+- [Gophers](https://github.com/egonelbre/gophers)
 
 
 ## 工具
