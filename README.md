@@ -130,6 +130,7 @@
 - [Go语法树入门](https://github.com/chai2010/go-ast-book)
 - [Go Concurrency Patterns](https://github.com/lotusirous/go-concurrency-patterns) - Go 并发模式场景集合
 - [yezihack/algo](https://github.com/yezihack/algo) - 数据结构与算法
+- [golang-cheat-sheet-cn](https://github.com/jincheng9/golang-cheat-sheet-cn) - GitHub上最流行的Golang代码速查表中文翻译版本
 
 
 ## 指南
