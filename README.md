@@ -171,18 +171,19 @@
 
 
 ## 成品项目
+- [Shiori](https://github.com/go-shiori/shiori) - 书签管理
 - [studygolang](https://github.com/studygolang/studygolang) - Go 语言中文网
 - [mkcert](https://github.com/FiloSottile/mkcert) - 生成本地 HTTPS 加密证书的工具
 - [Rainbond](https://github.com/goodrain/rainbond) - 基于Docker、Kubernetes等容器技术的开源PaaS
 - [**NYADB2**](https://github.com/qw4990/NYADB2) - Go 实现的关系型数据库, 值得用于学习
-- [EiBlog](https://github.com/eiblog/eiblog) - `国产` 博客
+- [EiBlog](https://github.com/eiblog/eiblog) - 博客
 - [pan-light](https://github.com/peterq/pan-light) - 不限速的百度网盘客户端, 基于 Go + Qt5 开发
-- [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go) - 百度网盘客户端
+- [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go) - 百度网盘客户端（命令行）（仓库已关闭，可搜同名Fork）
 - [daily-warm](https://github.com/BarryYan/daily-warm) - 每天定时发邮件给你关心的人
 - [pipe](https://github.com/88250/pipe) - 博客平台
 - [mdr](https://github.com/MichaelMure/mdr) - 命令行下的 Markdown 阅读工具
 - [miniflux](https://github.com/miniflux/miniflux) - Feed 阅读器
-- [golinks](https://github.com/prologic/golinks) - 创建自定义书签、命令、搜索等
+- [golinks](https://git.mills.io/prologic/golinks) - 创建自定义书签、命令、搜索等
 - [链滴笔记](https://github.com/88250/liandi) - 桌面端笔记应用
 - [wayback](https://github.com/wabarc/wayback) - 网页快照备份
 
@@ -211,7 +212,6 @@
 - [Iris](https://github.com/kataras/iris) - Web 开发框架
 - [Revel](https://github.com/revel/revel)
 - [echo](https://github.com/labstack/echo)
-- [chi](https://github.com/go-chi/chi)
 - [Faygo](https://github.com/henrylee2cn/faygo) - `国产`
 - [Teleport](https://github.com/henrylee2cn/teleport) - Socket 框架
 - [GoFrame](https://github.com/gogf/gf) - `国产`
@@ -335,6 +335,7 @@
 ### 路由
 - [HttpRouter](https://github.com/julienschmidt/httprouter)
 - [mux](https://github.com/gorilla/mux) - URL 路由和调度器
+- [chi](https://github.com/go-chi/chi)
 - [gocraft/web](https://github.com/gocraft/web)
 - [go-querystring](https://github.com/google/go-querystring) - 转换结构体为URL请求参数
 - [gorilla/schema](https://github.com/gorilla/schema) - converts structs to and from form values
@@ -400,6 +401,7 @@
 - [Clash](https://github.com/Dreamacro/clash) - 支持多种协议的多平台代理客户端
 - [elazarl/goproxy](https://github.com/elazarl/goproxy) - HTTP 代理
 - [oxy](https://github.com/vulcand/oxy) - Go middlewares for HTTP servers & proxies
+- [ouqiang/goproxy](https://github.com/ouqiang/goproxy) - Go HTTP(S)代理库, 支持中间人代理解密HTTPS
 
 
 ### HTTP压测
@@ -558,6 +560,10 @@
 - [html-strip-tags-go](https://github.com/grokify/html-strip-tags-go) - 去除 HTML 标签
 - [bluemonday](https://github.com/microcosm-cc/bluemonday) - XSS 探测
 - [cascadia](https://github.com/andybalholm/cascadia) - CSS 选择器
+- [htmlquery](https://github.com/antchfx/htmlquery) - XPath 语法查询 HTML
+- [xmlquery](https://github.com/antchfx/xmlquery) - XPath 语法查询 XML
+- [xpath](https://github.com/antchfx/xpath) - XPath 语法
+- [goquery](https://github.com/PuerkitoBio/goquery) - jQuery 语法查询 HTML
 
 
 #### 其他
@@ -576,7 +582,7 @@
 - [enescakir/emoji](https://github.com/enescakir/emoji)
 - [golang/freetype](https://github.com/golang/freetype) - Freetype font rasterizer
 - [prose](https://github.com/jdkato/prose) - natural language processing library
-- [minify](https://github.com/tdewolff/minify) - Web 静态资源压缩(HTML/JS/CSS/JSON)
+- [minify](https://github.com/tdewolff/minify) - Web 静态资源压缩(HTML/JS/CSS/JSON/XML/SVG)
 - [Inflection](https://github.com/jinzhu/inflection) - Pluralizes and singularizes English nouns
 - [autocorrect](https://github.com/studygolang/autocorrect) - 自动给中英文之间加入合理的空格并纠正专用名词大小写
 - [bleve](https://github.com/blevesearch/bleve) - modern text indexing
@@ -646,13 +652,13 @@
 - [Colly](https://github.com/gocolly/colly) - 网络爬虫框架
 - [Pholcus](https://github.com/henrylee2cn/pholcus) - 支持分布式的高并发、重量级爬虫软件
 - [go_spider](https://github.com/hu17889/go_spider)
-- [goquery](https://github.com/PuerkitoBio/goquery)
 - [Muffet](https://github.com/raviqqe/muffet) - 网站链接检查器
 - [Creeper](https://github.com/wspl/creeper)
 - [Geziyor](https://github.com/geziyor/geziyor) - 支持 JS 渲染的快速爬虫框架
 - [Apollo](https://github.com/amirgamil/apollo) - 一个爬虫工具
 - [ferret](https://github.com/MontFerret/ferret) - 声明式 Web 数据抓取
 - [gocrawl](https://github.com/PuerkitoBio/gocrawl)
+- [Antch](https://github.com/antchfx/antch)
 
 
 ### 数据库
@@ -701,7 +707,7 @@
 - [goose](https://github.com/pressly/goose) - 数据库迁移工具
 - [migrate](https://github.com/golang-migrate/migrate) - 数据库迁移工具
 - [dbmate](https://github.com/amacneil/dbmate) - 数据库迁移工具
-- [**ent**](https://github.com/facebook/ent) - An Entity Framework For Go
+- [ent](https://github.com/facebook/ent) - An Entity Framework For Go
 - [godb](https://github.com/samonzeweb/godb) - a Go query builder and struct mapper
 - [go-nulltype](https://github.com/mattn/go-nulltype)
 - [go-mysql](https://github.com/siddontang/go-mysql) - MySQL 工具集
@@ -709,6 +715,7 @@
 - [Bifrost](https://github.com/brokercap/Bifrost) - MySQL 同步到 Redis、ClickHouse 等服务的异构中间件
 - [elasticsql](https://github.com/cch123/elasticsql) - 转换 SQL 成 Elasticsearch DSL
 - [POP](https://github.com/gobuffalo/pop) - 基于 [sqlx](https://github.com/jmoiron/sqlx) 封装的数据库 ORM 工具
+- [REL](https://github.com/go-rel/rel) - Modern Database Access Layer for Go
 
 
 #### 数据库客户端
@@ -751,6 +758,7 @@
 - [mandodb](https://github.com/chenjiandongx/mandodb) - 一个示例项目，作者介绍如何从零开始实现一个小型的时序数据库
 - [go-mysql-server](https://github.com/dolthub/go-mysql-server) - 解析 MySQL 协议并优化 SQL 的数据库引擎
 - [Milvus](https://github.com/milvus-io/milvus) - 向量数据库
+- [FerretDB](https://github.com/FerretDB/FerretDB) - MangoDB 替代品
 
 
 ### 缓存
@@ -816,6 +824,7 @@
 - [bililive-go](https://github.com/hr3lxphr6j/bililive-go) - 直播录制工具
 - [screego](https://github.com/screego/server) - 通过浏览器共享开发者屏幕
 - [livego](https://github.com/gwuhaolin/livego) - 直播服务器
+- [Monibuca](https://github.com/langhuihui/monibuca) - 流媒体服务器开发框架
 
 
 ### 图形处理
@@ -839,6 +848,8 @@
 - [gift](https://github.com/disintegration/gift) - 图片滤镜
 - [Germanium](https://github.com/matsuyoshi30/germanium) - 给代码生成图片
 - [Go Graphics](https://github.com/fogleman/gg) - 2D 图片渲染
+- [canvas](https://github.com/tdewolff/canvas) - 矢量图绘制
+- [formulae](https://github.com/tdewolff/formulae) - 数学公式解析、计算、图表绘制
 
 
 #### 图片识别
@@ -874,6 +885,8 @@
 - [statik](https://github.com/rakyll/statik) - 静态文件嵌入
 - [go.rice](https://github.com/GeertJohan/go.rice)
 - [go-bindata](https://github.com/go-bindata/go-bindata) - 将静态文件转换成 Go 代码文件
+- [vfsgen](https://github.com/shurcooL/vfsgen) - 将静态文件打包成 `http.FileSystem` 类型进行访问
+- [packr](https://github.com/gobuffalo/packr)
 
 
 ### 优雅升级
@@ -909,6 +922,7 @@
 - [Pyroscope](https://github.com/pyroscope-io/pyroscope) - 可视化程序性能监控工具，支持多种语言
 - [gosec](https://github.com/securego/gosec) - 代码安全性检查工具
 - [gokart](https://github.com/praetorian-inc/gokart) - 代码静态分析工具
+- [gofumpt](https://github.com/mvdan/gofumpt) - `gofmt` 增强版代码格式化工具
 
 
 ### 调试
@@ -935,13 +949,16 @@
 - [go-deadlock](https://github.com/sasha-s/go-deadlock) - 对 `(RW)Mutex` 进行注入，并提供死锁检测
 - [mmcloughlin/profile](https://github.com/mmcloughlin/profile)
 - [gcnotifier](https://github.com/CAFxX/gcnotifier) - 当发生 GC 时通知
+- [grmon](https://github.com/bcicen/grmon) - 命令行监控显示 goroutines
+- [valast](https://github.com/hexops/valast) - 打印输出变量的 `go/ast` 结构，类似于 PHP 的 `var_export` 函数
 
 
 ### 测试
 - [GoConvey](https://github.com/smartystreets/goconvey) - 含Web界面的单元测试框架
 - [GoMock](https://github.com/golang/mock) - 谷歌出品的Mock测试框架
 - [GoStub](https://github.com/prashantv/gostub)
-- [Monkey](https://github.com/bouk/monkey)
+- [Monkey](https://github.com/bouk/monkey) - (**Archived**) Monkey patching in Go
+- [gomonkey](https://github.com/agiledragon/gomonkey) - 猴子补丁，对函数、变量等进行打桩，方便单元测试，Fork 自 [Monkey](https://github.com/bouk/monkey)
 - [SuperMonkey](https://github.com/cch123/supermonkey) - 让私有方法可测
 - [Ginkgo](https://github.com/onsi/ginkgo) - BBD 测试框架
 - [fperf](https://github.com/shafreeck/fperf) - 压测工具
@@ -974,7 +991,6 @@
 - [gunit](https://github.com/smartystreets/gunit) - xUnit 风格测试框架
 - [quicktest](https://github.com/frankban/quicktest)
 - [k6](https://github.com/k6io/k6) - 负载测试工具
-- [gomonkey](https://github.com/agiledragon/gomonkey)
 
 
 ### 错误处理
@@ -1102,7 +1118,6 @@
 - [xorfilter](https://github.com/FastFilter/xorfilter)
 - [priyankchheda/algorithms](https://github.com/priyankchheda/algorithms) - 各种算法的 Go 语言实现
 - [meow](https://github.com/mmcloughlin/meow) - Meow hash
-- [btree](https://github.com/google/btree) - `B-Tree`
 - [basalt](https://github.com/rpcxio/basalt) - 高性能的分布式的专门空间优化的 Bitmap 服务, 杜绝 Bloomfilter 和 CuckooFilter 的误判
 - [go-blurhash](https://github.com/buckket/go-blurhash) - BlurHash，是模糊图片的一种哈希算法
 - [xxhash](https://github.com/cespare/xxhash) - xxHash 哈希算法实现
@@ -1121,10 +1136,12 @@
 - [golang-set](https://github.com/deckarep/golang-set) - The missing set collection
 - [rbang](https://github.com/tidwall/rbang) - R!tree 实现
 - [rtreego](https://github.com/dhconnelly/rtreego) - R-tree
+- [google/btree](https://github.com/google/btree) - B-Tree
 - [tinybtree](https://github.com/tidwall/tinybtree) - B-tree
 - [dataframe-go](https://github.com/rocketlaunchr/dataframe-go) - 用于数据统计和操作的包
 - [go-set](https://github.com/scylladb/go-set) - 集合工具包
 - [orderedmap](https://github.com/elliotchance/orderedmap) - 有序字典
+- [trie](https://github.com/dghubble/trie)
 
 
 ### 依赖注入
@@ -1151,6 +1168,7 @@
 - [jsonc](https://github.com/tidwall/jsonc) - 支持注释与逗号
 - [sonic](https://github.com/bytedance/sonic) - 字节跳动开源的 JSON 解析器&修改器
 - [go-json](https://github.com/goccy/go-json)
+- [jsonquery](https://github.com/antchfx/jsonquery) - XPath 语法查询 JSON
 
 
 ### 依赖管理
@@ -1274,6 +1292,7 @@
 - [golisp](https://github.com/mattn/golisp) - `Lisp` 解释器
 - [dst](https://github.com/dave/dst) - Go Decorated Syntax Tree
 - [mvdan/sh](https://github.com/mvdan/sh) - Shell 解析、格式化、接口
+- [tdewolff/parse](https://github.com/tdewolff/parse) - 通用词法分析器 Lexer，并内置支持解析 HTML/CSS/JSON/XML/JS/SVG 语法
 
 
 #### PHP
@@ -1321,6 +1340,7 @@
 ### 运行器
 - [gore](https://github.com/motemen/gore) - 在线运行 Go 代码
 - [nodebook](https://github.com/netgusto/nodebook) - 在线运行多种语言
+- [go-pry](https://github.com/d4l3k/go-pry) - 像 Python、R、PHP 等在终端交互式输入与运行 Go 代码
 
 
 ### 查询语言
@@ -1510,6 +1530,7 @@
 - [EventBus](https://github.com/asaskevich/EventBus) - 事件总线
 - [go-winio](https://github.com/microsoft/go-winio) - 为 Win32 IO 操作提供接口支持
 - [clipboard](https://github.com/atotto/clipboard) - 剪切板
+- [fq](https://github.com/wader/fq) - 以 [jq](https://github.com/stedolan/jq) 语法读取二进制数据/文件
 
 
 ## logo
