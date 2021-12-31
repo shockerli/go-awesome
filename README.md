@@ -577,7 +577,7 @@
 - [golang/freetype](https://github.com/golang/freetype) - Freetype font rasterizer
 - [prose](https://github.com/jdkato/prose) - natural language processing library
 - [minify](https://github.com/tdewolff/minify) - Web 静态资源压缩(HTML/JS/CSS/JSON)
-- [Inflection](github.com/jinzhu/inflection) - Pluralizes and singularizes English nouns
+- [Inflection](https://github.com/jinzhu/inflection) - Pluralizes and singularizes English nouns
 - [autocorrect](https://github.com/studygolang/autocorrect) - 自动给中英文之间加入合理的空格并纠正专用名词大小写
 - [bleve](https://github.com/blevesearch/bleve) - modern text indexing
 - [etree](https://github.com/beevik/etree) - XML 解析&生成
@@ -921,7 +921,7 @@
 - [ffmt](https://github.com/go-ffmt/ffmt) - 变量打印工具
 - [gops](https://github.com/google/gops) - 谷歌官方出品的 Go 程序监控调试工具
 - [pprof](https://github.com/google/pprof)
-- [go-callvis](github.com/TrueFurby/go-callvis) - 可视化Go程序的调用图
+- [go-callvis](https://github.com/TrueFurby/go-callvis) - 可视化Go程序的调用图
 - [q](https://github.com/y0ssar1an/q) - 自动打印变量类型并且格式化输出
 - [Litter](https://github.com/sanity-io/litter)
 - [RDebug](https://github.com/didi/rdebug) - 滴滴开源的一款用于 RD 研发、自测、调试的实用工具
@@ -1486,7 +1486,7 @@
 - [Paginater](https://github.com/Unknwon/paginater) - 分页工具
 - [gls](https://github.com/jtolds/gls) - Goroutine local storage
 - [mcuadros/go-version](https://github.com/mcuadros/go-version) - 版本号比较
-- [go-semver](github.com/coreos/go-semver) - 语义版本
+- [go-semver](https://github.com/coreos/go-semver) - 语义版本
 - [semver](https://github.com/Masterminds/semver) - 另一个语义版本
 - [hashicorp/go-version](https://github.com/hashicorp/go-version)
 - [Metabolize](https://github.com/keighl/metabolize) - Decodes HTML meta tags into a Golang struct
