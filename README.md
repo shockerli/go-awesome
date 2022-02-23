@@ -330,6 +330,7 @@
 - [Jump](https://github.com/gsamokovarov/jump) - 根据习惯快速跳转目录
 - [GoFish](https://github.com/fishworks/gofish) - 一个受 [Homebrew](https://brew.sh) 启发的跨平台软件管理工具，支持 Linux 和 Windows
 - [viddy](https://github.com/sachaos/viddy) - 增强版 `watch` 命令
+- [miller](https://github.com/johnkerl/miller) - 一个类似 sed、awk、cut、join 和 sort 的工具，用来处理基于命名索引的数据
 
 
 ### 路由
@@ -486,6 +487,7 @@
 - [Go-Guerrilla](https://github.com/flashmob/go-guerrilla) - SMTP 邮件服务器
 - [MailHog](https://github.com/mailhog/MailHog) - 基于Web和API的SMTP测试
 - [Maddy](https://github.com/foxcpp/maddy) - SMTP 邮件服务器
+- [jordan-wright/email](https://github.com/jordan-wright/email)
 
 
 ### 消息队列
@@ -602,6 +604,7 @@
 - [xurls](https://github.com/mvdan/xurls) - 从文本中提取 URL
 - [whatlanggo](https://github.com/abadojack/whatlanggo) - 自然语言探测
 - [go-enry](https://github.com/go-enry/go-enry) - 检测编程语言
+- [fuzzy](https://github.com/sahilm/fuzzy) - 字符串模糊匹配
 
 
 ### 文档
@@ -681,6 +684,7 @@
 - [GORM](https://github.com/go-gorm/gorm) - GORM V2
     + [GORM V1](https://github.com/jinzhu/gorm)
     + [gorm2sql](https://github.com/liudanking/gorm2sql) - 根据 Model Struct 生成建表语句
+    + [gorm-sharding](https://github.com/go-gorm/sharding) - 基于 Conn 层做 SQL 拦截、AST 解析、分表路由、自增主键填充，对使用者透明
 - [Xorm](https://gitea.com/xorm/xorm)
 - [XormPlus](https://github.com/xormplus/xorm) - Xorm 的定制增强版本
 - [GoRose](https://github.com/gohouse/gorose)
@@ -1142,6 +1146,7 @@
 - [go-set](https://github.com/scylladb/go-set) - 集合工具包
 - [orderedmap](https://github.com/elliotchance/orderedmap) - 有序字典
 - [trie](https://github.com/dghubble/trie)
+- [Slim](https://github.com/openacid/slim) - 空间高利用率的数据结构
 
 
 ### 依赖注入
@@ -1359,6 +1364,7 @@
 - [einx](https://github.com/Cyinx/einx)
 - [CloudRetro](https://github.com/giongto35/cloud-game) - 游戏云服务框架
 - [G3N](https://github.com/g3n/engine) - Go 3D Game Engine
+- [Ebiten](https://github.com/hajimehoshi/ebiten) - 2D 游戏库
 
 
 ### 桌面开发
