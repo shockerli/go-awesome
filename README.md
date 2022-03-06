@@ -589,6 +589,7 @@
 - [autocorrect](https://github.com/studygolang/autocorrect) - 自动给中英文之间加入合理的空格并纠正专用名词大小写
 - [bleve](https://github.com/blevesearch/bleve) - modern text indexing
 - [etree](https://github.com/beevik/etree) - XML 解析&生成
+- [go-xml](https://github.com/droyo/go-xml)
 - [feeds](https://github.com/gorilla/feeds) - RSS 内容生成
 - [gofeed](https://github.com/mmcdole/gofeed) - RSS & Atom feeds 内容解析
 - [sitemap](https://github.com/kataras/sitemap) - sitemap.xml 生成
@@ -605,6 +606,7 @@
 - [whatlanggo](https://github.com/abadojack/whatlanggo) - 自然语言探测
 - [go-enry](https://github.com/go-enry/go-enry) - 检测编程语言
 - [fuzzy](https://github.com/sahilm/fuzzy) - 字符串模糊匹配
+- [godlp](https://github.com/bytedance/godlp) - 数据脱敏
 
 
 ### 文档
@@ -1265,6 +1267,7 @@
 - [Sentinel](https://github.com/sentinel-group/sentinel-golang) - 阿里巴巴开源的面向分布式服务架构的流量控制组件 Go 语言版本
 - [gohalt](https://github.com/1pkg/gohalt) - 限流
 - [gobreaker](https://github.com/sony/gobreaker) - 熔断器
+- [ulule/limiter](https://github.com/ulule/limiter)
 
 
 ### 编译器
@@ -1486,6 +1489,9 @@
 - [bytebufferpool](https://github.com/valyala/bytebufferpool) - byte buffers pool
 - [bpool](https://github.com/oxtoacart/bpool) - byte buffers pool，支持 bytes.Buffers
 - [mergo](https://github.com/imdario/mergo) - 合并结构体和字典数据
+- [go-funk](https://github.com/thoas/go-funk) - 基于反射实现的常用函数
+- [lo](https://github.com/samber/lo) - 基于 1.18+ 泛型的常用函数
+- [juniper](https://github.com/bradenaw/juniper) - 基于泛型实现常用的容器、迭代器、数据流等功能
 
 
 ### 代码生成
