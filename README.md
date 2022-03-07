@@ -186,6 +186,7 @@
 - [golinks](https://git.mills.io/prologic/golinks) - 创建自定义书签、命令、搜索等
 - [链滴笔记](https://github.com/88250/liandi) - 桌面端笔记应用
 - [wayback](https://github.com/wabarc/wayback) - 网页快照备份
+- [bbs-go](https://github.com/mlogclub/bbs-go) - bbs-go - 基于Golang的开源社区系统
 
 
 ### 静态网站生成器
