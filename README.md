@@ -1096,6 +1096,7 @@
 - [kubernetes](https://github.com/kubernetes/kubernetes) - 容器调度管理平台
 - [k0s](https://github.com/k0sproject/k0s) - 最小体积的 k8s 发行版
 - [sealos](https://github.com/fanux/sealos) - 一条命令部署 Kubernetes 高可用集群
+- [endpoints-operator](https://github.com/sealyun/endpoints-operator) - K8s内部服务访问外部服务的具备探活功能的4层LB
 - [KubeEye](https://github.com/kubesphere/kubeeye) - 通过配置规则发现 Kubernetes 上的各种问题
 
 
