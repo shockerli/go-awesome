@@ -766,6 +766,7 @@
 - [go-mysql-server](https://github.com/dolthub/go-mysql-server) - 解析 MySQL 协议并优化 SQL 的数据库引擎
 - [Milvus](https://github.com/milvus-io/milvus) - 向量数据库
 - [FerretDB](https://github.com/FerretDB/FerretDB) - MangoDB 替代品
+- [LotusDB](https://github.com/flower-corp/lotusdb) - 快速 KV 存储引擎，兼容 LSM 和 B+ 树
 
 
 ### 缓存
