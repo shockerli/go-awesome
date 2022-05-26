@@ -787,6 +787,7 @@
 
 
 ### 搜索推荐
+- [gofound](https://github.com/newpanjing/gofound) - 全文搜索引擎
 - [wukong](https://github.com/huichen/wukong) - 全文搜索引擎
 - [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - 官方 ES 客户端
 - [elastic](https://github.com/olivere/elastic) - Elasticsearch 客户端
