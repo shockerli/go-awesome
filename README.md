@@ -723,7 +723,7 @@
 - [elasticsql](https://github.com/cch123/elasticsql) - 转换 SQL 成 Elasticsearch DSL
 - [POP](https://github.com/gobuffalo/pop) - 基于 [sqlx](https://github.com/jmoiron/sqlx) 封装的数据库 ORM 工具
 - [REL](https://github.com/go-rel/rel) - Modern Database Access Layer for Go
-
+- [RDB](https://github.com/HDT3213/rdb) - Redis RDB 文件解析和生成工具，支持转 JSON、转 AOF、寻找 Big Key、生成 RDB 文件及绘制内存火焰图等功能
 
 #### 数据库客户端
 - [Go-MySQL-Driver](https://github.com/go-sql-driver/mysql) - MySQL 驱动
