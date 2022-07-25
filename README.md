@@ -13,7 +13,7 @@
 
 > 官网: https://golang.org
 > 
-> 国内官网镜像(访问快~): https://golang.google.cn
+> 国内官网镜像(访问快): https://golang.google.cn
 > 
 > GitHub: https://github.com/golang/go
 > 
@@ -57,9 +57,10 @@
 - [VisuAlgo](https://visualgo.net) - 数据结构和算法动态可视化
 
 
-## 大牛
+## 大牛/组织
 > Go 语言方面的大牛，或者优秀 Go 项目的组织
 
+### 大牛
 - [mattn](https://github.com/mattn?tab=repositories&q=&type=&language=go) - 写了数百个 Go 项目，盛产优质项目
 - [Unknwon](https://github.com/Unknwon) - gogs/macaron 等项目作者，《The Way to Go》译者
 - [Jinzhu](https://github.com/jinzhu) - gorm/QOR 等作者
@@ -68,14 +69,17 @@
 - [kataras](https://github.com/kataras?utf8=%E2%9C%93&tab=repositories&q=&type=source&language=go) - iris 作者
 - [bep](https://github.com/bep)
 - [spf13](https://github.com/spf13)
-- [Uber](https://github.com/uber?q=&type=&language=go) - Open Source Software at Uber
-- [Gorilla web toolkit](https://github.com/gorilla)
-- [Stretchr](https://github.com/stretchr) - Tame your unstructured data
-- [Containous](https://github.com/containous)
-- [lestrrat-go](https://github.com/lestrrat-go)
-- [HashiCorp](https://github.com/hashicorp)
 - [juju](https://github.com/juju)
 - [tidwall](https://github.com/tidwall)
+
+### 组织
+- [Gorilla web toolkit](https://github.com/gorilla)
+- [loov](https://github.com/loov)
+- [HashiCorp](https://github.com/hashicorp)
+- [lestrrat-go](https://github.com/lestrrat-go)
+- [Uber](https://github.com/uber?q=&type=&language=go) - Open Source Software at Uber
+- [Stretchr](https://github.com/stretchr) - Tame your unstructured data
+- [Containous](https://github.com/containous)
 
 
 ## 文档
@@ -424,6 +428,7 @@
 - [UserAgent](https://github.com/mssola/user_agent) - 解析 HTTP User Agent
 - [purell](https://github.com/PuerkitoBio/purell) - URL 规范工具包
 - [go-autorest](https://github.com/Azure/go-autorest) - HTTP 管道请求方式的客户端
+- [Req](https://github.com/imroc/req) - HTTP 客户端
 
 
 ### WebSocket
@@ -963,6 +968,7 @@
 - [gcnotifier](https://github.com/CAFxX/gcnotifier) - 当发生 GC 时通知
 - [grmon](https://github.com/bcicen/grmon) - 命令行监控显示 goroutines
 - [valast](https://github.com/hexops/valast) - 打印输出变量的 `go/ast` 结构，类似于 PHP 的 `var_export` 函数
+- [lensm](https://github.com/loov/lensm) - Go 汇编与源码对照查看工具
 
 
 ### 测试
@@ -1157,6 +1163,8 @@
 - [orderedmap](https://github.com/elliotchance/orderedmap) - 有序字典
 - [trie](https://github.com/dghubble/trie)
 - [Slim](https://github.com/openacid/slim) - 空间高利用率的数据结构
+- [bitset](https://github.com/bits-and-blooms/bitset) - 位集合及其操作
+- [roaring](https://github.com/RoaringBitmap/roaring) - 压缩位图
 
 
 ### 依赖注入
