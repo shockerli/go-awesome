@@ -243,6 +243,7 @@
 - [goxygen](https://github.com/Shpota/goxygen) - 基于 Go, React, MongoDB 技术实现的全栈应用生成器
 - [nging](https://github.com/admpub/nging) - Go语言通用后台管理框架
 - [snake](https://github.com/1024casts/snake) - 业务API框架
+- [PocketBase](https://github.com/pocketbase/pocketbase) - 带有后台管理面板、文件和权限管理、集成 SQLite 数据库的单一文件后端服务开发框架，支持 Dart 和 JS SDK 快速开发 APP
 
 
 ### 项目骨架
@@ -841,6 +842,7 @@
 - [screego](https://github.com/screego/server) - 通过浏览器共享开发者屏幕
 - [livego](https://github.com/gwuhaolin/livego) - 直播服务器
 - [Monibuca](https://github.com/langhuihui/monibuca) - 流媒体服务器开发框架
+- [olive](https://github.com/go-olive/olive) - 支持虎牙等平台的直播录制
 
 
 ### 图形处理
@@ -881,6 +883,7 @@
 - [ink](https://github.com/buchanae/ink) - Go 中的 2D 图形框架
 - [go-plantuml](https://github.com/bykof/go-plantuml) - 基于 Go 源码生成 plantuml 图
 - [go-diagrams](https://github.com/blushft/go-diagrams) - 通过代码生成图表
+- [GoCity](https://github.com/rodrigo-brito/gocity) - 3D 展示城市
 
 
 ### 构建编译
@@ -1292,7 +1295,7 @@
 - [minigo](https://github.com/DQNEO/minigo) - A Go compiler from scratch
 - [llir/llvm](https://github.com/llir/llvm) - LLVM 编译器
 - [jit-compiler](https://github.com/bspaans/jit-compiler) - `JIT` 编译器
-- [GoPlus](https://github.com/goplus/gop) - 七牛云开源面向数据科学的语言，完全兼容Go语言
+- [Go+](https://github.com/goplus/gop) - 七牛云开源面向数据科学的语言，完全兼容Go语言
 
 
 ### 解释器
@@ -1525,6 +1528,7 @@
 - [go-systemd](https://github.com/coreos/go-systemd) - 绑定 systemd
 - [Lima](https://github.com/AkihiroSuda/lima) - Linux-on-Mac ("macOS subsystem for Linux", "containerd for Mac")
 - [gopher-os](https://github.com/gopher-os/gopher-os) - 一个兼容 Linux 的 64 位 POSIX 风格系统
+- [gouring](https://github.com/ii64/gouring) - 不依赖 CGO 实现系统调用
 
 
 ### 未归类
