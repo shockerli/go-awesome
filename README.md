@@ -152,6 +152,7 @@
 - [Practical Go: Real world advice for writing maintainable Go programs](https://dave.cheney.net/practical-go/presentations/qcon-china.html) [（Go 语言实践：编写可维护的程序的建议）](https://www.udnz.com/2018/10/27/%E3%80%90%E8%AF%91%E3%80%91Go-%E8%AF%AD%E8%A8%80%E5%AE%9E%E8%B7%B5%EF%BC%9A%E7%BC%96%E5%86%99%E5%8F%AF%E7%BB%B4%E6%8A%A4%E7%9A%84%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%BB%BA%E8%AE%AE/)
 - [Go 安全指南](https://github.com/Tencent/secguide/blob/main/Go安全指南.md) - 腾讯发布的《代码安全指南》Go 语言篇
 - [Go Concurrency Guide](https://github.com/luk4z7/go-concurrency-guide)
+- [Go Recipes](https://github.com/nikolaydubina/go-recipes) - 一些技巧
 
 
 ## 文章
@@ -202,6 +203,7 @@
 - [verless](https://github.com/verless/verless)
 - [ink](https://github.com/InkProject/ink)
 - [moul](https://github.com/moulco/moul) - 生成照片站点
+- [zas](https://github.com/imdario/zas)
 
 
 ## 学习项目
@@ -344,6 +346,7 @@
 - [GoFish](https://github.com/fishworks/gofish) - 一个受 [Homebrew](https://brew.sh) 启发的跨平台软件管理工具，支持 Linux 和 Windows
 - [viddy](https://github.com/sachaos/viddy) - 增强版 `watch` 命令
 - [miller](https://github.com/johnkerl/miller) - 一个类似 sed、awk、cut、join 和 sort 的工具，用来处理基于命名索引的数据
+- [assh](https://github.com/moul/assh) - SSH 增强工具
 
 
 ### 路由
@@ -361,6 +364,7 @@
 - [DNS](https://github.com/miekg/dns) - DNS 库
 - [CoreDNS](https://github.com/coredns/coredns) - DNS 服务器
 - [RoadRunner](https://github.com/spiral/roadrunner) - PHP 应用服务器、进程管理器、负载均衡，用于替代 `Nginx + FPM`
+- [FrankenPHP](https://github.com/dunglas/frankenphp) - PHP 应用服务器
 - [GoReplay](https://github.com/buger/goreplay) - 流量收集&回放
 - [Sharingan](https://github.com/didi/sharingan) - 滴滴开源的流量录制回放工具
 - [Glorp](https://github.com/denandz/glorp) - HTTP 拦截&重放的 CLI 工具
@@ -740,6 +744,7 @@
 - [POP](https://github.com/gobuffalo/pop) - 基于 [sqlx](https://github.com/jmoiron/sqlx) 封装的数据库 ORM 工具
 - [REL](https://github.com/go-rel/rel) - Modern Database Access Layer for Go
 - [RDB](https://github.com/HDT3213/rdb) - Redis RDB 文件解析和生成工具，支持转 JSON、转 AOF、寻找 Big Key、生成 RDB 文件及绘制内存火焰图等功能
+- [Bytebase](https://github.com/bytebase/bytebase) - 基于网络、零配置、无依赖的数据库 Schema 变更和版本控制管理工具
 
 
 #### 数据库客户端
@@ -1027,6 +1032,7 @@
 - [gunit](https://github.com/smartystreets/gunit) - xUnit 风格测试框架
 - [quicktest](https://github.com/frankban/quicktest)
 - [k6](https://github.com/k6io/k6) - 负载测试工具
+- [go-cover-treemap](https://github.com/nikolaydubina/go-cover-treemap) - 将覆盖率测试结果转换成 TreeMap 图
 
 
 ### 错误处理
@@ -1271,6 +1277,7 @@
 - [Drone](https://github.com/drone/drone) - 基于 Docker 的持续发布平台
 - [Cyclone](https://github.com/caicloud/cyclone) - 持续集成&发布平台
 - [tbls](https://github.com/k1LoW/tbls) - 用于记录数据库文档的 CI 友好工具
+- [Woodpecker](https://github.com/woodpecker-ci/woodpecker) - Fork 自 Drone
 
 
 ### Git
@@ -1529,6 +1536,7 @@
 - [go-funk](https://github.com/thoas/go-funk) - 基于反射实现的常用函数
 - [lo](https://github.com/samber/lo) - 基于 1.18+ 泛型的常用函数
 - [juniper](https://github.com/bradenaw/juniper) - 基于泛型实现常用的容器、迭代器、数据流等功能
+- [mergo](https://github.com/imdario/mergo) - 合并结构体和字典
 
 
 ### 代码生成
