@@ -174,6 +174,7 @@
 ## 付费教程
 - [基于 Go 语言构建企业级的 RESTful API 服务](https://juejin.im/book/5b0778756fb9a07aa632301e) - 掘金小册
 - [Go语言核心36讲](https://time.geekbang.org/column/112) - 极客时间
+- [Go 语言项目开发实战](https://time.geekbang.org/column/intro/100079601) - 极客时间
 
 
 ## 成品项目
