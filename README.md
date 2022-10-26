@@ -195,6 +195,7 @@
 - [wayback](https://github.com/wabarc/wayback) - 网页快照备份
 - [bbs-go](https://github.com/mlogclub/bbs-go) - 开源社区
 - [OpenSCRM](https://github.com/openscrm/api-server) - 基于Go和React的企业微信私域流量管理系统
+- [iam](https://github.com/marmotedu/iam) - 企业级的 Go 语言实战项目：认证和授权系统（带配套课程）
 
 
 ### 静态网站生成器
