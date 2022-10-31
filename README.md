@@ -174,7 +174,6 @@
 ## 付费教程
 - [基于 Go 语言构建企业级的 RESTful API 服务](https://juejin.im/book/5b0778756fb9a07aa632301e) - 掘金小册
 - [Go语言核心36讲](https://time.geekbang.org/column/112) - 极客时间
-- [Go 语言项目开发实战](https://time.geekbang.org/column/intro/100079601) - 极客时间
 
 
 ## 成品项目
@@ -195,7 +194,7 @@
 - [wayback](https://github.com/wabarc/wayback) - 网页快照备份
 - [bbs-go](https://github.com/mlogclub/bbs-go) - 开源社区
 - [OpenSCRM](https://github.com/openscrm/api-server) - 基于Go和React的企业微信私域流量管理系统
-- [iam](https://github.com/marmotedu/iam) - 企业级的 Go 语言实战项目：认证和授权系统（带配套课程）
+- [Answer](https://github.com/answerdev/answer) - 问答社区
 
 
 ### 静态网站生成器
@@ -242,6 +241,7 @@
 - [pingcap/fn](https://github.com/pingcap/fn) - 支持绑定任何方法，构建成 POST+JSON 接口
 - [flamego](https://github.com/flamego/flamego) - `unknwon` 开发的又一款 Web 框架
 - [REST Layer](https://github.com/rs/rest-layer) - REST API 框架
+- [rk-boot](https://github.com/rookie-ninja/rk-boot)
 
 
 ### 业务框架
@@ -349,6 +349,7 @@
 - [viddy](https://github.com/sachaos/viddy) - 增强版 `watch` 命令
 - [miller](https://github.com/johnkerl/miller) - 一个类似 sed、awk、cut、join 和 sort 的工具，用来处理基于命名索引的数据
 - [assh](https://github.com/moul/assh) - SSH 增强工具
+- [duf](https://github.com/muesli/duf) - 比 `df` 更好用的磁盘使用率工具
 
 
 ### 路由
@@ -405,6 +406,12 @@
 - [GoPacket](https://github.com/google/gopacket) - 网络捕获抓包
 - [croc](https://github.com/schollz/croc) - 两台电脑之间传输文件
 - [cmux](https://github.com/soheilhy/cmux) - 监听同一个端口，启动多种协议服务
+
+
+#### LDAP
+- [go-ldap](https://github.com/go-ldap/ldap)
+- [GLAuth](https://github.com/glauth/glauth) - LDAP Server
+- [gldap](https://github.com/jimlambrt/gldap) - LDAP Service
 
 
 #### 网络代理
@@ -888,6 +895,7 @@
 - [canvas](https://github.com/tdewolff/canvas) - 矢量图绘制
 - [formulae](https://github.com/tdewolff/formulae) - 数学公式解析、计算、图表绘制
 - [imagor](https://github.com/cshum/imagor) - 图像处理服务器
+- [Triangula](https://github.com/RH12503/Triangula) - 给图片增加三角形纹样风格的滤镜
 
 
 #### 图片识别
@@ -1438,6 +1446,7 @@
 - [GoGi](https://github.com/goki/gi) - 2D/3D GUI  框架
 - [systray](https://github.com/getlantern/systray) - 跨平台支持菜单栏管理
 - [go-flutter ](https://github.com/go-flutter-desktop/go-flutter) - 绑定 Flutter 到桌面应用
+- [NuxUI](https://github.com/nuxui/nuxui)
 
 
 #### 桌面辅助包
