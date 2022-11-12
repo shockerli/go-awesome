@@ -450,6 +450,7 @@
 - [purell](https://github.com/PuerkitoBio/purell) - URL 规范工具包
 - [go-autorest](https://github.com/Azure/go-autorest) - HTTP 管道请求方式的客户端
 - [Req](https://github.com/imroc/req) - HTTP 客户端
+- [cors](https://github.com/rs/cors) - CORS Handler
 
 
 ### WebSocket
@@ -505,6 +506,7 @@
 - [lile](https://github.com/lileio/lile) - gRPC 服务生成工具
 - [dubbo-go](https://github.com/apache/dubbo-go) - Dubbo Go 版本
 - [Kitex](https://github.com/cloudwego/kitex)
+- [gRPCurl](https://github.com/fullstorydev/grpcurl) - 像 cURL 一样通过命令行访问 gRPC 服务
 
 
 ### 邮件
@@ -512,7 +514,7 @@
 - [scorredoira/email](https://github.com/scorredoira/email)
 - [Hermes](https://github.com/matcornic/hermes) - Go 版本的 mailgen 引擎，根据配置生成 HTML 格式的邮件
 - [Go-Guerrilla](https://github.com/flashmob/go-guerrilla) - SMTP 邮件服务器
-- [MailHog](https://github.com/mailhog/MailHog) - 基于Web和API的SMTP测试
+- [MailHog](https://github.com/mailhog/MailHog) - 基于Web和API的SMTP测试工具
 - [Maddy](https://github.com/foxcpp/maddy) - SMTP 邮件服务器
 - [jordan-wright/email](https://github.com/jordan-wright/email)
 
@@ -1352,6 +1354,7 @@
 - [dst](https://github.com/dave/dst) - Go Decorated Syntax Tree
 - [mvdan/sh](https://github.com/mvdan/sh) - Shell 解析、格式化、接口
 - [tdewolff/parse](https://github.com/tdewolff/parse) - 通用词法分析器 Lexer，并内置支持解析 HTML/CSS/JSON/XML/JS/SVG 语法
+- [Joker](https://github.com/candid82/joker) - Clojure
 
 
 #### PHP
