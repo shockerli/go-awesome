@@ -195,6 +195,8 @@
 - [bbs-go](https://github.com/mlogclub/bbs-go) - 开源社区
 - [OpenSCRM](https://github.com/openscrm/api-server) - 基于Go和React的企业微信私域流量管理系统
 - [Answer](https://github.com/answerdev/answer) - 问答社区
+- [ohUrlShortener](https://github.com/barats/ohUrlShortener) - 企业级短链接系统
+- [RepoStats](https://github.com/barats/RepoStats) - 开源代码仓库可视化系统
 
 
 ### 静态网站生成器
