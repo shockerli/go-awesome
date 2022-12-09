@@ -817,6 +817,7 @@
 - [cachego](https://github.com/faabiosr/cachego) - 支持 Redis、Bolt 等缓存接口
 - [diskv](https://github.com/peterbourgon/diskv) - 基于硬盘的 KV 存储
 - [Pebble](https://github.com/cockroachdb/pebble) - 被 CockroachDB 使用的 KV 存储
+- [MemoryCache](https://github.com/lxzan/memorycache) - 带过期时间的ConcurrentHashMap, 通过map和heap实现, 可以在一些简单场景替代redis
 
 
 ### 搜索推荐
