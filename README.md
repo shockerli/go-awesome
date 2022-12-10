@@ -898,6 +898,7 @@
 - [formulae](https://github.com/tdewolff/formulae) - 数学公式解析、计算、图表绘制
 - [imagor](https://github.com/cshum/imagor) - 图像处理服务器
 - [Triangula](https://github.com/RH12503/Triangula) - 给图片增加三角形纹样风格的滤镜
+- [ImGo](https://github.com/fishtailstudio/imgo) - 简洁、链式调用的图像处理库
 
 
 #### 图片识别
