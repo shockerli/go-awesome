@@ -184,7 +184,7 @@
 - [**NYADB2**](https://github.com/qw4990/NYADB2) - Go 实现的关系型数据库, 值得用于学习
 - [EiBlog](https://github.com/eiblog/eiblog) - 博客
 - [pan-light](https://github.com/peterq/pan-light) - 不限速的百度网盘客户端, 基于 Go + Qt5 开发
-- [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go) - 百度网盘客户端（命令行）（仓库已关闭，可搜同名Fork）
+- [BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go) - 百度网盘客户端（命令行）
 - [daily-warm](https://github.com/BarryYan/daily-warm) - 每天定时发邮件给你关心的人
 - [pipe](https://github.com/88250/pipe) - 博客平台
 - [mdr](https://github.com/MichaelMure/mdr) - 命令行下的 Markdown 阅读工具
@@ -195,8 +195,6 @@
 - [bbs-go](https://github.com/mlogclub/bbs-go) - 开源社区
 - [OpenSCRM](https://github.com/openscrm/api-server) - 基于Go和React的企业微信私域流量管理系统
 - [Answer](https://github.com/answerdev/answer) - 问答社区
-- [ohUrlShortener](https://github.com/barats/ohUrlShortener) - 企业级短链接系统
-- [RepoStats](https://github.com/barats/RepoStats) - 开源代码仓库可视化系统
 
 
 ### 静态网站生成器
@@ -272,6 +270,7 @@
 - [Clean Architecture in Go](https://github.com/eminetto/clean-architecture-go-v2) - 整洁架构示例
 - [freedom](https://github.com/8treenet/freedom) - 基于六边形架构的框架
 - [esim](https://github.com/jukylin/esim) - 基于六边形架构的微服务框架
+- [go-cleanarch](https://github.com/roblaszczak/go-cleanarch) - Go 整洁架构规则校验工具
 
 
 ### TCP 框架
@@ -408,6 +407,7 @@
 - [GoPacket](https://github.com/google/gopacket) - 网络捕获抓包
 - [croc](https://github.com/schollz/croc) - 两台电脑之间传输文件
 - [cmux](https://github.com/soheilhy/cmux) - 监听同一个端口，启动多种协议服务
+- [GeoIP2 Reader for Go](https://github.com/oschwald/geoip2-golang) - 解析&读取 MaxMind GeoLite2 和 GeoIP2 数据库
 
 
 #### LDAP
@@ -500,6 +500,7 @@
 
 ### RPC
 - [gRPC-Go](https://github.com/grpc/grpc-go) - gRPC 官方包
+- [Go gRPC Middleware](https://github.com/grpc-ecosystem/go-grpc-middleware) - gRPC 常用中间件
 - [gorpc](https://github.com/valyala/gorpc)
 - [gorilla/rpc](https://github.com/gorilla/rpc) - 构建基于 HTTP 的 RPC 服务，比如 JSON-RPC
 - [Lile](https://github.com/lileio/lile) - gRPC 服务构建包
@@ -698,6 +699,7 @@
 - [ferret](https://github.com/MontFerret/ferret) - 声明式 Web 数据抓取
 - [gocrawl](https://github.com/PuerkitoBio/gocrawl)
 - [Antch](https://github.com/antchfx/antch)
+- [katana](https://github.com/projectdiscovery/katana) - 爬虫&蜘蛛框架
 
 
 ### 数据库
@@ -819,7 +821,6 @@
 - [cachego](https://github.com/faabiosr/cachego) - 支持 Redis、Bolt 等缓存接口
 - [diskv](https://github.com/peterbourgon/diskv) - 基于硬盘的 KV 存储
 - [Pebble](https://github.com/cockroachdb/pebble) - 被 CockroachDB 使用的 KV 存储
-- [MemoryCache](https://github.com/lxzan/memorycache) - 带过期时间的ConcurrentHashMap, 通过map和heap实现, 可以在一些简单场景替代redis
 
 
 ### 搜索推荐
@@ -901,6 +902,7 @@
 - [formulae](https://github.com/tdewolff/formulae) - 数学公式解析、计算、图表绘制
 - [imagor](https://github.com/cshum/imagor) - 图像处理服务器
 - [Triangula](https://github.com/RH12503/Triangula) - 给图片增加三角形纹样风格的滤镜
+- [D2](https://github.com/terrastruct/d2) - 一种将文本转换成图形的图表脚本语言
 - [ImGo](https://github.com/fishtailstudio/imgo) - 简洁、链式调用的图像处理库
 
 
@@ -1069,6 +1071,8 @@
 - [Kunpeng](https://github.com/opensec-cn/kunpeng) - 开源POC检测框架
 - [nmap](https://github.com/Ullaakut/nmap) - 安全审计工具 `nmap` 开发包
 - [Hetty](https://github.com/dstotijn/hetty) - 用于安全研究的 HTTP 工具包，具有 Web 接口和代理日志查看器的拦截 HTTP 代理
+- [Fibratus](https://github.com/rabbitstack/fibratus) - Windows 内核漏洞利用和跟踪工具
+- [Secure](https://github.com/unrolled/secure) - HTTP 安全中间件
 
 
 ### 系统信息
@@ -1312,6 +1316,8 @@
 - [go-github](https://github.com/google/go-github) - GitHub API 操作库
 - [askgit](https://github.com/augmentable-dev/askgit) - 通过 SQL 访问 Git 仓库信息
 - [git2graph](https://github.com/alaingilbert/git2graph) - 根据 Git 仓库提交记录生成结构图
+- [lazygit](https://github.com/jesseduffield/lazygit) - Git 终端 UI
+- [gh-dash](https://github.com/dlvhdr/gh-dash) - GitHub CLI（`gh`）漂亮终端面板
 
 
 ### 限流器
@@ -1555,6 +1561,7 @@
 - [lo](https://github.com/samber/lo) - 基于 1.18+ 泛型的常用函数
 - [juniper](https://github.com/bradenaw/juniper) - 基于泛型实现常用的容器、迭代器、数据流等功能
 - [mergo](https://github.com/imdario/mergo) - 合并结构体和字典
+- [xstrings](https://github.com/huandu/xstrings) - 字符串相关函数
 
 
 ### 代码生成
