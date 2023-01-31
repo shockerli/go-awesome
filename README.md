@@ -325,6 +325,7 @@
 - [tview](https://github.com/rivo/tview) - Terminal UI
 - [ASCIIPlayer](https://github.com/qeesung/asciiplayer) - 在终端中通过 ASCII 输出图片或视频，支持 png、jpeg、gif、mp4、avi 等格式
 - [go-pretty](https://github.com/jedib0t/go-pretty) - 终端渲染表格、列表、进度条等
+- [tcell](https://github.com/gdamore/tcell)
 
 
 #### 其他
@@ -472,6 +473,8 @@
 - [WebRTC](https://github.com/pion/webrtc) - WebRTC 实现
 - [Berty](https://github.com/berty/berty) - 安全的点对点通讯软件
 - [Keybase](https://github.com/keybase/client) - 即时通讯工具 Keybase 全平台客户端
+- [gotify](https://github.com/gotify/server) - 基于 WebSocket 的 PUSH 通知服务
+- [nakama](https://github.com/heroiclabs/nakama) - 用于社交/实时游戏/实时应用的分布式服务端程序，自带面板、用户、聊天、存储、社交等功能
 
 
 ### 网关
@@ -488,6 +491,7 @@
 - [Objx](https://github.com/stretchr/objx) - 操作 map, slice, JSON 等数据的包
 - [msgp](https://github.com/tinylib/msgp) - MessagePack 代码生成器
 - [Buf](https://github.com/bufbuild/buf) - protoc 替代品
+- [protoc-gen-doc](https://github.com/pseudomuto/protoc-gen-doc) - Google Protocol Buffers 文档生成插件，支持 HTML、JSON、DocBook、Markdown 和自定义模板
 
 
 ### 解压缩
@@ -554,6 +558,7 @@
 - [lakeFS](https://github.com/treeverse/lakeFS) - 类 Git 文件对象存储
 - [Duplicacy](https://github.com/gilbertchen/duplicacy) - 无锁云备份工具，支持几乎所有存储方式
 - [CasaOS](https://github.com/IceWhaleTech/CasaOS) - 家庭云系统
+- [AList](https://github.com/alist-org/alist) - 支持多存储的文件列表程序
 
 
 ### 模板引擎
@@ -732,8 +737,6 @@
 - [ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx)
 - [Squirrel](https://github.com/Masterminds/squirrel) - Fluent SQL Builder
 - [qb](https://github.com/aacanakin/qb) - the database toolkit for go
-- [redigo](https://github.com/gomodule/redigo) - Redis 客户端
-- [go-redis](https://github.com/go-redis/redis)
 - [mgo](http://labix.org/mgo)
     + [globalsign/mgo](https://github.com/globalsign/mgo) - The MongoDB driver for Go
     + [mgo使用指南](https://studygolang.com/articles/3485)
@@ -767,9 +770,13 @@
 - [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - MSSQL 驱动
 - [pq](https://github.com/lib/pq) - PostgreSQL 驱动
 - [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - MongoDB 官方出品的 Go 语言驱动
+- [qmgo](https://github.com/qiniu/qmgo) - MongoDB 客户端
 - [clickhouse-go](https://github.com/ClickHouse/clickhouse-go) - ClickHouse 官方 Go 语言客户端
 - [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 驱动
 - [gohbase](https://github.com/tsuna/gohbase) - HBase 客户端
+- [redigo](https://github.com/gomodule/redigo) - Redis 客户端
+- [go-redis](https://github.com/go-redis/redis) - Redis 客户端
+- [rueidis](https://github.com/rueian/rueidis) - Redis 客户端
 
 
 #### 数据库引擎
@@ -1009,6 +1016,7 @@
 - [grmon](https://github.com/bcicen/grmon) - 命令行监控显示 goroutines
 - [valast](https://github.com/hexops/valast) - 打印输出变量的 `go/ast` 结构，类似于 PHP 的 `var_export` 函数
 - [lensm](https://github.com/loov/lensm) - Go 汇编与源码对照查看工具
+- [holmes](https://github.com/mosn/holmes) - 基于规则的自动 Go Profile Dumper
 
 
 ### 测试
@@ -1482,6 +1490,7 @@
 - [go-workers](https://github.com/catmullet/go-workers) - 安全地并发运行一组 worker，通过 channel 进行输入输出
 - [Machine](https://github.com/autom8ter/machine) - 受 errgroup.Group 启发的协程管理
 - [thread](https://github.com/golang-design/thread)
+- [conc](https://github.com/sourcegraph/conc) - 更好用的结构化并发控制
 
 
 ### 任务/定时器
@@ -1562,6 +1571,7 @@
 - [juniper](https://github.com/bradenaw/juniper) - 基于泛型实现常用的容器、迭代器、数据流等功能
 - [mergo](https://github.com/imdario/mergo) - 合并结构体和字典
 - [xstrings](https://github.com/huandu/xstrings) - 字符串相关函数
+- [pie](https://github.com/elliotchance/pie) - slice/map 链式处理
 
 
 ### 代码生成
