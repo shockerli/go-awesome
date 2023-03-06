@@ -455,6 +455,7 @@
 
 ### WebSocket
 - [gorilla/websocket](https://github.com/gorilla/websocket)
+- [lxzan/gws](https://github.com/lxzan/gws) - 高吞吐低延迟支持异步非阻塞读写的 WebSocket Server & Client
 - [nhooyr/websocket](https://github.com/nhooyr/websocket) - 官方推荐的包
 - [websocketd](https://github.com/joewalnes/websocketd) - Go 开发的一键搭建 WebSocket 服务器命令行工具
 - [ws](https://github.com/gobwas/ws) - WebSocket 开发包
