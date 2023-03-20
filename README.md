@@ -180,6 +180,7 @@
 - [Shiori](https://github.com/go-shiori/shiori) - 书签管理
 - [studygolang](https://github.com/studygolang/studygolang) - Go 语言中文网
 - [mkcert](https://github.com/FiloSottile/mkcert) - 生成本地 HTTPS 加密证书的工具
+- [cfssl](https://github.com/cloudflare/cfssl) - Cloudflare 开源的 PKI 和 TLS 工具集
 - [Rainbond](https://github.com/goodrain/rainbond) - 基于Docker、Kubernetes等容器技术的开源PaaS
 - [**NYADB2**](https://github.com/qw4990/NYADB2) - Go 实现的关系型数据库, 值得用于学习
 - [EiBlog](https://github.com/eiblog/eiblog) - 博客
@@ -253,6 +254,7 @@
 - [nging](https://github.com/admpub/nging) - Go语言通用后台管理框架
 - [snake](https://github.com/1024casts/snake) - 业务API框架
 - [PocketBase](https://github.com/pocketbase/pocketbase) - 带有后台管理面板、文件和权限管理、集成 SQLite 数据库的单一文件后端服务开发框架，支持 Dart 和 JS SDK 快速开发 APP
+- [DoTenX](https://github.com/dotenx/dotenx) - 低代码框架
 
 
 ### 项目骨架
@@ -500,6 +502,7 @@
 - [archiver](https://github.com/mholt/archiver) - 多格式支持的解压缩包
 - [compress](https://github.com/klauspost/compress) - Optimized compression packages
 - [Brotli](https://github.com/andybalholm/brotli)
+- [xz](https://github.com/ulikunitz/xz) - `xz` 压缩格式读写包
 
 
 ### RPC
@@ -522,8 +525,9 @@
 - [Hermes](https://github.com/matcornic/hermes) - Go 版本的 mailgen 引擎，根据配置生成 HTML 格式的邮件
 - [Go-Guerrilla](https://github.com/flashmob/go-guerrilla) - SMTP 邮件服务器
 - [MailHog](https://github.com/mailhog/MailHog) - 基于Web和API的SMTP测试工具
-- [Maddy](https://github.com/foxcpp/maddy) - SMTP 邮件服务器
+- [Maddy](https://github.com/foxcpp/maddy) - 邮件服务器
 - [jordan-wright/email](https://github.com/jordan-wright/email)
+- [Mox](https://github.com/mjl-/mox) - 邮件服务器
 
 
 ### 消息队列
@@ -811,6 +815,7 @@
 - [Milvus](https://github.com/milvus-io/milvus) - 向量数据库
 - [FerretDB](https://github.com/FerretDB/FerretDB) - MangoDB 替代品
 - [LotusDB](https://github.com/flower-corp/lotusdb) - 快速 KV 存储引擎，兼容 LSM 和 B+ 树
+- [NutsDB](https://github.com/nutsdb/nutsdb) - 可持久化、事务的内嵌 KV 数据库
 
 
 ### 缓存
@@ -941,6 +946,9 @@
 - [gobinaries](https://github.com/tj/gobinaries) - 不用安装Go就能编译安装Go编写的程序
 - [NFPM](https://github.com/goreleaser/nfpm) - deb、rpm、apk 等打包工具
 - [Gox](https://github.com/mitchellh/gox) - Go 跨端编译工具
+- [garble](https://github.com/burrowers/garble) - 混淆代码
+- [gobfuscate](https://github.com/unixpickle/gobfuscate) - 混淆代码
+
 
 #### 静态资源内嵌
 - [pkger](https://github.com/markbates/pkger) - 将静态文件打包成 Go 二进制文件
@@ -956,6 +964,7 @@
 - [tableflip](https://github.com/cloudflare/tableflip) - Web 服务升级
 - [selfupdate](https://github.com/minio/selfupdate) - 二进制文件自动升级
 - [overseer](https://github.com/jpillora/overseer)
+- [go-github-selfupdate](https://github.com/rhysd/go-github-selfupdate) - 依托 GitHub 自动升级
 
 
 ### 代码分析
@@ -1059,6 +1068,8 @@
 - [quicktest](https://github.com/frankban/quicktest)
 - [k6](https://github.com/k6io/k6) - 负载测试工具
 - [go-cover-treemap](https://github.com/nikolaydubina/go-cover-treemap) - 将覆盖率测试结果转换成 TreeMap 图
+- [ZTF](https://github.com/easysoft/zentaoatf) - 禅道开源的自动化测试框架
+- [Moq](https://github.com/matryer/moq) - 为接口生成 Mock 代码
 
 
 ### 错误处理
@@ -1092,6 +1103,7 @@
 - [go-ps](https://github.com/mitchellh/go-ps) - 系统进程信息
 - [psgo](https://github.com/containers/psgo) - `ps` 命令实现
 - [ghw](https://github.com/jaypipes/ghw) - 硬件信息
+- [machineid](https://github.com/denisbrodbeck/machineid) - 获取机器ID
 
 
 ### UUID
@@ -1103,6 +1115,7 @@
 - [sonyflake](https://github.com/sony/sonyflake) - Sony 版本的 Twitter's Snowflake
 - [ulid](https://github.com/oklog/ulid) - Universally Unique Lexicographically Sortable Identifier
 - [ksuid](https://github.com/segmentio/ksuid) - K-Sortable Globally Unique IDs
+- [go-nanoid](https://github.com/jaevor/go-nanoid) - NanoID 实现
 
 
 ### 日志
@@ -1131,6 +1144,7 @@
 - [mymon](https://github.com/open-falcon/mymon) - MySQL 运行监控
 - [PingMe](https://github.com/kha7iq/pingme) - 支持多消息平台的服务可用性报警命令工具
 - [supervisord](https://github.com/ochinchina/supervisord) - Go 语言实现 Supervisor
+- [Grafana Tempo](https://github.com/grafana/tempo) - 分布式追踪系统
 
 
 ### 统计分析
@@ -1175,6 +1189,10 @@
 - [Prophecis](https://github.com/WeBankFinTech/Prophecis) - 微众银行自研的一站式云原生机器学习平台
 - [AID](https://github.com/autoai-org/AID) - 机器学习ops平台，发现、部署、优化
 - [SQLFlow](https://github.com/sql-machine-learning/sqlflow) - SQL引擎+AI引擎
+
+
+### 人工智能
+- [go-openai](https://github.com/sashabaranov/go-openai) - [OpenAI API](https://platform.openai.com) Go 客户端 SDK
 
 
 ### 算法
@@ -1274,6 +1292,7 @@
 - [gizmo](https://github.com/nytimes/gizmo) - 微服务工具集
 - [MOSN](https://github.com/mosn/mosn) - 用于边缘和服务网格的云原生网络数据平面
 - [Erda](https://github.com/erda-project/erda) - 为企业提供 DevOps、微服务治理、多云管理的 PaaS
+- [Service Weaver](https://github.com/ServiceWeaver/weaver)
 
 
 ### Serverless
@@ -1475,6 +1494,7 @@
 - [MacDriver](https://github.com/progrium/macdriver) - macOS 原生 API
 - [gon](https://github.com/mitchellh/gon) - 为 macOS 签名和公证
 
+
 #### 桌面应用
 - [xbar](https://github.com/matryer/xbar) - 基于 [Wails.app](https://github.com/wailsapp/wails) 开发的 macOS 菜单栏管理
 - [阿里云盘小白羊版](https://github.com/liupan1890/aliyunpan) - UI由Flutter构建
@@ -1490,7 +1510,7 @@
 - [go-workers](https://github.com/catmullet/go-workers) - 安全地并发运行一组 worker，通过 channel 进行输入输出
 - [Machine](https://github.com/autom8ter/machine) - 受 errgroup.Group 启发的协程管理
 - [thread](https://github.com/golang-design/thread)
-- [conc](https://github.com/sourcegraph/conc) - 更好用的结构化并发控制
+- [**conc**](https://github.com/sourcegraph/conc) - 更好用的结构化并发控制
 
 
 ### 任务/定时器
@@ -1612,7 +1632,9 @@
 - [go-license-detector](https://github.com/go-enry/go-license-detector)
 - [rose](https://gitlab.com/DevelopmentDuck/rose) - 在 HTML 中嵌入和运行 Go 代码
 - [esbuild](https://github.com/evanw/esbuild) - JavaScript 构建打包工具
-- [clipboard](https://github.com/d-tsuji/clipboard) - 跨平台的粘贴板实现
+- [clipboard](https://github.com/d-tsuji/clipboard) - 剪切板
+- [clipboard](https://github.com/atotto/clipboard) - 剪切板
+- [clipboard](https://github.com/golang-design/clipboard) - 剪切板
 - [Timeliner](https://github.com/mholt/timeliner) - 搜集整理个人在社交网站上的数据并索引成时间线
 - [hc](https://github.com/brutella/hc) - `HomeKit` 平台开发框架
 - [address](https://github.com/bojanz/address) - 地址处理库，支持多国语言
@@ -1622,7 +1644,6 @@
 - [gorush](https://github.com/appleboy/gorush) - APP 消息通知服务
 - [EventBus](https://github.com/asaskevich/EventBus) - 事件总线
 - [go-winio](https://github.com/microsoft/go-winio) - 为 Win32 IO 操作提供接口支持
-- [clipboard](https://github.com/atotto/clipboard) - 剪切板
 - [fq](https://github.com/wader/fq) - 以 [jq](https://github.com/stedolan/jq) 语法读取二进制数据/文件
 
 
