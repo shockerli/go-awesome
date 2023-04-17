@@ -1,4 +1,5 @@
 # go-awesome
+
 > Go 语言优秀资源整理，为项目落地加速🏃
 > 
 > 在 [GitHub](https://github.com/shockerli/go-awesome) 上稳定更新，觉得不错请点个 Star ❤️
@@ -196,6 +197,7 @@
 - [bbs-go](https://github.com/mlogclub/bbs-go) - 开源社区
 - [OpenSCRM](https://github.com/openscrm/api-server) - 基于Go和React的企业微信私域流量管理系统
 - [Answer](https://github.com/answerdev/answer) - 问答社区
+- [listmonk](https://github.com/knadh/listmonk) - 资讯、邮件列表管理工具（Web）
 
 
 ### 静态网站生成器
@@ -354,6 +356,8 @@
 - [miller](https://github.com/johnkerl/miller) - 一个类似 sed、awk、cut、join 和 sort 的工具，用来处理基于命名索引的数据
 - [assh](https://github.com/moul/assh) - SSH 增强工具
 - [duf](https://github.com/muesli/duf) - 比 `df` 更好用的磁盘使用率工具
+- [ov](https://github.com/noborus/ov) - 终端文本阅读器，可替代 `less`、`more`、`tail -f` 等
+- [trdsql](https://github.com/noborus/trdsql) - 可对 CSV/LTSV/JSON/TBLN 等文件执行 SQL 查询和导出
 
 
 ### 路由
@@ -411,6 +415,7 @@
 - [croc](https://github.com/schollz/croc) - 两台电脑之间传输文件
 - [cmux](https://github.com/soheilhy/cmux) - 监听同一个端口，启动多种协议服务
 - [GeoIP2 Reader for Go](https://github.com/oschwald/geoip2-golang) - 解析&读取 MaxMind GeoLite2 和 GeoIP2 数据库
+- [dns.toys](https://github.com/knadh/dns.toys) - DNS 服务器
 
 
 #### LDAP
@@ -434,6 +439,7 @@
 - [elazarl/goproxy](https://github.com/elazarl/goproxy) - HTTP 代理
 - [oxy](https://github.com/vulcand/oxy) - Go middlewares for HTTP servers & proxies
 - [ouqiang/goproxy](https://github.com/ouqiang/goproxy) - Go HTTP(S)代理库, 支持中间人代理解密HTTPS
+- [pgrok](https://github.com/pgrok/pgrok) - 提供给穷人的内网穿透
 
 
 ### HTTP压测
@@ -563,6 +569,7 @@
 - [Duplicacy](https://github.com/gilbertchen/duplicacy) - 无锁云备份工具，支持几乎所有存储方式
 - [CasaOS](https://github.com/IceWhaleTech/CasaOS) - 家庭云系统
 - [AList](https://github.com/alist-org/alist) - 支持多存储的文件列表程序
+- [UniPDF](https://github.com/unidoc/unipdf) - PDF 读写处理
 
 
 ### 模板引擎
@@ -808,7 +815,7 @@
 - [Redcon](https://github.com/tidwall/redcon) - 兼容 Redis 协议的自定义 Redis 服务，采用 BuntDB 和 Tile38 实现存储
 - [genji](https://github.com/genjidb/genji) - 文档内嵌型数据库
 - [Dolt](https://github.com/dolthub/dolt) - 像 Git 一样操作数据库
-- [rosedb](https://github.com/roseduan/rosedb) - 简洁、高效的 KV 数据库，支持多种数据结构
+- [rosedb](https://github.com/flower-corp/rosedb) - 简洁、高效的 KV 数据库，支持多种数据结构
 - [LinDB](https://github.com/lindb/lindb) - 分布式时序数据库
 - [mandodb](https://github.com/chenjiandongx/mandodb) - 一个示例项目，作者介绍如何从零开始实现一个小型的时序数据库
 - [go-mysql-server](https://github.com/dolthub/go-mysql-server) - 解析 MySQL 协议并优化 SQL 的数据库引擎
@@ -944,7 +951,7 @@
 - [Fresh](https://github.com/gravityblast/fresh) - 热编译工具
 - [dh-make-golang](https://github.com/Debian/dh-make-golang) - 自动构建 Debian 包
 - [gobinaries](https://github.com/tj/gobinaries) - 不用安装Go就能编译安装Go编写的程序
-- [NFPM](https://github.com/goreleaser/nfpm) - deb、rpm、apk 等打包工具
+- [nFPM](https://github.com/goreleaser/nfpm) - deb、rpm、apk 等打包工具
 - [Gox](https://github.com/mitchellh/gox) - Go 跨端编译工具
 - [garble](https://github.com/burrowers/garble) - 混淆代码
 - [gobfuscate](https://github.com/unixpickle/gobfuscate) - 混淆代码
@@ -996,6 +1003,7 @@
 - [gokart](https://github.com/praetorian-inc/gokart) - 代码静态分析工具
 - [gofumpt](https://github.com/mvdan/gofumpt) - `gofmt` 增强版代码格式化工具
 - [NoVerify](https://github.com/VKCOM/noverify) - PHP 代码分析工具
+- [fieldalignment](https://github.com/golang/tools/tree/master/go/analysis/passes/fieldalignment) - 结构体字段内存对齐分析和自动修复工具
 
 
 ### 调试
@@ -1132,7 +1140,7 @@
 - [glog](https://github.com/golang/glog)
 
 
-### 监控
+### 监控告警
 - [OpenFalcon](https://github.com/open-falcon/falcon-plus) - 小米开源的监控系统
 - [Prometheus](https://github.com/prometheus/prometheus) - 服务监控系统 & 时间序列数据库
 - [Grafana](https://github.com/grafana/grafana) - 分析监视平台, 支持 Graphite, Elasticsearch, OpenTSDB, Prometheus, InfluxDB 等数据源
@@ -1145,6 +1153,7 @@
 - [PingMe](https://github.com/kha7iq/pingme) - 支持多消息平台的服务可用性报警命令工具
 - [supervisord](https://github.com/ochinchina/supervisord) - Go 语言实现 Supervisor
 - [Grafana Tempo](https://github.com/grafana/tempo) - 分布式追踪系统
+- [EaseProbe](https://github.com/megaease/easeprobe) - 服务探活工具并通知
 
 
 ### 统计分析
@@ -1234,6 +1243,7 @@
 - [Slim](https://github.com/openacid/slim) - 空间高利用率的数据结构
 - [bitset](https://github.com/bits-and-blooms/bitset) - 位集合及其操作
 - [roaring](https://github.com/RoaringBitmap/roaring) - 压缩位图
+- [go-immutable-radix](https://github.com/hashicorp/go-immutable-radix) - Radix 树
 
 
 ### 依赖注入
@@ -1325,6 +1335,7 @@
 - [Cyclone](https://github.com/caicloud/cyclone) - 持续集成&发布平台
 - [tbls](https://github.com/k1LoW/tbls) - 用于记录数据库文档的 CI 友好工具
 - [Woodpecker](https://github.com/woodpecker-ci/woodpecker) - Fork 自 Drone
+- [Dagger](https://github.com/dagger/dagger) - 基于容器的 CI/CD 工具
 
 
 ### Git
@@ -1511,6 +1522,8 @@
 - [Machine](https://github.com/autom8ter/machine) - 受 errgroup.Group 启发的协程管理
 - [thread](https://github.com/golang-design/thread)
 - [**conc**](https://github.com/sourcegraph/conc) - 更好用的结构化并发控制
+- [zeropool](https://github.com/colega/zeropool) - 零回收、类型安全的协程池
+- [workerpool](https://github.com/gammazero/workerpool) - 无阻塞队列任务池
 
 
 ### 任务/定时器
@@ -1645,6 +1658,7 @@
 - [EventBus](https://github.com/asaskevich/EventBus) - 事件总线
 - [go-winio](https://github.com/microsoft/go-winio) - 为 Win32 IO 操作提供接口支持
 - [fq](https://github.com/wader/fq) - 以 [jq](https://github.com/stedolan/jq) 语法读取二进制数据/文件
+- [lego](https://github.com/go-acme/lego) - Let's Encrypt client and ACME library
 
 
 ## logo
