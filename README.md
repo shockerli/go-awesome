@@ -198,6 +198,7 @@
 - [OpenSCRM](https://github.com/openscrm/api-server) - 基于Go和React的企业微信私域流量管理系统
 - [Answer](https://github.com/answerdev/answer) - 问答社区
 - [listmonk](https://github.com/knadh/listmonk) - 资讯、邮件列表管理工具（Web）
+- [1Panel](https://github.com/1Panel-dev/1Panel) - Linux 服务器运维管理面板
 
 
 ### 静态网站生成器
@@ -416,6 +417,7 @@
 - [cmux](https://github.com/soheilhy/cmux) - 监听同一个端口，启动多种协议服务
 - [GeoIP2 Reader for Go](https://github.com/oschwald/geoip2-golang) - 解析&读取 MaxMind GeoLite2 和 GeoIP2 数据库
 - [dns.toys](https://github.com/knadh/dns.toys) - DNS 服务器
+- [Apache Traffic Control](https://github.com/apache/trafficcontrol) - CDN 流量控制
 
 
 #### LDAP
@@ -519,10 +521,10 @@
 - [Lile](https://github.com/lileio/lile) - gRPC 服务构建包
 - [rpcx](https://github.com/smallnest/rpcx)
 - [Twirp](https://github.com/twitchtv/twirp) - 基于 Protobuf 的 RPC 框架，与 gRPC 类似
-- [lile](https://github.com/lileio/lile) - gRPC 服务生成工具
 - [dubbo-go](https://github.com/apache/dubbo-go) - Dubbo Go 版本
 - [Kitex](https://github.com/cloudwego/kitex)
 - [gRPCurl](https://github.com/fullstorydev/grpcurl) - 像 cURL 一样通过命令行访问 gRPC 服务
+- [protoc-gen-doc](https://github.com/pseudomuto/protoc-gen-doc) - 文档生成插件
 
 
 ### 邮件
@@ -570,6 +572,7 @@
 - [CasaOS](https://github.com/IceWhaleTech/CasaOS) - 家庭云系统
 - [AList](https://github.com/alist-org/alist) - 支持多存储的文件列表程序
 - [UniPDF](https://github.com/unidoc/unipdf) - PDF 读写处理
+- [mimetype](https://github.com/gabriel-vasile/mimetype) - MIME 类型与文件扩展检测
 
 
 ### 模板引擎
@@ -823,6 +826,7 @@
 - [FerretDB](https://github.com/FerretDB/FerretDB) - MangoDB 替代品
 - [LotusDB](https://github.com/flower-corp/lotusdb) - 快速 KV 存储引擎，兼容 LSM 和 B+ 树
 - [NutsDB](https://github.com/nutsdb/nutsdb) - 可持久化、事务的内嵌 KV 数据库
+- [Olric](https://github.com/buraksezer/olric)
 
 
 ### 缓存
@@ -884,6 +888,7 @@
 ### 加密/解密
 - [2fa](https://github.com/rsc/2fa) - Two-factor authentication on the command line
 - [age](https://github.com/FiloSottile/age) - 文件加密工具（库）
+- [CIRCL](https://github.com/cloudflare/circl) - Cloudflare Interoperable, Reusable Cryptographic Library
 
 
 ### 视频
@@ -941,7 +946,7 @@
 
 
 ### 构建编译
-- [**Mage**](https://github.com/magefile/mage) - a Make/rake-like build tool using Go
+- [**Mage**](https://github.com/magefile/mage) - 类似于 Makefile 的命令行工具，用于构建和运行 Go 项目
 - [**GoReleaser**](https://github.com/goreleaser/goreleaser) - Go 多平台二进制文件打包、并支持发布到 Homebrew 的工具
 - [goxc](https://github.com/laher/goxc) - 跨平台编译工具（因 1.5 版本开始已自带交叉编译，故已不再维护）
 - [Task](https://github.com/go-task/task) - 类似于 `Make` 的构建工具
@@ -955,6 +960,7 @@
 - [Gox](https://github.com/mitchellh/gox) - Go 跨端编译工具
 - [garble](https://github.com/burrowers/garble) - 混淆代码
 - [gobfuscate](https://github.com/unixpickle/gobfuscate) - 混淆代码
+- [go-appimage](https://github.com/probonopd/go-appimage) - Go 语言实现 AppImage 打包工具
 
 
 #### 静态资源内嵌
@@ -1145,7 +1151,6 @@
 - [Prometheus](https://github.com/prometheus/prometheus) - 服务监控系统 & 时间序列数据库
 - [Grafana](https://github.com/grafana/grafana) - 分析监视平台, 支持 Graphite, Elasticsearch, OpenTSDB, Prometheus, InfluxDB 等数据源
     + [grabana](https://github.com/K-Phoen/grabana) - 用 Go 代码快速创建 grafana dashboards
-- [TeaWeb](https://github.com/TeaWeb/build) - 一款集静态资源、缓存、代理、统计、监控于一体的可视化智能WebServer
 - [Jaeger](https://github.com/jaegertracing/jaeger) - 分布式追踪系统
 - [go-osstat](https://github.com/mackerelio/go-osstat) - 系统指标统计
 - [grafterm](https://github.com/slok/grafterm) - Metrics dashboards on terminal
@@ -1173,6 +1178,7 @@
 - [Buildah](https://github.com/containers/buildah) - 构建 `OCI` 容器镜像的工具
 - [go-docker](https://github.com/pibigstar/go-docker) - 用 Go 实现 Docker 核心功能
 - [Packer](https://github.com/hashicorp/packer) - 轻量级的镜像定义工具
+- [cosign](https://github.com/sigstore/cosign) - 容器签名和验证
 
 
 ### 集群管理
@@ -1202,6 +1208,7 @@
 
 ### 人工智能
 - [go-openai](https://github.com/sashabaranov/go-openai) - [OpenAI API](https://platform.openai.com) Go 客户端 SDK
+- [LocalAI](https://github.com/go-skynet/LocalAI) - 低成本的硬件上运行模型计算的本地计算框架，支持多种模型，提供兼容 OpenAI 接口协议的 REST API
 
 
 ### 算法
@@ -1516,7 +1523,7 @@
 
 
 ### 协程/线程
-- [ants](https://github.com/panjf2000/ants) - goroutine 池
+- [ants](https://github.com/panjf2000/ants) - 协程池
 - [tunny](https://github.com/Jeffail/tunny)
 - [go-workers](https://github.com/catmullet/go-workers) - 安全地并发运行一组 worker，通过 channel 进行输入输出
 - [Machine](https://github.com/autom8ter/machine) - 受 errgroup.Group 启发的协程管理
@@ -1524,6 +1531,7 @@
 - [**conc**](https://github.com/sourcegraph/conc) - 更好用的结构化并发控制
 - [zeropool](https://github.com/colega/zeropool) - 零回收、类型安全的协程池
 - [workerpool](https://github.com/gammazero/workerpool) - 无阻塞队列任务池
+- [pond](https://github.com/alitto/pond) - 协程池
 
 
 ### 任务/定时器
