@@ -370,6 +370,7 @@
 - [gorilla/schema](https://github.com/gorilla/schema) - converts structs to and from form values
 - [CleverGo](https://github.com/clevergo/clevergo)
 - [rewrite](https://github.com/kataras/rewrite) - rewrite 中间件
+- [BunRouter](https://github.com/uptrace/bunrouter) - 支持中间件、错误处理、路由优先级、兼容 `net/http` 接口
 
 
 ### 网络
@@ -418,6 +419,7 @@
 - [GeoIP2 Reader for Go](https://github.com/oschwald/geoip2-golang) - 解析&读取 MaxMind GeoLite2 和 GeoIP2 数据库
 - [dns.toys](https://github.com/knadh/dns.toys) - DNS 服务器
 - [Apache Traffic Control](https://github.com/apache/trafficcontrol) - CDN 流量控制
+- [NextTrace](https://github.com/sjlleo/nexttrace-core) - 可视化路由追踪工具
 
 
 #### LDAP
@@ -454,7 +456,7 @@
 
 
 ### HTTP
-- [**fasthttp**](https://github.com/valyala/fasthttp) - 比 `net/http` 快 10 倍的 HTTP 工具包
+- [fasthttp](https://github.com/valyala/fasthttp) - 比 `net/http` 快 10 倍的 HTTP 工具包
 - [Resty](https://github.com/go-resty/resty) - HTTP & REST 客户端包
 - [gout](https://github.com/guonaihong/gout) - HTTP 客户端
 - [gentleman](https://github.com/h2non/gentleman) - HTTP 客户端
@@ -464,6 +466,7 @@
 - [go-autorest](https://github.com/Azure/go-autorest) - HTTP 管道请求方式的客户端
 - [Req](https://github.com/imroc/req) - HTTP 客户端
 - [cors](https://github.com/rs/cors) - CORS Handler
+- [CertMagic](https://github.com/caddyserver/certmagic) - 为任意 Go 程序自动加上 HTTPS，TLS 证书签发、更新全自动
 
 
 ### WebSocket
@@ -491,6 +494,8 @@
 - [GoKu API Gateway CE](https://github.com/eolinker/GoKu-API-Gateway) - eoLinker 开源的 API 网关
 - [Easegress](https://github.com/megaease/easegress)
 - [Manba](https://github.com/fagongzi/manba)
+- [Tpk](https://github.com/TykTechnologies/tyk)
+- [BFE](https://github.com/bfenetworks/bfe) - 基于百度统一接入前端开源的七层流量接入系统
 
 
 ### 序列化
@@ -573,6 +578,7 @@
 - [AList](https://github.com/alist-org/alist) - 支持多存储的文件列表程序
 - [UniPDF](https://github.com/unidoc/unipdf) - PDF 读写处理
 - [mimetype](https://github.com/gabriel-vasile/mimetype) - MIME 类型与文件扩展检测
+- [gocryptfs](https://github.com/rfjakob/gocryptfs) - 加密 overlay 文件系统
 
 
 ### 模板引擎
@@ -777,6 +783,7 @@
 - [REL](https://github.com/go-rel/rel) - Modern Database Access Layer for Go
 - [RDB](https://github.com/HDT3213/rdb) - Redis RDB 文件解析和生成工具，支持转 JSON、转 AOF、寻找 Big Key、生成 RDB 文件及绘制内存火焰图等功能
 - [Bytebase](https://github.com/bytebase/bytebase) - 基于网络、零配置、无依赖的数据库 Schema 变更和版本控制管理工具
+- [Bun](https://github.com/uptrace/bun) - SQL 优先的 ORM，写 SQL 的方式写 Go 代码，支持 PostgreSQL、MySQL、MSSQL、SQLite
 
 
 #### 数据库客户端
@@ -786,11 +793,13 @@
 - [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - MongoDB 官方出品的 Go 语言驱动
 - [qmgo](https://github.com/qiniu/qmgo) - MongoDB 客户端
 - [clickhouse-go](https://github.com/ClickHouse/clickhouse-go) - ClickHouse 官方 Go 语言客户端
+- [go-clickhouse](https://github.com/uptrace/go-clickhouse) - ClickHouse 客户端
 - [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 驱动
 - [gohbase](https://github.com/tsuna/gohbase) - HBase 客户端
 - [redigo](https://github.com/gomodule/redigo) - Redis 客户端
 - [go-redis](https://github.com/go-redis/redis) - Redis 客户端
 - [rueidis](https://github.com/rueian/rueidis) - Redis 客户端
+- [redsync](https://github.com/go-redsync/redsync) - 基于 Redis 的分布式锁
 
 
 #### 数据库引擎
@@ -1049,7 +1058,7 @@
 - [Monkey](https://github.com/bouk/monkey) - (**Archived**) Monkey patching in Go
 - [gomonkey](https://github.com/agiledragon/gomonkey) - 猴子补丁，对函数、变量等进行打桩，方便单元测试，Fork 自 [Monkey](https://github.com/bouk/monkey)
 - [SuperMonkey](https://github.com/cch123/supermonkey) - 让私有方法可测
-- [vektra/mockery](https://github.com/vektra/mockery) - mock code autogenerator
+- [mockery](https://github.com/vektra/mockery) - 自动为接口生成 mock 代码
 - [Ginkgo](https://github.com/onsi/ginkgo) - BBD 测试框架
 - [fperf](https://github.com/shafreeck/fperf) - 压测工具
 - [gocheck](https://github.com/go-check/check)
@@ -1106,6 +1115,7 @@
 - [Hetty](https://github.com/dstotijn/hetty) - 用于安全研究的 HTTP 工具包，具有 Web 接口和代理日志查看器的拦截 HTTP 代理
 - [Fibratus](https://github.com/rabbitstack/fibratus) - Windows 内核漏洞利用和跟踪工具
 - [Secure](https://github.com/unrolled/secure) - HTTP 安全中间件
+- [nuclei](https://github.com/projectdiscovery/nuclei) - 基于YAML语法模板的定制化快速漏洞扫描器
 
 
 ### 系统信息
@@ -1130,6 +1140,7 @@
 - [ulid](https://github.com/oklog/ulid) - Universally Unique Lexicographically Sortable Identifier
 - [ksuid](https://github.com/segmentio/ksuid) - K-Sortable Globally Unique IDs
 - [go-nanoid](https://github.com/jaevor/go-nanoid) - NanoID 实现
+- [xid](https://github.com/rs/xid) - 全局唯一 ID 生成器
 
 
 ### 日志
@@ -1159,6 +1170,7 @@
 - [supervisord](https://github.com/ochinchina/supervisord) - Go 语言实现 Supervisor
 - [Grafana Tempo](https://github.com/grafana/tempo) - 分布式追踪系统
 - [EaseProbe](https://github.com/megaease/easeprobe) - 服务探活工具并通知
+- [Uptrace](https://github.com/uptrace/uptrace) - APM 工具，支持 OpenTelemetry 追踪、指标和日志
 
 
 ### 统计分析
@@ -1249,6 +1261,7 @@
 - [trie](https://github.com/dghubble/trie)
 - [Slim](https://github.com/openacid/slim) - 空间高利用率的数据结构
 - [bitset](https://github.com/bits-and-blooms/bitset) - 位集合及其操作
+- [bloom](https://github.com/bits-and-blooms/bloom) - Bloom filters
 - [roaring](https://github.com/RoaringBitmap/roaring) - 压缩位图
 - [go-immutable-radix](https://github.com/hashicorp/go-immutable-radix) - Radix 树
 
@@ -1310,6 +1323,8 @@
 - [MOSN](https://github.com/mosn/mosn) - 用于边缘和服务网格的云原生网络数据平面
 - [Erda](https://github.com/erda-project/erda) - 为企业提供 DevOps、微服务治理、多云管理的 PaaS
 - [Service Weaver](https://github.com/ServiceWeaver/weaver)
+- [Consul](https://github.com/hashicorp/consul) - 服务发现、配置管理中心服务
+- [Traefik Mesh](https://github.com/traefik/mesh) - 简单的服务网格
 
 
 ### Serverless
@@ -1443,6 +1458,7 @@
 - [YQL](https://github.com/caibirdme/yql) - SQL WHERE 风格的规则引擎
 - [Flux](https://github.com/influxdata/flux) - InfluxDB 数据语言
 - [Spiker](https://github.com/shockerli/spiker) - Go 编写的简单规则表达式执行器，支持自定义函数和流程控制，适用于业务规则复杂的场景
+- [gocc](https://github.com/goccmack/gocc) - 解析器生成器，可以将指定的文法转换为 Go 语言的解析器程序代码，用于编译和解析特定类型的源代码
 
 
 ### 代码生成
