@@ -797,9 +797,10 @@
 - [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 驱动
 - [gohbase](https://github.com/tsuna/gohbase) - HBase 客户端
 - [redigo](https://github.com/gomodule/redigo) - Redis 客户端
-- [go-redis](https://github.com/go-redis/redis) - Redis 客户端
+- [go-redis](https://github.com/redis/go-redis) - Redis 客户端
 - [rueidis](https://github.com/rueian/rueidis) - Redis 客户端
 - [redsync](https://github.com/go-redsync/redsync) - 基于 Redis 的分布式锁
+- [redislock](https://github.com/bsm/redislock) - 基于 Redis 的分布式锁
 
 
 #### 数据库引擎
@@ -908,6 +909,7 @@
 - [livego](https://github.com/gwuhaolin/livego) - 直播服务器
 - [Monibuca](https://github.com/langhuihui/monibuca) - 流媒体服务器开发框架
 - [olive](https://github.com/go-olive/olive) - 支持虎牙等平台的直播录制
+- [lux](https://github.com/iawia002/lux) - 各大视频网站的视频下载工具
 
 
 ### 图形处理
@@ -1342,6 +1344,7 @@
 - [fx](https://github.com/metrue/fx)
 - [IronFunctions](https://github.com/iron-io/functions)
 - [schollz/faas](https://github.com/schollz/faas) - 让任何包的函数变成一个 HTTP 接口
+- [Vanus](https://github.com/vanus-labs/vanus) - 无服务事件流处理系统
 
 
 ### devops
@@ -1378,6 +1381,7 @@
 - [git2graph](https://github.com/alaingilbert/git2graph) - 根据 Git 仓库提交记录生成结构图
 - [lazygit](https://github.com/jesseduffield/lazygit) - Git 终端 UI
 - [gh-dash](https://github.com/dlvhdr/gh-dash) - GitHub CLI（`gh`）漂亮终端面板
+- [Soft Serve](https://github.com/charmbracelet/soft-serve) - 命令行式自托管 Git 服务器
 
 
 ### 限流器
