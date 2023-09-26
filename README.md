@@ -70,8 +70,8 @@
 - [kataras](https://github.com/kataras?utf8=%E2%9C%93&tab=repositories&q=&type=source&language=go) - iris 作者
 - [bep](https://github.com/bep)
 - [spf13](https://github.com/spf13)
-- [juju](https://github.com/juju)
 - [tidwall](https://github.com/tidwall)
+
 
 ### 组织
 - [Gorilla web toolkit](https://github.com/gorilla)
@@ -81,6 +81,7 @@
 - [Uber](https://github.com/uber?q=&type=&language=go) - Open Source Software at Uber
 - [Stretchr](https://github.com/stretchr) - Tame your unstructured data
 - [Containous](https://github.com/containous)
+- [Charm](https://github.com/charmbracelet) - 提供一系列优秀的命令行工具和库
 
 
 ## 文档
@@ -199,6 +200,7 @@
 - [Answer](https://github.com/answerdev/answer) - 问答社区
 - [listmonk](https://github.com/knadh/listmonk) - 资讯、邮件列表管理工具（Web）
 - [1Panel](https://github.com/1Panel-dev/1Panel) - Linux 服务器运维管理面板
+- [Artalk](https://github.com/ArtalkJS/Artalk) - 自托管评论系统
 
 
 ### 静态网站生成器
@@ -359,6 +361,7 @@
 - [duf](https://github.com/muesli/duf) - 比 `df` 更好用的磁盘使用率工具
 - [ov](https://github.com/noborus/ov) - 终端文本阅读器，可替代 `less`、`more`、`tail -f` 等
 - [trdsql](https://github.com/noborus/trdsql) - 可对 CSV/LTSV/JSON/TBLN 等文件执行 SQL 查询和导出
+- [vhs](https://github.com/charmbracelet/vhs) - 终端录像工具，提供了在终端中录制和回放终端会话的功能，类似于将终端会话记录为视频的方式
 
 
 ### 路由
@@ -420,6 +423,7 @@
 - [dns.toys](https://github.com/knadh/dns.toys) - DNS 服务器
 - [Apache Traffic Control](https://github.com/apache/trafficcontrol) - CDN 流量控制
 - [NextTrace](https://github.com/sjlleo/nexttrace-core) - 可视化路由追踪工具
+- [pget](https://github.com/Code-Hex/pget) - 文件下载工具，可多连接下载
 
 
 #### LDAP
@@ -541,6 +545,8 @@
 - [Maddy](https://github.com/foxcpp/maddy) - 邮件服务器
 - [jordan-wright/email](https://github.com/jordan-wright/email)
 - [Mox](https://github.com/mjl-/mox) - 邮件服务器
+- [Pop](https://github.com/charmbracelet/pop) - 邮件发送工具，支持交互式和参数式
+- [email-verifier](https://github.com/AfterShip/email-verifier) - 邮箱校验，无需发送邮件
 
 
 ### 消息队列
@@ -681,6 +687,7 @@
 - [apd](https://github.com/cockroachdb/apd) - decimal 包
 - [mathfmt](https://github.com/mmcloughlin/mathfmt) - 将 LaTeX 语法的注释转换为数学公式格式
 - [q](https://github.com/itsubaki/q) - 量子计算模拟器
+- [accounting](https://github.com/leekchan/accounting) - 货币格式化
 
 
 ### 日期时间
@@ -939,6 +946,7 @@
 - [Triangula](https://github.com/RH12503/Triangula) - 给图片增加三角形纹样风格的滤镜
 - [D2](https://github.com/terrastruct/d2) - 一种将文本转换成图形的图表脚本语言
 - [ImGo](https://github.com/fishtailstudio/imgo) - 简洁、链式调用的图像处理库
+- [Invoice](https://github.com/maaslalani/invoice) - 发票生成工具，可通过参数和配置文件进行创建和管理各种类型的发票
 
 
 #### 图片识别
@@ -1021,6 +1029,7 @@
 - [gofumpt](https://github.com/mvdan/gofumpt) - `gofmt` 增强版代码格式化工具
 - [NoVerify](https://github.com/VKCOM/noverify) - PHP 代码分析工具
 - [fieldalignment](https://github.com/golang/tools/tree/master/go/analysis/passes/fieldalignment) - 结构体字段内存对齐分析和自动修复工具
+- [Bearer](https://github.com/bearer/bearer) - 代码安全扫描工具
 
 
 ### 调试
@@ -1139,7 +1148,7 @@
 - [gofrs/uuid](https://github.com/gofrs/uuid)
 - [snowflake](https://github.com/bwmarrin/snowflake) - Twitter snowflake IDs
 - [sonyflake](https://github.com/sony/sonyflake) - Sony 版本的 Twitter's Snowflake
-- [ulid](https://github.com/oklog/ulid) - Universally Unique Lexicographically Sortable Identifier
+- [ulid](https://github.com/oklog/ulid) - ULID Go 语言实现
 - [ksuid](https://github.com/segmentio/ksuid) - K-Sortable Globally Unique IDs
 - [go-nanoid](https://github.com/jaevor/go-nanoid) - NanoID 实现
 - [xid](https://github.com/rs/xid) - 全局唯一 ID 生成器
@@ -1173,6 +1182,7 @@
 - [Grafana Tempo](https://github.com/grafana/tempo) - 分布式追踪系统
 - [EaseProbe](https://github.com/megaease/easeprobe) - 服务探活工具并通知
 - [Uptrace](https://github.com/uptrace/uptrace) - APM 工具，支持 OpenTelemetry 追踪、指标和日志
+- [Nightingale](https://github.com/ccfos/nightingale) - 滴滴基于 OpenFalcon 开源的监控系统
 
 
 ### 统计分析
@@ -1558,7 +1568,7 @@
 - [RxGo](https://github.com/ReactiveX/RxGo) - Go 版 [ReactiveX](https://github.com/ReactiveX)，简单方便的处理异步数据流
 - [Grift](https://github.com/markbates/grift) - Go based task runner
 - [cron](https://github.com/robfig/cron) - a cron library for go
-- [goCron](https://github.com/jasonlvhit/gocron) - A Golang Job Scheduling Package
+- [gocron](https://github.com/go-co-op/gocron) - 任务定时调度器
 - [jobrunner](https://github.com/bamzi/jobrunner)
 - [CurlyQ](https://github.com/mcmathja/curlyq) - 后台任务处理库
 - [overtalk/task](https://github.com/overtalk/task) - 任务的管理&执行，支持自定义次数的重发
