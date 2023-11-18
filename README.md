@@ -201,6 +201,7 @@
 - [listmonk](https://github.com/knadh/listmonk) - 资讯、邮件列表管理工具（Web）
 - [1Panel](https://github.com/1Panel-dev/1Panel) - Linux 服务器运维管理面板
 - [Artalk](https://github.com/ArtalkJS/Artalk) - 自托管评论系统
+- [memos](https://github.com/usememos/memos) - 笔记服务，具有移动客户端、浏览器扩展等生态
 
 
 ### 静态网站生成器
@@ -401,6 +402,7 @@
 - [yamux](https://github.com/hashicorp/yamux) - Multiplexer
 - [sftp](https://github.com/pkg/sftp) - SFTP support for the `go.crypto/ssh` package
 - [goftp](https://github.com/jlaffaye/ftp) - FTP 客户端
+- [SFTPGo](https://github.com/drakkan/sftpgo) - 功能齐全且可高度配置的SFTP服务器，可选择支持HTTP/S、FTP/S和WebDAV。支持的存储后端包括：本地文件系统、加密的本地文件系统、S3（兼容）对象存储、Google Cloud Storage、Azure Blob Storage以及其他SFTP服务器。
 - [evio](https://github.com/tidwall/evio) - 事件驱动网络框架（reactor 模式）
 - [gaio](https://github.com/xtaci/gaio) - 事件驱动网络框架（proactor 模式）
 - [httpretty](https://github.com/henvic/httpretty) - 在终端上漂亮地打印出 HTTP 请求
@@ -424,6 +426,7 @@
 - [Apache Traffic Control](https://github.com/apache/trafficcontrol) - CDN 流量控制
 - [NextTrace](https://github.com/sjlleo/nexttrace-core) - 可视化路由追踪工具
 - [pget](https://github.com/Code-Hex/pget) - 文件下载工具，可多连接下载
+- [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) - 测试 Cloudflare CDN 延迟和速度，获取最快 IP
 
 
 #### LDAP
@@ -492,6 +495,7 @@
 - [Keybase](https://github.com/keybase/client) - 即时通讯工具 Keybase 全平台客户端
 - [gotify](https://github.com/gotify/server) - 基于 WebSocket 的 PUSH 通知服务
 - [nakama](https://github.com/heroiclabs/nakama) - 用于社交/实时游戏/实时应用的分布式服务端程序，自带面板、用户、聊天、存储、社交等功能
+- [OpenIM](https://github.com/openimsdk/open-im-server)
 
 
 ### 网关
@@ -534,6 +538,7 @@
 - [Kitex](https://github.com/cloudwego/kitex)
 - [gRPCurl](https://github.com/fullstorydev/grpcurl) - 像 cURL 一样通过命令行访问 gRPC 服务
 - [protoc-gen-doc](https://github.com/pseudomuto/protoc-gen-doc) - 文档生成插件
+- [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway) - 读取 gRPC 服务定义并生成一个反向代理服务器，同时提供 gRPC 和 RESTful 风格的 API
 
 
 ### 邮件
@@ -585,6 +590,7 @@
 - [UniPDF](https://github.com/unidoc/unipdf) - PDF 读写处理
 - [mimetype](https://github.com/gabriel-vasile/mimetype) - MIME 类型与文件扩展检测
 - [gocryptfs](https://github.com/rfjakob/gocryptfs) - 加密 overlay 文件系统
+- [restic](https://github.com/restic/restic) - 备份工具，使用现代的加密方法对数据进行安全的备份，支持
 
 
 ### 模板引擎
@@ -808,6 +814,7 @@
 - [rueidis](https://github.com/rueian/rueidis) - Redis 客户端
 - [redsync](https://github.com/go-redsync/redsync) - 基于 Redis 的分布式锁
 - [redislock](https://github.com/bsm/redislock) - 基于 Redis 的分布式锁
+- [Tiny RDM](https://github.com/tiny-craft/tiny-rdm) - Redis 桌面客户端
 
 
 #### 数据库引擎
@@ -900,6 +907,7 @@
 - [branca](https://github.com/hako/branca) - 号称比 JWT 更安全的 token 解决方案
 - [gin-jwt](https://github.com/appleboy/gin-jwt) - Gin 框架的 JWT 中间件
 - [Authboss](https://github.com/volatiletech/authboss) - Web Auth 系统
+- [ZITADEL](https://github.com/zitadel/zitadel) - 身份认证系统，支持各种认证模式
 
 
 ### 加密/解密
@@ -1127,6 +1135,7 @@
 - [Fibratus](https://github.com/rabbitstack/fibratus) - Windows 内核漏洞利用和跟踪工具
 - [Secure](https://github.com/unrolled/secure) - HTTP 安全中间件
 - [nuclei](https://github.com/projectdiscovery/nuclei) - 基于YAML语法模板的定制化快速漏洞扫描器
+- [Gitleaks](https://github.com/gitleaks/gitleaks) - 用于在 Git 存储库中查找敏感信息和密钥的开源工具
 
 
 ### 系统信息
@@ -1203,6 +1212,7 @@
 - [go-docker](https://github.com/pibigstar/go-docker) - 用 Go 实现 Docker 核心功能
 - [Packer](https://github.com/hashicorp/packer) - 轻量级的镜像定义工具
 - [cosign](https://github.com/sigstore/cosign) - 容器签名和验证
+- [SlimToolkit](https://github.com/slimtoolkit/slim) - 检查、缩小和调试容器
 
 
 ### 集群管理
@@ -1392,6 +1402,7 @@
 - [lazygit](https://github.com/jesseduffield/lazygit) - Git 终端 UI
 - [gh-dash](https://github.com/dlvhdr/gh-dash) - GitHub CLI（`gh`）漂亮终端面板
 - [Soft Serve](https://github.com/charmbracelet/soft-serve) - 命令行式自托管 Git 服务器
+- [Git LFS](https://github.com/git-lfs/git-lfs) - 处理大文件的 Git 扩展
 
 
 ### 限流器
