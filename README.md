@@ -375,7 +375,7 @@
 - [CleverGo](https://github.com/clevergo/clevergo)
 - [rewrite](https://github.com/kataras/rewrite) - rewrite 中间件
 - [BunRouter](https://github.com/uptrace/bunrouter) - 支持中间件、错误处理、路由优先级、兼容 `net/http` 接口
-
+- [bmf-san/goblin](https://github.com/bmf-san/goblin)
 
 ### 网络
 - [DNS](https://github.com/miekg/dns) - DNS 库
