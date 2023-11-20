@@ -574,7 +574,7 @@
 - [rsc/pdf](https://github.com/rsc/pdf) - PDF reader
 - [SeaweedFS](https://github.com/chrislusf/seaweedfs) - 分布式文件系统
 - [go-fastdfs](https://github.com/sjqzhang/go-fastdfs) - 分布式文件存储服务
-- [Dragonfly](https://github.com/dragonflyoss/Dragonfly) - 基于 P2P 的分布式文件系统
+- [Dragonfly](https://github.com/dragonflyoss/Dragonfly2) - 提供高效、稳定、安全的基于 P2P 技术的文件分发和镜像加速系统
 - [filetype](https://github.com/h2non/filetype) - 检测文件类型
 - [Afero](https://github.com/spf13/afero) - 文件操作包
 - [fsync](https://github.com/spf13/fsync) - 文件/目录同步
