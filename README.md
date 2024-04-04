@@ -1112,6 +1112,7 @@
 - [go-cover-treemap](https://github.com/nikolaydubina/go-cover-treemap) - 将覆盖率测试结果转换成 TreeMap 图
 - [ZTF](https://github.com/easysoft/zentaoatf) - 禅道开源的自动化测试框架
 - [Moq](https://github.com/matryer/moq) - 为接口生成 Mock 代码
+- [Bencher](https://github.com/bencherdev/bencher) - 持续的基准测试
 
 
 ### 错误处理
