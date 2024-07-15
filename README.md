@@ -1136,6 +1136,7 @@
 - [Secure](https://github.com/unrolled/secure) - HTTP 安全中间件
 - [nuclei](https://github.com/projectdiscovery/nuclei) - 基于YAML语法模板的定制化快速漏洞扫描器
 - [Gitleaks](https://github.com/gitleaks/gitleaks) - 用于在 Git 存储库中查找敏感信息和密钥的开源工具
+- [SafeLine WAF](https://github.com/chaitin/SafeLine) - 雷池 Web 应用防火墙，解决网站的安全需求，帮助网站拦截各种网络攻击
 
 
 ### 系统信息
