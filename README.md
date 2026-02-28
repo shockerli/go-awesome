@@ -143,6 +143,7 @@
 - [Uber Go Style Guide](https://github.com/uber-go/guide)
 - [The Go Programming Language Specification](https://golang.org/ref/spec) [（中文老版）](http://docscn.studygolang.com/ref/spec.old)
 - [实效 Go 编程](http://docscn.studygolang.com/doc/effective_go.html)
+- [git-lrc](https://github.com/HexmosTech/git-lrc) - Free, Unlimited AI Code Reviews That Run on Every Commit.
 - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
 - [Go Code Convention](https://github.com/unknwon/go-code-convention)
 - [Go FAQ 101](https://go101.org/article/unofficial-faq.html)
