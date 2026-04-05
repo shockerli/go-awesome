@@ -363,6 +363,7 @@
 - [ov](https://github.com/noborus/ov) - 终端文本阅读器，可替代 `less`、`more`、`tail -f` 等
 - [trdsql](https://github.com/noborus/trdsql) - 可对 CSV/LTSV/JSON/TBLN 等文件执行 SQL 查询和导出
 - [vhs](https://github.com/charmbracelet/vhs) - 终端录像工具，提供了在终端中录制和回放终端会话的功能，类似于将终端会话记录为视频的方式
+- [gitty](https://github.com/Omibranch/gitty) - 将 `git add + git commit + git push` 三步合并为单条命令的极简 Git CLI 工具
 
 
 ### 路由
