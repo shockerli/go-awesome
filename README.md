@@ -496,6 +496,7 @@
 - [gotify](https://github.com/gotify/server) - 基于 WebSocket 的 PUSH 通知服务
 - [nakama](https://github.com/heroiclabs/nakama) - 用于社交/实时游戏/实时应用的分布式服务端程序，自带面板、用户、聊天、存储、社交等功能
 - [OpenIM](https://github.com/openimsdk/open-im-server)
+- [ymsdk](https://github.com/rekurt/ymsdk) - 轻量级的 Yandex Messenger Bot API Go SDK，支持类型安全模型、自动重试和限流处理
 
 
 ### 网关
