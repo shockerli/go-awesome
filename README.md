@@ -1405,6 +1405,7 @@
 - [Git LFS](https://github.com/git-lfs/git-lfs) - 处理大文件的 Git 扩展
 
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=shockerli_go-awesome) - Follow developers on GitHub and get a feed of what they star and build.
 ### 限流器
 - [**Tollbooth**](https://github.com/didip/tollbooth) - Simple middleware to rate-limit HTTP requests
 - [ratelimit](https://github.com/juju/ratelimit)
