@@ -1192,6 +1192,7 @@
 - [EaseProbe](https://github.com/megaease/easeprobe) - 服务探活工具并通知
 - [Uptrace](https://github.com/uptrace/uptrace) - APM 工具，支持 OpenTelemetry 追踪、指标和日志
 - [Nightingale](https://github.com/ccfos/nightingale) - 滴滴基于 OpenFalcon 开源的监控系统
+- [KubeStellar Console](https://github.com/kubestellar/console) - AI 驱动的多集群 Kubernetes 仪表盘，基于 Fiber 构建，支持实时可观测性和 
 
 
 ### 统计分析
