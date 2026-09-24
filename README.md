@@ -1087,6 +1087,7 @@
 - [httpmock](https://github.com/jarcoal/httpmock) - HTTP Mock
 - [Goblin](https://github.com/franela/goblin) - BDD 测试框架
 - [go-faker/faker](https://github.com/go-faker/faker) - Struct Data Fake Generator
+- [Mock Jutsu](https://github.com/altansayan/mock-jutsu-api) - Checksum-valid financial and identity test data generator (IBAN MOD-97, Luhn cards, TCKN, ISIN), plus real registered BIC/SWIFT codes. No native Go SDK, but usable via its REST API.
 - [gofakeit](https://github.com/brianvoe/gofakeit) - 随机数据生成器
 - [dmgk/faker](https://github.com/dmgk/faker)
 - [go-tprof](https://github.com/gokultp/go-tprof) - 包测试报告生成工具
